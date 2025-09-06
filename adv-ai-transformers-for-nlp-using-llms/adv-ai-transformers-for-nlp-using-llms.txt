@@ -1,0 +1,138 @@
+https://www.linkedin.com/learning/advanced-ai-transformers-for-nlp-using-large-language-models/
+
+# Generative AI: Working with Large Language Models
+
+## Course details
+
+1h 8m * Advanced * Released: 9/30/2022
+
+Transformers have quickly become the go-to architecture for natural language processing (NLP). As a result, knowing how to use them is now a business-critical skill in your AI toolbox. In this course, instructor Jonathan Fernandes walks you through many of the key large language models (LLMs) developed since OpenAI first released GPT-3, as well as the key contributions of each of these LLMs.
+
+## Learning objectives
+
+- Identify the release dates of large language models
+
+- Interpret actions needed to successfully run large language models
+
+- Differentiate several types of large language models
+
+- Assess the capabilities of several large language models
+
+- Discover key contributions of large language models
+
+- Determine the role that scaling laws have in each large language model
+
+## Skills covered
+
+- Generative AI
+
+- Large Language Models (LLM)
+
+- Natural Language Processing (NLP)
+
+- Transformer Models
+
+## Introduction
+
+### Learning about Large Language Models
+
+
+## 1. Transformers in NLP 
+
+### what are large language models?
+
+
+### Transformers in production
+
+
+### Transformers: History
+
+
+### Chapter Quiz
+
+1.
+
+
+## 2. Training Transformers and Their Architecture
+
+### Transfer learning 
+
+### Transformer: Architecture overview
+
+
+### Self-attention
+
+
+### Multi-head attention and Feed Forward Network
+
+
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+4.
+
+## 3. Large Language Models
+
+### GPT-3
+
+### GPT-3 use cases
+
+
+### Challenges and shortcomings of GPT-3
+
+
+### GLaM
+
+
+### Megatron-Turing NLG Models
+
+### Gopher
+
+
+### Scaling laws
+
+
+### Chinchilla
+
+
+### BIG-bench
+
+
+### PaLM
+
+
+### OPT and BLOOM 
+
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+
+## Conclusion
+
+### Going further with Transformers 

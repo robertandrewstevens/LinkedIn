@@ -1,0 +1,725 @@
+Overview of Test-Driven Development
+================
+Robert A. Stevens
+2024-04-15
+
+### What is unit testing?
+
+#### Why do we need unit tests?
+
+-   Software bugs hurt the business
+
+-   Software testing catches the bugs before they get to the field
+
+-   Need several levels of safety nets
+
+#### Levels of Testing
+
+1.  Unit Testing: Testing at the function level
+
+2.  Component Testing: Testing is at the library and complied binary
+    level
+
+3.  System Testing: Tests the external interfaces of a system which is a
+    collection of subsystems
+
+4.  Performance Testing: Testing done at subsystem and system levels to
+    verify timing and resource usages are acceptable
+
+#### Unit Testing Specifics
+
+-   Tests individual functions
+
+-   A test should be written for each test case for a function
+
+    -   All positive and negative test cases
+
+-   Groups of tests can be combined into test suites for better
+    organization
+
+-   Executes in the development environment rather than the production
+    environment
+
+-   Execution of the tests should be automated
+
+#### A Simple Example
+
+    import pytest  # (necessary?)
+
+    # Production code
+    def str_len(theStr):
+        return len(theStr)
+
+    # A unit test 
+    def test_string_length():
+        testStr = "1"              # 1. Setup
+        result = str_len(testStr)  # 2. Action
+        assert result == 1         # 3. Assert 
+
+#### Summary
+
+-   Unit tests are the first safety net for catching bugs before they
+    get to the field
+
+-   Unit tests validate test cases for individual functions
+
+-   Unit tests should build and run in the developer’s development
+    environment
+
+-   Unit tests should run fast
+
+### What is Test-Driven Development (TDD)?
+
+#### Test-Driven Development (TDD)
+
+-   A process where the developer takes personal responsibility for the
+    quality of their code
+
+-   Unit tests are written BEFORE the production code
+
+-   Do not write all tests or production code at once
+
+-   Tests and production code are both written together in small bits of
+    functionality
+
+#### TDD Benefits
+
+-   Gives you the confidence to change the code
+
+-   Gives you immediate feedback
+
+-   Documents what the code is doing
+
+-   Drives good object-oriented design
+
+#### TDD Beginnings
+
+-   Created by Kent Beck in the 1990s as part of the Extreme Programming
+    software development process
+
+    -   At Chrysler
+
+-   He wrote the first TDD unit testing framework in Smalltalk called
+    SUnit
+
+-   Collaborated with Erich Gamma to implement the first Java unit
+    testing framework JUnit
+
+-   JUnit has been the basis for many other xUnit testing frameworks
+    written for other languages
+
+#### TDD Work Flow: Red, Green, Refactor
+
+-   TDD has the following phases in its work flow:
+
+1.  Write a failing unit test - the RED phase
+
+2.  Write just enough production code to make that test pass - the GREEN
+    phase
+
+3.  Refactor the unit test and the production code to make it clean -
+    the REFACTOR phase
+
+-   Repeat until the feature is complete
+
+#### Uncle Bob’s 3 Laws of TDD
+
+1.  You may not write any production code until you have written a
+    failing unit test
+
+2.  You may not write more of a unit test than is sufficient to fail,
+    and not compiling is failing
+
+3.  You may not write more production code than is sufficient to pass
+    the currently failing unit test
+
+### Example TDD session: The FizzBuzz Kata
+
+-   Kata: martial arts exercise
+
+-   PyCharm IDE intro
+
+-   PyCharm integrates with test runner “pytestrunner.py” in bottom
+    panel
+
+    -   Hitting Play button (\>) executes code and runs `pytest`
+
+-   “Use Cases” window on RHS
+
+    -   In order of increasing complexity
+    -   8 total
+    -   Change “-” to “x” when complete use case
+
+-   Use Cases
+
+    -   Can I call FizzBuzz
+    -   Get “1” when I pass in 1
+    -   Get “2” when I pass in 2
+    -   Get “Fizz” when I pass in 3
+    -   Get “Buzz” when I pass in 5
+    -   Get “Fizz” when I pass in 6 (a multiple of 3)
+    -   Get “Buzz” when I pass in 10 (a multiple of 5)
+    -   Get “FizzBuzz” when I pass in 15 (a mulitple of 3 and 5)
+
+### Example Part 1: Initial TDD
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def test_canAssertTrue():
+        assert True
+
+    $ pytest  # passes
+
+### Example Part 2: Can I call FizzBuzz
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def test_canCallFizzBuzz():
+        fizzBuzz(1)
+
+-   Fails unit test because `fizzBuzz` does not exist yet
+    -   RED phase complete
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        return
+
+    def test_canCallFizzBuzz():
+        fizzBuzz(1)
+
+    $ pytest  # Play button - passes
+
+-   No need to refactor
+
+### Example Part 3: Get “1” when I pass in 1
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        return
+
+    def test_canCallFizzBuzz():
+        fizzBuzz(1)
+
+    def test_returns1With1PassedIn():
+        retVal = fizzBuzz(1)
+        assert retVal = "1"
+
+    $ pytest  # Play button - fails
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        return "1"
+
+    def test_canCallFizzBuzz():
+        fizzBuzz(1)
+
+    def test_returns1With1PassedIn():
+        retVal = fizzBuzz(1)
+        assert retVal = "1"
+
+    $ pytest  # Play button - passes 
+
+-   “FizzBuzzTest.py” - Refactor
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        return "1"
+
+    #def test_canCallFizzBuzz():
+    #    fizzBuzz(1)
+
+    def test_returns1With1PassedIn():
+        retVal = fizzBuzz(1)
+        assert retVal = "1"
+
+### Example Part 4: Get “2” when I pass in 2
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        return "1"
+
+    def test_returns1With1PassedIn():
+        retVal = fizzBuzz(1)
+        assert retVal = "1"
+
+    def test_returns2With2PassedIn():
+        retVal = fizzBuzz(2)
+        assert retVal = "2"
+
+    $ pytest  # Play button - fails 
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        #return "1"
+        return str(value)
+
+    def test_returns1With1PassedIn():
+        retVal = fizzBuzz(1)
+        assert retVal = "1"
+
+    def test_returns2With2PassedIn():
+        retVal = fizzBuzz(2)
+        assert retVal = "2"
+
+    $ pytest  # Play button - passes 
+
+-   “FizzBuzzTest.py” - Refactor
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        return str(value)
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        #retVal = fizzBuzz(1)
+        #assert retVal = "1"
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        #retVal = fizzBuzz(2)
+        #assert retVal = "2"
+        checkFizzBuzz(2, "2")
+
+    $ pytest  # Play button - passes 
+
+### Example Part 5: Get “Fizz” when I pass in 3
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        return str(value)
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        checkFizzBuzz(2, "2")
+
+    def test_returnsFizzWith3PassedIn():
+        checkFizzBuss(3, "Fizz")
+
+    $ pytest  # Play button - fails  
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        if value == 3:
+            return "Fizz"
+        return str(value)
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        checkFizzBuzz(2, "2")
+
+    def test_returnsFizzWith3PassedIn():
+        checkFizzBuss(3, "Fizz")
+
+    $ pytest  # Play button - passes 
+
+-   Nothing to refactor
+
+### Example Part 6: Get “Buzz” when I pass in 5
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        if value == 3:
+            return "Fizz"
+        return str(value)
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        checkFizzBuzz(2, "2")
+
+    def test_returnsFizzWith3PassedIn():
+        checkFizzBuss(3, "Fizz")
+
+    def test_returnsBuzzWith5PassedIn():
+        checkFizzBuss(5, "Buzz")
+
+    $ pytest  # Play button - fails 
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        if value == 3:
+            return "Fizz"
+        if value == 5:
+            return "Buzz"   
+        return str(value)
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        checkFizzBuzz(2, "2")
+
+    def test_returnsFizzWith3PassedIn():
+        checkFizzBuss(3, "Fizz")
+
+    def test_returnsBuzzWith5PassedIn():
+        checkFizzBuss(5, "Buzz")
+
+    $ pytest  # Play button - passes  
+
+-   Nothing to refactor
+
+### Example Part 7: Get “Fizz” when I pass in 6 (a multiple of 3)
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        if value == 3:
+            return "Fizz"
+        if value == 5:
+            return "Buzz"   
+        return str(value)
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        checkFizzBuzz(2, "2")
+
+    def test_returnsFizzWith3PassedIn():
+        checkFizzBuss(3, "Fizz")
+
+    def test_returnsBuzzWith5PassedIn():
+        checkFizzBuss(5, "Buzz")
+
+    def test_returnsFizzWith6PassedIn():
+        checkFizzBuss(6, "Fizz")
+
+    $ pytest  # Play button - fails 
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        if (value % 3) == 0:
+            return "Fizz"
+        if value == 5:
+            return "Buzz"   
+        return str(value)
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        checkFizzBuzz(2, "2")
+
+    def test_returnsFizzWith3PassedIn():
+        checkFizzBuss(3, "Fizz")
+
+    def test_returnsBuzzWith5PassedIn():
+        checkFizzBuss(5, "Buzz")
+
+    def test_returnsFizzWith6PassedIn():
+        checkFizzBuss(6, "Fizz")
+
+    $ pytest  # Play button - pass  
+
+-   No need to refactor now
+    -   Code can be improved later
+
+### Example Part 8: Get “Buzz” when I pass in 10 (a multiple of 5)
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        if (value % 3) == 0:
+            return "Fizz"
+        if value == 5:
+            return "Buzz"   
+        return str(value)
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        checkFizzBuzz(2, "2")
+
+    def test_returnsFizzWith3PassedIn():
+        checkFizzBuss(3, "Fizz")
+
+    def test_returnsBuzzWith5PassedIn():
+        checkFizzBuss(5, "Buzz")
+
+    def test_returnsFizzWith6PassedIn():
+        checkFizzBuss(6, "Fizz")
+
+    def test_returnsBuzzWith10PassedIn():
+        checkFizzBuss(10, "Buzz")
+
+    $ pytest  # Play button - fails
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        if (value % 3) == 0:
+            return "Fizz"
+        if (value % 5) == 0:
+            return "Buzz"   
+        return str(value)
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        checkFizzBuzz(2, "2")
+
+    def test_returnsFizzWith3PassedIn():
+        checkFizzBuss(3, "Fizz")
+
+    def test_returnsBuzzWith5PassedIn():
+        checkFizzBuss(5, "Buzz")
+
+    def test_returnsFizzWith6PassedIn():
+        checkFizzBuss(6, "Fizz")
+
+    def test_returnsBuzzWith10PassedIn():
+        checkFizzBuss(10, "Buzz")
+
+    $ pytest  # Play button - passes 
+
+-   “FizzBuzzTest.py” - Refactor
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        #if (value % 3) == 0:
+        if isMultiple(value, 3):
+            return "Fizz"
+        #if (value % 5) == 0:
+        if isMultiple(value, 5):
+            return "Buzz"   
+        return str(value)
+
+    def isMultiple(value, mod):  # added
+        return (value % mod) == 0
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        checkFizzBuzz(2, "2")
+
+    def test_returnsFizzWith3PassedIn():
+        checkFizzBuss(3, "Fizz")
+
+    def test_returnsBuzzWith5PassedIn():
+        checkFizzBuss(5, "Buzz")
+
+    def test_returnsFizzWith6PassedIn():
+        checkFizzBuss(6, "Fizz")
+
+    def test_returnsBuzzWith10PassedIn():
+        checkFizzBuss(10, "Buzz")
+
+    $ pytest  # Play button - passes 
+
+### Example Part 9: Get “FizzBuzz” when I pass in 15 (a mulitple of 3 and 5)
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        if isMultiple(value, 3):
+            return "Fizz"
+        if isMultiple(value, 5):
+            return "Buzz"
+        return str(value)
+
+    def isMultiple(value, mod):  # added
+        return (value % mod) == 0
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        checkFizzBuzz(2, "2")
+
+    def test_returnsFizzWith3PassedIn():
+        checkFizzBuss(3, "Fizz")
+
+    def test_returnsBuzzWith5PassedIn():
+        checkFizzBuss(5, "Buzz")
+
+    def test_returnsFizzWith6PassedIn():
+        checkFizzBuss(6, "Fizz")
+
+    def test_returnsBuzzWith10PassedIn():
+        checkFizzBuss(10, "Buzz")
+
+    def test_returnsFizzBuzzWith15PassedIn():
+        checkFizzBuss(15, "FizzBuzz")
+
+    $ pytest  # Play button - fails  
+
+-   “FizzBuzzTest.py”
+
+<!-- -->
+
+    import pytest 
+
+    def fizzBuzz(value):
+        if isMultiple(value, 3):
+            if isMultiple(value, 5):
+                return "FizzBuzz"
+            return "Fizz"
+        if isMultiple(value, 5):
+            return "Buzz"
+        return str(value)
+
+    def isMultiple(value, mod):  # added
+        return (value % mod) == 0
+
+    def checkFizzBuzz(value, expectedRetVal):
+        retVal = fizzBuzz(value)
+        assert retVal = expectedRetVal
+
+    def test_returns1With1PassedIn():
+        checkFizzBuzz(1, "1")
+
+    def test_returns2With2PassedIn():
+        checkFizzBuzz(2, "2")
+
+    def test_returnsFizzWith3PassedIn():
+        checkFizzBuss(3, "Fizz")
+
+    def test_returnsBuzzWith5PassedIn():
+        checkFizzBuss(5, "Buzz")
+
+    def test_returnsFizzWith6PassedIn():
+        checkFizzBuss(6, "Fizz")
+
+    def test_returnsBuzzWith10PassedIn():
+        checkFizzBuss(10, "Buzz")
+
+    def test_returnsFizzBuzzWith15PassedIn():
+        checkFizzBuss(15, "FizzBuzz")
+
+    $ pytest  # Play button - passes  
+
+-   No need to refactor

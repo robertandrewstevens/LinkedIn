@@ -1,0 +1,585 @@
+https://www.linkedin.com/learning/json-essential-training/
+
+files at https://github.com/LinkedInLearning/json-essential-training-2887317
+
+JSON Essential Training
+
+Course details
+2h 13m * Beginner * Released: 8/24/2021
+
+JSON has become the most common format for data interchange on the web, building from a JavaScript base to a wider set of API platforms. In this course, instructor Sasha Vodnik walks you through using the basic syntax of JSON and applying it in several common implementations to see how you can structure it with schemas and JSON-LD. Sasha begins by making sure you have a thorough understanding of how to build and debug JSON structures. After stepping through how to process JSON data, he shows you a variety of ways to use it. Next, Sasha covers techniques you can use to work with JSON, such as preventing data reuse and returning readable JSON data in JavaScript. He goes over how to create and validate JSON schema and how to work with schema generators. Sasha concludes with a discussion of JSON-LD and how you can use it to explain and map the structure of your data.
+
+* Introduction
+
+- The essentials of using JSON
+
+- What you should know
+
++ No background required
+
++ Optional topics to become familiar with:
+> Programming fundamentals
+> JavaScript
+
+- Set up your environment
+
++ Web browser
+> e.g., https://mozilla.org
+
++ Code editor
+> e.g., https://code.visualstudio.com
+> add-on "Live Server" by Ritwick Day 
+
+- Work with the GitHub repo
+
++ svodnik/json-essential-training-2887317
+
++ https://githu.com/LinkedInLearning/json-essential-training-2887317
+
++ Branches
+> 01_04b - Chapter 1, Video 4, beginning
+> 01_043 - Chapter 1, Video 4, end
+
+* 1. Understanding JSON
+
+- What is JSON?
+
++ JavaScript Object Notation
+
++ JSON vs. XML code
+> JSON replaced XML for exchanging data
+> XML is hard to read (and redundant text)
+> JSON is easy to read, smaller file size
+
+- Understanding objects in programming
+
++ JSON: JavaScript Object Notation
+> Object part of JSON
+> Notation part of JSON (format and rules)
+
++ Objects in JavaScrip
+> Collection of data ~ list with key-value pairs
+
++ Favorites: bullet list -> JSON code
+> Fruit: mango
+> Vegetable: eggplant
+> Drink: sparkling water
+
++ Key-Value Pairs
+> Key: fruit
+> Value: mango
+
++ Objects
+> JavaScript ~ JSON
+
++ Arrays
+> like Python lists - just values, no keys
+> JavaScript ~ JSON
+
+- Structure JSON by following the rules
+
++ JavaScript Object vs. JSON Object
+> both start with "{" and end with "}"
+
++ JavaScript Array vs. JSON Array
+> both start with "[" and end with "]"
+
++ Basic JSON Syntax Rules
+> Use double quotes for keys and strings
+
++ JavaScript Object vs. JSON Object
+> JavaScript Object key - filename:
+> JSON Object key - "filename":
+> JavaScript Object value - 'contract.pdf'
+> JSON Object value - "contract.pdf"
+
++ Basic JSON Syntax Rules
+> Use double quotes for keys and strings
+> No leading zeroes in numbers
+
++ JavaScript Object vs. JSON Object
+> JavaScript Object value - 01
+> JSON Object value - 1
+
++ Basic JSON Syntax Rules
+> Use double quotes for keys and strings
+> No leading zeroes in numbers
+> No trailing decimals in numbers
+
++ JavaScript Object vs. JSON Object
+> JavaScript Object value - 2.
+> JSON Object value - 2
+
++ JavaScript Object vs. JSON Object
+> JavaScript Object value - true
+> JSON Object value - true
+
++ Basic JSON Syntax Rules
+> Use double quotes for keys and strings
+> No leading zeroes in numbers
+> No trailing decimals in numbers
+> No trailing comma
+
++ JavaScript Object vs. JSON Object
+> JavaScript Object last value - true,
+> JSON Object last value - true
+
++ Basic JSON Syntax Rules
+> Use double quotes for keys and strings
+> No leading zeroes in numbers
+> No trailing decimals in numbers
+> No trailing comma
+> No comments
+
++ JavaScript Object vs. JSON Object
+> JavaScript Object comment - // legal approval
+> JSON Object comment - 
+
++ JSON
+> https://en.wikipedia.org/wiki/JSON
+
++ Introducting JSON
+> https://wwww.json.org/json-en.html
+
++ microsoft/node-jsonc-parser
+> https://www.github.com/Microsoft/node-josnc_parser
+
+- Build a basic JSON structure
+
++ VS session
+> Exercise Files > Ch01 > 01_04 > begin > highestFeatures.json
+> Exercise Files > Ch01 > 01_04 > begin > highestPeaks.json
+> Exercise Files > Ch01 > 01_05 > begin > schedule.json
+
+- Build a nested JSON structure
+
++ Example
+> Highest peaks
+= Mount Everest
+= K2
+= Kangchenjunga
+> Lowest peaks
+= Dead Sea
+= Lake Assal
+= Turpan Pendi
+
++ VS session
+> Exercise Files > Ch01 > 01_05 > begin > extremes.json
+
+- Challenge: Debug a JSON structure and create your own
+
++ VS session
+> Exercise Files > Ch01 > 01_06 > begin > stock.json
+
++ Challenge Objectives
+> Fix errors
+> Use your code editor for help
+
++ Basic JSON Syntax Rules
+> Use double quotes for keys and strings
+> No leading zeroes in numbers
+> No trailing decimals in numbers
+> No trailing comma
+> No comments
+
++ Extra Challenge
+> Add an additional key-value pair
+> Use an array as the value
+> Suggestion: listPriceHistory
+
+- Solution: Debug a JSON structure and create your own
+
++ VS session
+> Exercise Files > Ch01 > 01_06 > begin > stock.json
+
+* 2. Processing JSON Data
+
+- Process JSON with language tools and libraries
++ String vs. Object
+> String: string of characters
+> Object: structure - object or array
++ Serializing and Deserializing
+> Serializing: JSON structure > string
+> Deserializing: string > JSON structure (for a program to work with)
++ Converting to and from JSON
+Language   Utilities
+---------- ------------------------
+JavaScript JSON.parse, JSON.stringify
+Python     json.dump, json.load
+Java       org.json, GSON
++ How to searialize and deserialize (marshal and unmarshal) JSON in .NET
+> (Microsoft Docs web page)
+
+- Convert JSON to an object or array
++ Destring JSON in JavaScript
+> JSON.parse(string)
++ Exercise Files > Ch02 > 02_02 > begin > items.js
++ Exercise Files > Ch02 > 02_02 > begin > products.html 
+> (-> Firefox, able to inspect JSON string behind the scenes in the "Console")
+
+- Convert an object or array to JSON
++ YAML and XML
+> YAML: Yet Another Markup Language
+> XML: eXtensible Markup Language
++ Stringify JSON in JavaScript
+> JSON.stringify(structure)
++ Exercise Files > Ch02 > 02_03 > begin > cart.js
+
+- Challenge: Process JSON data
++ Challenge Objectives
+> Write JavaScript to destringify an object and an array
+> Write JavaScipt to stringify an object and an array
++ Exercise Files > Ch02 > 02_04 > begin > blog.js
++ Exercise Files > Ch02 > 02_04 > begin > issue.js
+
+- Solution: Process JSON data
++ Exercise Files > Ch02 > 02_05 > begin > blog.js
++ Exercise Files > Ch02 > 02_05 > begin > issue.js
+
+* 3. Using JSON Data
+
+- How to send and receive JSON data
+
++ User's Computer vs. Web Server
+> User's Computer -> Request -> Web Server
+> Web Server -> Response -> User's Computer
+
++ DuckDuckGo web page
+> query: "data" with autocomplete
+
++ Hypertext Transfer Protocol (HTTP)
+
++ User's Computer vs. Web Server
+> User's Computer -> Request: HTTP -> Web Server
+> Web Server -> Response: HTTP -> User's Computer
+
++ H sport webpage: Checkout
+
++ Firefox > Developer tools
+> Also available in Chrome and Edge
+> Right-click > "Inspect"
+> Developer tools > "Network" tab
+> https://www.nps.gov > Menu > Events > XHR tab > EventCalendarService... > Select > Response tab > JSON data
+
+- Create an HTTP request
+
++ https://hplussport.com (fake)
+
++ Endpoints
+> https://hplussport.com/api/products
+> https://hplussport.com/api/posts
+
++ https://lnkd.in/gKVbNFBB
+> Headers
+
++ Firefox 
+> https://hplussport.com/api/products
+> JSON data (formatted)
+> View unformatted by clicking "Raw Data" tab
+> View headers by clicking "Headers" tab
+
+- Work with an HTTP response
+
++ JSON Data -> Application...
+> Add to Database
+> Check for Errors
+> Format and Display
+
++ Exercise Files > Ch03 > 03_03 > begin > products.html
+
++ Mineral Water (and nothing else)
+
++ Exercise Files > Ch03 > 03_03 > begin > script.js
+
++ JSON.parse()
+> const data = JSON.parse(rawData);
+
++ Mineral Water (with products displayed)
+
+- Convert between JSON and other data formats
+
++ Converting Data
+
++ Popular Data Formats
+> XML
+> YAML
+> CSV
+
++ XML
+> eXtensible Markup Language
+> (example)
+
++ YAML
+> Yet Another Markup Language
+> (example)
+
++ CSV
+> Comma-Separated Values
+> (example)
+
++ Format 1 -> Library -> Format 2
+
++ https://www.goessner.net/download/prj/jsonxml
+> Index of /dowload/prj/jsonxml
+> (old but good for learning)
+
++ Exercise Files > Ch03 > 03_04 > begin > script.js
+
++ Exercise Files > Ch03 > 03_04 > begin > products.html
+
++ Mineral Water (with products displayed)
+
++ Process
+> -> Format 1 -> Library -> Result -> (Troubleshoot) -> Format 2
+> -> Format 2 -> 
+
+- Make sense of JSON-P
+
++ JSON-P
+> JSON with Padding
+
++ Origin
+> https://www.example.com:443
+o Protocol: https:
+o Subdomain: www
+o Domain: example.com
+o Port: 443
+
++ Standard Script Elements
+> example.com
+o <script src="https://cdnjs.com...">
+o <script src="https://example.com...">
+> cdnjs.com: JS
+> example.com: JS
+
++ Data Fetched Using JSON-P
+> example.com
+o <script src="https://cdnjs.com...">
+o <script src="https://example.com...">
+o <script src="https://openweathermap.com...">
+> cdnjs.com: JS
+> example.com: JS
+> openweathermap.com: JSON
+
++ JSON-P Alternatives
+> (JSON-P not as secure as standard request for data)
+> CORS: Access-Control-Allow-Origin
+
+- Challenge: Examine JSON data used by websites
++ Louvre website
++ (Pick a website you use often or want to understand better, use browser developer tools to look at data)
++ Challenge Objectives
+> Use browers developer tools
+> Open the Network tab
+> Choose the XHR option
+> Suggested site: lourve.fr > Explore
+
+- Solution: Examine JSON data used by websites
+> Firefox > Developer Tools (right click > Inspect > Network)
+> www.lourve.fr
+> XHR tab
+> "EXPLORE" tab on webpage
+> Select row where Type json
+> Response tab on RHS -> JSON
+> Note objects in JSON vs. content on webpage
+> "WHAT'S ON" tab on webpage - repeat
+
+* 4. Applying Techniques for Working with JSON
+
+- Prevent data reuse
+
++ JSON Response Formats
+> JSON object
+> JSON array
+> JSON-P
+
++ Same-Origin Policies
+> Scheme
+> Hostname
+> Port number
+
++ Cross-Site Script Injection
+> XSSI
+
++ Protecting against XSSI
+> Authorized Script or Malicious Script
+> Request data
+> Data returned (try-except?)
+o Strip our malformed code > Paraser executes data > Data Accessible (Authorized)
+o Parser executes data > Error (Malicious)
+
++ `while(1)`
+> (malformed code example)
+
++ Exercise Files > Ch04 > 04_01 > begin > script.js
+> (note `while(1)` at start of message)
+> (check browser and see error)
+> (create a function to remove `while(1)`)
+> (check browser and see products)
+
+- Return readable JSON
+
++ JSON Object String
+> (example)
+
++ `JSON.stringify(value)`
+> (used previously)
+
++ `JSON.stringify(value, replacer, spacer)`
+> (2 optional additional arguments)
+> `replacer`
+o Function that modified how the conversion happens
+> `spacer`
+o Customize indents for levels of hierarchy
+
++ Exercise Files > Ch04 > 04_02 > begin > script.js
+
++ Exercise Files > Ch04 > 04_02 > begin > products.html
+
++ Mineral Water (with products displayed)
+> developer tools > press "f12" key
+
+- Test for an empty object
+
++ Checking for an Empty Object
+> An empty string ("") is **falsy**
+> An empty object ({}) is **truthy**
+> Checking for a null value cannot distinguish between an empty object and an object with content
+
++ MDN Web Docs (webpage)
+> `Object.keys()`
+o https://lnkd.in/giYHE9z
+
++ Exercise Files > Ch04 > 04_03 > begin > index.html
+
++ Web browser > developer tools > Console
+> testData(emptyObject)
+> testData(nonEmptyObject)
+> testData(dateContent)
+
++ MDN Web Docs (webpage)
+> Browser compatibility (not supported with some older versions)
+> https://lnkd.in/gEkFb9R
+
++ Exercise Files > Ch04 > 04_03 > begin > index.html (return to file for additional changes)
+
++ Web browser > developer tools > Console (repeat)
+> testData(emptyObject)
+> testData(nonEmptyObject)
+> testData(dateContent)
+
+* 5. Working with JSON Schema
+
+- What is JSON Schema?
+
++ What can go wrong with data?
+> Organized differently than you expect
+> Not a valid repsonse to your request
+
++ Schema
+
+Request Editor -> Response <-> Schema Editor
+    -> Match Editor -> Use Data
+    -> Not a Match -> Handle Error
+
++ JSON Schema (example)
+
++ JSON vs. Requirements
+> JSON message
+o "invoiceNum": "A23582" (string)
+o "account": 239874561
+o "items": 5
+> Requirements
+o Billing Total (missing from JSON)
+o Numerical invoice number (number)
+
++ Shopping Cart Data
+> JSON message
+o "items": (3 times, price and quantity)
+o "tax"
+o "shipping"
+o "total"
+
+- Create a basic schema with JSON Schema
+
++ Exercise Files > Ch05 > 05_02 > begin > js > data.js
+
++ Exercise Files > Ch05 > 05_02 > begin > products.html
+
++ Web browser > developer tools > Console
+
++ Exercise Files > Ch05 > 05_02 > begin > js > schema.js
+
+- Valiate JSON data against a schema
+
++ https://json-schema.org/implementations.html#validators
+
++ https://npm.runkit.com/ajv
+
++ Exercise Files > Ch05 > 05_03 > schema.js 
+> (copy just the "{...}" part)
+
++ https://npm.runkit.com/ajv
+> (paste the "{...}" part into REPL box after "const schema = ")
+> (paste sample JSON inside "test()" from next bullet)
+> (select) [Run]
+
++ Exercise Files > Ch05 > 05_03 > data.js 
+
++ (repeat with errors introduced by changing data types of elements of message to check)
+
+- Specify required properties with JSON Schema
+
++ Exercise Files > Ch05 > 05_04 > begin > schema.js
+> add "required": (5 elements)
+
++ https://npm.runkit.com/ajv
+> (repeat previous check using revised schema and message from next bullet)
+
++ Exercise Files > Ch05 > 05_04 > data.js
+
++ (repeat with errors introduced by removing elements to message to check)
+
+- Work with schema generators
+
++ https://www.jsonschema.net
+
++ "h+ sport" web page (fake?)
+
++ Exercise Files > Ch05 > 05_05 > begin > data.js
+> (copy just the "{...}" part of a message)
+
++ https://www.jsonschema.net
+> (paste the "{...}" part into REPL box after "const schema = ")
+
+- Challenge: Work with JSON Schema
+
+- Solution: Work with JSON Schema
+
+* 6. Structuring Data with JSON-LD
+
+- What is JSON-LD?
+
+- Implement predefined key names
+
+- Map a data structure with JSON-LD
+
+- Work with JSON-LD generators
+
+- Add a JSON-LD snippet to a web page
+
+- Challenge: Structure data with JSON-LD
+
+- Solution: Structure data with JSON-LD
+
+* Conclusion:
+
+- Next steps
+
+
+
+Action Items
+- learn JavaScript?
+- replicate on Mac?
+- convert js code to Py code?
+- Make a web page (at least HTML file that is not "served")?

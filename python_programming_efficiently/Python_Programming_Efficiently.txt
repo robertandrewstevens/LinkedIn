@@ -1,0 +1,392 @@
+Python: Programming Efficiently
+
+https://www.linkedin.com/learning/python-programming-efficiently-2/
+
+## Course details
+2h 19m * Intermediate * Released: 10/2/2020
+
+Cut down on your development time by learning how to write elegant code in an efficient manner, specifically in Python—the popular and pragmatic computer language. Michele Vallisneri explains how to make your Python code more expressive and concise, and leverage the most powerful features of the language. He shines a spotlight on some of the strongest third-party packages you can take advantage of, discusses object-oriented and functional programming, and shares strategies for improving the performance of your code. Michele illustrates these concepts with many intriguing examples, showing how to make 3D images and animations of the sun, draw fractals, implement a graphical programming language, and more.
+
+## Skills covered
+
+Python (Programming Language)
+
+## Introduction
+
+### Programming efficiently with Python
+
+[verbal and visual intro]
+
+### Base knowledge
+
+#### Helpful Base Knowledge
+
+- Basic knowledge of Python
+
+- Simple math: Logical operations, functions, and trigonometry
+
+- How websites work: URLs and HTML
+
+[exercise review files - notebooks]
+
+## 1. Installation and Setup
+
+### Install the Anaconda Python distribution on macOS X
+
+#### What You Need for This Course
+
+- An up-to-date installation of Python 3 (version 3.7 or greater)
+
+- Suggested distribution: Anaconda Individual Edition from anaconda.org
+
+#### Third-Part Packages Used in This Course
+
+- beautifulsoup4
+
+- cartopy
+
+- ffmpeg
+
+- flask
+
+- geopy
+
+- guppy3 
+
+- ipywidgets 
+
+- notebook (Jupyter)
+
+- line-profiler
+
+- matplotlib
+
+- numba 
+
+- numpy 
+
+- pandas 
+
+- pillow 
+
+- requests 
+
+#### Anaconda
+
+- https://www.anaconda.com
+
+- Products > Individual Edition
+
+- Anaconda Installers 
+    + Windows 64-Bit Graphical Installer
+    + MacOS 64-Bit Graphical Installer - SELECT
+    + Linux 64-Bit (x86) Installer
+
+- Click on Installer and follow menus
+
+- Terminal:
+
+```
+> python # check version (3.8.3 or above) then exit
+> conda install ffmpeg
+> conda install line_profiler
+> conda install -c condo-forge cartopy 
+> pip install geopy 
+> pip install guppy3 
+```
+
+- Use many useful packages; easy to install more
+
+- Create conda environments with different sets of installed packages
+
+- In case of package trouble, find help from large user community
+
+### Install the Anaconda Python distribution on Windows
+
+#### Anaconda
+
+- https://www.anaconda.com
+
+- Products > Individual Edition
+
+- Anaconda Installers 
+    + Windows 64-Bit Graphical Installer - SELECT
+    + MacOS 64-Bit Graphical Installer
+    + Linux 64-Bit (x86) Installer
+
+- Click on Installer and follow menus
+
+- Anaconda > Anaconda Prompt:
+
+```
+> python # check version (3.8.3 or above) then exit
+> conda install ffmpeg cartopy line_profiler
+> pip install geopy guppy3 
+```
+
+- Use many useful packages; easy to install more
+
+- Create conda environments with different sets of installed packages
+
+- In case of package trouble, find help from large user community
+
+### Work with Jupyter Notebooks
+
+- https://jupyter.org
+
+- Anaconda Navigator > Jupyter > Launch
+
+- Terminal
+
+```
+> jupyter notebook  # web browser opens with Jupyter interface
+```
+
+- Jupyter > New > Python 3
+
+```
+print("Hello (efficiently)!")
+```
+
+```
+print("Hello (really efficiently)!")
+```
+
+```
+def splitprint(sentence):
+    for work in sentence.split():
+        print(word)
+```
+
+```
+splitprint("Hello there")
+```
+
+- Markdown cell demo
+
+- Shortcut commands demo
+
+- Rename Notebook
+
+- Open notebook demo
+
+- Shutdown notebook demo 
+    + (click next to file name to select, then select [Shutdown] button that appears)
+
+## 2. Writing Python Efficiently
+
+### Writing Python efficiently
+
+#### Programming Efficiently with Python
+
+- Secret weapon: Beautiful, clear code that is also brief and fast
+
+- Merging beauty with efficiency makes for happy programmers
+
+#### Programming Efficiently with Core Language
+
+- Exploit the expressiveness of Python
+
+- Loop with smart iterators
+
+- Manipulate data with comprehensions
+
+- Use specialized objects in the `collections` module
+
+- Rethink code to make it Pythonic
+
+### Python vs. C 
+
+#### `02_02_PythonvsC_begin.ipynb`
+
+- Exercise Files > Ch02 > `02_02_PythonvsC_begin.ipynb`
+
+- Exercise Files > Ch02 > `02_02_PythonvsC_end.ipynb`
+
+### Design efficient loops
+
+- Exercise Files > Ch02 > `02_03_loops_begin.ipynb`
+
+- Exercise Files > Ch02 > `02_03_loops_end.ipynb`
+
+#### The Fibonacci Numbers in Nature
+
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55...
+
+[3 photos of plants exhibiting Fibonnacci numbers]
+
+#### iterators
+
+- Objects that define `__next__()`
+
+- Iteration stops with the `StopIteration` exception
+
+#### Use Iterators in `itertools`
+
+- `itertools.repeat`: Repeat sequence n times
+
+- `itertools.cycle`: Go through sequence forever 
+
+- `itertools.chain`: Concatenate two iterators  
+
+- `itertools.accumulate`: Compute running sum  
+
+- `itertools.product`: Cartesian product  
+
+- `itertools.permutations`: Permutations of sequence  
+
+- `itertools.combiations`: Combinations of sequence  
+
+### Comprehensions and generators
+
+- Exercise Files > Ch02 > `02_04_comprehensions_begin.ipynb`
+
+- Exercise Files > Ch02 > `02_04_comprehensions_end.ipynb`
+
+### Exploit Python collections
+
+- Exercise Files > Ch02 > `02_05_collections_begin.ipynb`
+
+- Exercise Files > Ch02 > `02_05_collections_end.ipynb`
+
+### Write Pythonic code
+
+- Exercise Files > Ch02 > `02_06_Pythonic_begin.ipynb`
+
+- Exercise Files > Ch02 > `02_06_Pythonic_end.ipynb`
+
+### Challenge: Analyze Olympic medalist data
+
+#### Challenge
+
+- Using Pythonic code
+    + Find the four atheletes who when the most medalist
+    + Find hte athletes who won medals in at least four different events 
+
+- Exercise Files > Ch02 > `02_07_challenge_begin.ipynb`
+
+- Exercise Files > Ch02 > `02_07_challenge_end.ipynb`
+
+### Solution: Analyze Olympic medalist data
+
+- Exercise Files > Ch02 > `02_08_solution_begin.ipynb`
+
+- Exercise Files > Ch02 > `02_08_solution_end.ipynb`
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+4.
+
+
+## 3. Leveraging Python Libraries
+
+### Choose the best libraries for your task
+
+
+### Download webpages with requests
+
+
+### Manipulate images with Pillow
+
+
+### Parse HTML with Beautiful Soup
+
+
+### Make movies with Matplotlib
+
+
+### Serve webpages with Flask
+
+
+### Challenge: Image-editing application
+
+
+### Solution: Image-editng application
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+4.
+
+
+## 4. Efficient Python with Object-Oriented and Functional Programming
+
+### Object-Oriented and functional programming
+
+
+### Divide and conquer with Python classes
+
+
+### Exploit class inheritance
+
+
+### Functional techniques in Python
+
+
+### Funciton decorators
+
+
+### Challenge: Bale of turtles
+
+
+### Solution: Bale of turtles
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+4.
+
+
+## 5. Performance Optimization in Python
+
+### Computer architecture and optimization technqiues
+
+
+### Time profiling
+
+
+### Memory profiling
+
+### Algorithm complexity
+
+
+### Introduction to parallel programming
+
+### Challenge: Inverted index
+
+
+### Solution: Inverted index
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+## Conclusion
+
+### Keep taking advantage of Python
+
+
+

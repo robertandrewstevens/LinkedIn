@@ -1,0 +1,656 @@
+https://www.linkedin.com/learning/developing-a-critical-thinking-mindset
+
+# Developing a Critical Thinking Mindset
+
+## Course details
+
+58m * Intermediate * Released: 8/10/2021
+
+Critical thinking is often cited as a desirable skill to have, but what exactly does it mean to be a critical thinker, and how does one achieve this mindset? The goal of critical thinking is to give ourselves time and tools for improving how we think, to see things closer to how they really are, and get a better sense of the world. But just understanding the concepts won’t get you there. As Becki Saltzman explains, developing a critical thinking mindset requires commitment and deliberate practice. Becki shows how to put critical thinking knowledge to work to create a mindset that enables you to examine information and determine how to assess information you can trust. She also shows how to develop mental agility to apply insights from one context to the next, ways you can avoid overthinking, and tips on how to balance rational, strategic, and even emotional thinking. After this course, you’ll be on your way to developing the mindset necessary for critical thinking to flourish.
+
+## Learning objectives
+
+- List the three main challenges to assessing the reliability of evidence
+
+- Describe how to determine whether evidence is relevant
+
+- Recognize how to assess validity
+
+- Explain how you can develop mental agility
+
+- Define quantum thinking
+
+## Skills covered
+
+- Critical Thinking
+
+## Introduction
+
+### Benefits of a critical thinking mindset
+
+#### Developing a critical thinking mindset
+
+- Assess trustworthy information 
+
+- Develop mental agility 
+
+- Become a quantum thinker 
+
+- Avoid overthinking 
+
+- Balance rational, strategic, and emothional thinking 
+
+### Origins of critical thinking
+
+#### Origins of critical thinking
+
+- Socrates
+    + [Socratic method: question beliefs and authorities]
+
+- Plato 
+    + [Wrote down Socrates's dialogues, started school]
+
+- Aristotle
+    + [studied at Plato's school, structured logic (e.g., deductive reasoning) and rhetoric]
+	
+- Bacon
+    + [scientific method (e.g., inductive reasoning) and cognitive biases]
+
+#### Deductive Reasoning
+
+```
+      \
+       \
+Vague --> Specific
+       /
+      /
+```
+
+#### Inductive Reasoning
+
+```
+          /
+         /
+Specific --> General Observation 
+         \
+          \
+```
+
+## 1. Moving from What to Think to How to Think
+
+### Becoming a good thinker
+
+[1990 1st grant application to messenger RNA research that became COVID vaccine, ignored until another research studing stem cells read one of articles]
+
+- https://www.statnews.com 
+
+#### Good Thinking
+
+- 3 legged stool
+    + Creative
+    + Strategic
+    + Critical
+
+#### Creative Thinking 
+
+- How you approach problems
+
+#### Strategic Thinking 
+
+- Breaking down strenghts and weaknesses and analyzing trends over time, or getting to a root cause of a problem 
+
+- **Why** is development slow?
+    + messenger RNA -> COVID vaccine process
+
+- What are the strengths and weaknesses of the two?
+    + conventional vs. messenger RNA 
+
+- Why might one be better?
+    + messenger RNA-based vaccines are faster
+
+- Why are they faster?
+   + microbiology details - on-demand drug factory 
+
+#### Critical Thinking 
+
+- To assess information quality and relevance 
+
+- Who was included in the vaccine trials?
+
+- Who was excluded?
+
+- Is the vaccine judged on prevention?
+
+[Skeptical but not a cynic; follow evidence, not leaving assumptions and biases unexplored]
+
+### The three components of critical thinking
+
+[Critical thinking: How you judge what to believe]
+
+#### RRV
+
+- Reliability
+
+- Relevance
+
+- Validity 
+
+#### ML Example
+
+- Photos of wolves vs. pet huskey dogs 
+
+- 90% accurate, but learned on whether or not picture had snow in the background
+
+#### Reliability 
+
+- Is this evidence reliabile?
+    + e.g., Wolf vs. Dog algorithm
+
+#### Relevance 
+
+- Does the evidence matter?
+
+- Evidence is context specific
+    + e.g. snow in wolf photos (not all wolves live in snowy climates)
+
+#### Validity
+
+- The accuracy of the measure
+
+- Is the argument supported by the evidence?
+
+- Does a test messure what it is supposed to measure?
+
+- "Assuming the premises is true, would we be locked into accepting the conclusion?"
+
+#### Example (of a valid argument)
+
+- Premise 1: All managers at our company have had critical thinking training 
+
+- Premise 2: Suli is a manager 
+
+- Conclusion: Suli has had critical thinking training 
+
+#### Example (of an invalid argument)
+
+- Premise 1: All managers at our company have had critical thinking training 
+
+- Premise 2: Suli has had critical thinking training  
+
+- Conclusion: Therefore, Suli is a manager 
+
+### Determining the reliability of evidence
+
+#### To be a critical thinker, you have to consider RRV
+
+- **Reliability**
+
+- Relevance
+
+- Validity 
+
+#### Determining the reliability of evidence
+
+1. Bad data
+
+2. Sneaky biases
+
+3. Mistaking reliability for accuracy 
+
+#### 1. Bad data Example
+
+[Hired 4 engineers, 3 from same school who were better than the 4th, and assume school was the cause (confusing causation with correlation) but that was not repeated in the future (small sample size)]
+
+#### 2. Sneaky biases
+
+- Authority bias 
+    + Is this source a subject matter expert?
+
+- Confirmation bias 
+    + Objective Facts (circle)
+	+ What Confirms Your Beliefs (circle)
+	+ What You See (intersection)
+
+- Affect Bias
+    + Why we judge sources as unreliable regardless of evidence 
+
+#### 3. Mistaking reliability for accuracy
+
+- Reliability != accuracy 
+
+- 2x2 table
+
+           Reliable Unreliable
+		   -------- ----------
+Accurate   |        |         |
+		   -------- ----------
+Inaccurate |        |         |
+		   -------- ----------
+	
+- Check reliabiilty of sources
+	
+### Weighing the relevance of evidence
+
+- Context specific 
+
+- Does the evidence matter?
+
+- Is it pertinent to the claim?
+
+#### Determining Relevance of Evidence 
+
+1. Check for logical fallacies 
+
+2. Use "how" questions 
+
+#### Ad Hominem 
+
+- Criticize the person presenting the evidence instead of the evidence 
+
+- Example: stand-in for manger who presented evidence was criticised for being inexperienced instead of juding the evidence
+
+#### How questions 
+
+1. How does this information help the issue?
+
+2. How is this idea connected to the question? 
+
+3. How does this evidence bear on the decision?
+
+4. How does the statement pertain to what we're talking about?
+
+### Evaluating the validating of your case
+
+#### Validity
+
+- Deals with accuracy 
+
+- Socrates (valid argument example)
+    + All men are mortal - True
+	+ Socrates is a man - True 
+	+ Socrates is mortal - Valid conclusion
+
+- Socrates (invalid argument example)
+    + All men are mortal - True
+	+ Socrates is a man - True 
+	+ All men are Socrates - Invalid conclusion
+
+- Socrates (invalid argument example twist)
+    + If Socrates is a man, then Socrates is moral - True
+	+ If Socrates is not a man, then Socrates is not moral - False 
+
+### Barbie example
+
+(practical, not textbook - entering China market)
+
+- Premise: Barbie will be a popular brand in China 
+
+1. Was the popularity of Barbie in China relevant to Chinese toy buyers?
+    + "Fair assumption" (true)
+
+2. Was the popularity of Barbie dolls in China relevant to whether Barbie "the brand" would appeal to Chinese buyers?
+    + "less relevant" (false)
+
+- "Barbie opens first flagship store in Shanghai" article 
+    + www.fashionnetwork.com/news/barbie-opens-first-flagship-store-in shanghai56873.html
+
+- Failed: used irrelanet info
+    + Barbie doll != Barbie brand
+
+### Chapter Quiz
+
+1. What are you doing when you use critical thinking?
+
+determining the root cause
+
+validating evidence - Yes
+    + You do this by exploring assumptions and biases
+	
+looking at the issue differently
+
+2. What is one of the ways that you can determine the relevance of evidence given to you?
+
+Ask how the information helps with the issue at hand. - Yes 
+    + Using "how" questions will help determine the relevance of information.
+
+Point out that the person presenting the evidence is inexperienced. - No
+
+Look into where the evidence is coming from. - No
+
+3. How can you determine whether a convincing argument is valid?
+
+Look at the argument differently.
+
+Consider the expertise of the person making the argument.
+
+Confirm that the evidence is accurate. - Yes 
+    + Look out for biases and logical fallacies to determine validity.
+
+4. When using the RRV tool to help you with critical thinking, what role does validity play?
+
+It determines the accuracy of the measure. - Yes 
+    + This helps you determine whether the argument is supported by the evidence.
+
+It determines whether the evidence is pertinent.
+
+It determines whether the evidence is trustworthy.
+
+5. Selena plans to buy a new software package for her team based on her own research, but her manager wants her to purchase different software. What is the risk of going with her manager's preference?
+
+mistaking reliability for accuracy
+
+bad data
+
+authority bias - Yes 
+    + This is authority bias because her manager's title does not mean that the manager is necessarily a reliable source of information.
+
+## 2. Understanding Mental Hygiene 
+
+### Developing intellectual courage
+
+[Galieo - intellectual courage]
+
+#### Intellectual Courage
+
+```
+[Cowardice]------[Recklessness]
+              ^
+		  [Courage]
+```
+
+#### Developing Intellectual Courage
+
+- Analyze your own strongly held beliefs and conclusions 
+
+- Respectfully speak up 
+
+- Assess ideas, beliefs, and viewpoints you disagree with 
+
+#### Exercises 
+
+1. Pick on belief you agree with and one you disagree with 
+    + Find and fairly access evidence that challenges both
+	+ e.g. unpaid interships
+	+ Do as a group exercise with your team (?)
+
+2. Listen to someone you disagree with on a montly basis
+    + Ask questions to understand their position - How questions
+	+ Avoid persuasive questions 
+	+ Disagree only in your head 
+	
+3. Write down one of your strongy held beliefs 
+    + Make sure you can support this believe with evidence you really understand and you can deeply explain to others (without quoting or attributing to experts)
+	+ If you can't, losen your grip on that belief 
+
+### Intellectual vs. emotional empathy
+
+#### Empathy's Downside
+
+- "Logic offers a serenity humans seldom experience. The control of feelings so theat they don't control you."
+    + Sarek in Star Trek 
+
+#### Empathy 
+
+- Ability to understand what another person is going through 
+
+[Emotional empathy: Ability to feel what another person is feeling]
+
+#### Examining the Downside of Empathy 
+
+1. Consider the difference between intellectual and emotional empathy 
+
+2. Understand how emotional empathy can be biased and irrational 
+
+["Pain gain" (?) experiment with AIDs and pain processing - beware of the lure of emotional empathy]
+
+- ShelterBox web site: "2 million people" humanitarian aid
+
+- Which fundraising is more successful?
+    + Stories to elicit collective empathy for millions?
+	+ Stories to elicit empathy for a small village?
+	+ Stories to elicit empathy for 1 person? Yes
+
+[emotional empathy can cause us to misallocate resources]
+
+[avoid emotional empty? No, prioritize it lower than intellectual empathy]
+
+### Pursuing mental agility 
+
+#### Mental agility 
+
+- Ability to think, understand, and integrate ideas quickly and then apply insights from one context to another 
+
+- Example: friend how is content consumer (books, podcasts, videos) and curious about many topics and industries, and questioned hiring approach based on resume and not pets, based on football recruiting story (Rice?)
+    + personal, not technical
+	+ wrote letter based on pet 
+
+#### Pursuing Mental Agility
+
+1. Get curious 
+    + newsletters, podcasts, virtual conferences; pick unfamilar topics and seek new ideas that don't apply in obvious ways
+
+2. Observe and listen 
+    + e.g., easedrop on conversation at coffee shop at conferences
+
+3. Be less defensive 
+    + don't think job or industry is unique - that blocked mental agility 
+	+ borrow ideas from outside your domain (e.g. tech)
+
+4. Schedule thinking time 
+    + 30 minutes on calendar 
+
+5. Make associations 
+    + Innovations from solutions in one domain transfered to another
+
+### Getting the benefit of doubt 
+
+#### Benefit of Doubt
+
+[Giving the benefit of doubt means getting the benefit of doubt (2 way street)]
+
+- Giving the benefit of doubt is about getting the better evidence 
+   + Not blind trust 
+   + Matches claim with truth
+
+- Don't cling too tightly to a belief 
+    + Results in confirmation bias, which causes us to dismiss evidence that causes doubt and search for evidence that dispells doubt regardless of the quality of evidence 
+
+#### Getting the Benefit of Doubt 
+
+- Stay open to evidence 
+
+- Consider external factors
+    + Don't jump to conclusions - can lead to attribution error
+
+- Doubt rumors
+    + Can become a self-fulling prophecy
+
+### Becoming a quantum thinker
+
+[Don't use binary thinking: heads/trails, 1/0, on/off]
+
+#### Superposition
+
+- Condition in which particles seem to be in two or more places or states at once 
+
+#### Classical Physics vs. Quantum Physics 
+
+- Classical Physics
+    + Heads OR Tales
+	
+- Quantum Physics 
+    + Heads AND Tales (until coin lands and stops moving)
+
+[Quantum Thinker: Hold 2 or more opposing thoughts in our head at the same time]
+
+#### Simple truths don't tell the whole story 
+
+- [Conspiracy theores are mental simpliers - truth is complex]
+
+- Example: enemy at work suggested you for a promotion
+    + Created cognitive dissonance
+
+#### Becoming a Quantum Thinker
+
+- Delay the story 
+
+- Consider a both/and approach 
+    + Avoid binary bias 
+
+- Avoid using labels 
+    + e.g., avoid labeling someone as an "enemy" (or "frenemy") - people can be both allies and enemies depending on context
+
+### Avoiding overthinking 
+
+#### Overthinking 
+
+- Unnecessary ruminations or agonizing often causing negative thoughts 
+
+- When you improve the quality of your thinking, quantity becomes less important 
+
+- Strike the right balance between overthinking and underthinking => good thinking
+
+#### Overthinking (causes)
+
+- Dwelling about the past 
+
+- Worrying about the future 
+
+#### Underthinking (causes)
+
+- Ignoring the past 
+
+- Assuming we know the future 
+
+- Not the opposite of overthinking
+
+- Thinking about the wrong things at the wrong time is a symptom
+
+#### Underthinking reasons 
+
+- Are you fearful?
+
+- Are you thinking for yourself?
+
+#### Overthinking reasons 
+
+- Are you obsessing?
+
+- Can you make a decision on your own?
+    + Want to know instead of need to know 
+
+#### Solutions 
+
+- Catch a thought, let it enter your mind, and let it go 
+
+- Categorize decisions into consequential or inconsequential 
+    + e.g., social media comments are inconsequential; chosing a job offer or surgery are consequential  
+
+- Categorize decisions into reversible or irreversible
+    + e.g. write an email is reversible; hitting send on an email is irreversible
+	e.g. renting an appartment is reversible; selling your house is irreversible
+	+ take time to focus without disruptions on irreversible decisions (e.g. turn off email notifications and turn off social media)
+
+- Learn three lessons from each outcome 
+    + good and bad outcomes
+	+ Lessons learned save time spent agonizing over what might have been
+
+### Chapter Quiz
+
+1. Why is it important to give others the benefit of doubt?
+
+You avoid confirmation bias. - Yes 
+    + Giving the benefit of doubt leaves you open to evidence rather than bias, even if you need to adjust your beliefs.
+
+You show empathy.
+
+You demonstrate leadership.
+
+2. How can you practice quantum thinking to help reduce mental simplifiers?
+
+Tell yourself the story of the situation.
+
+Consider a both/and approach. - Yes 
+    + This avoids binary bias and helps you consider how all ideas can be possible.
+
+Use labels for others.
+
+3. What is something Kevin can do to develop his intellectual courage?
+
+Accept what he has learned and believes to be true.
+
+Ask persuasive questions of others to help influence them. - No 
+
+Actively find an opportunity to listen to someone he disagrees with. - Yes 
+    + Doing this and asking curious questions will help Kevin understand how the person arrived at their position.
+
+4. When you need to make an important decision that cannot be reversed, how can a thought antenna help you avoid overthinking?
+
+You categorize your decisions.
+
+You observe your thoughts. - Yes 
+    + Your antenna helps you ignore irrelevant thoughts so you can focus on relevant ones.
+
+You learn lessons from the outcome.
+
+5. From a critical thinking perspective, which statement about empathy is true?
+
+Emotional empathy helps with critical thinking.
+
+Empathy has limitations. - Yes
+    + Prioritize intellectual empathy by acknowledging the limitations of empathy. 
+
+Intellectual empathy should be avoided.
+
+6. As a leader, what can you encourage your team to do in order to promote mental agility?
+
+Improve multitasking.
+
+Get curious. - Yes 
+    + People build mental agility by seeking ideas and topics that do not obviously apply to their life.
+
+Learn more about your industry.
+
+
+## Conclusion
+
+### Creating a practice of critical thinking 
+
+#### Daily exercise 
+
+- Monday: Purpose question
+
+- Tuesday: Information question
+
+- Wednesday: Question question
+    + What might I be failing to ask?
+
+- Thursday: Perspective question 
+
+- Friday: Assumption question 
+
+- Saturday: Concept question 
+
+- Sunday: Conclusion question
+
+#### Intellectual Humility 
+
+- You don't know everything you think you know 
+
+### Chapter Quiz
+
+1. What is a way that you can practice critical thinking by integrating it into your life?
+
+Focus on intellectual humility.
+
+Pose one question to yourself each day. - Yes 
+    + Taking a few minutes each day to apply curiosity to a question helps build critical thinking.
+
+Demonstrate your quantum thinking.
+
+
+==============================
+
+David Brooks course on Humility? Check Mac archives 
+
+

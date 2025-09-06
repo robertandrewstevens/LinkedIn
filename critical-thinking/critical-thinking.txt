@@ -1,0 +1,895 @@
+https://www.linkedin.com/learning/critical-thinking
+
+# Critical Thinking
+
+## Course details
+
+59m * General * Updated: 10/6/2020
+
+Critical thinking is the ability to think reflectively and independently in order to make thoughtful decisions. By focusing on root-cause issues critical thinking helps you avoid future problems that can result from your actions. In this course, leadership trainer and expert Mike Figliuolo outlines a series of techniques to help you develop your critical thinking skills. He reveals how to define the problem you're trying to solve and then provides a number of critical thinking tools such as blowing up the business, asking the 5 whys and the 7 so whats, exploring the 80/20 rule, and more. He also provides guidance on how to develop this skill across your whole team.
+
+## Learning objectives
+
+- Identify how to break down complicated issues into smaller components
+
+- Determine the definition of an effective problem statement
+
+- Identify the primary benefit of focusing questions
+
+- Identify a problem's root causes
+
+- Apply critical thinking tools to analyze and unpack consequences
+
+- Recognize how to prepare others to think critically
+
+## Skills covered
+
+- Decision-Making
+
+- Critical Thinking
+
+## Introduction
+
+### Welcome to critical thinking
+
+#### Defining the real problem [example]
+
+```
+Profit Problem [CTQ flowdown]
+    Revenue drop
+	    Low volume
+		    Current customers
+			Prospective customers
+		Low prices
+    Cost increase
+	    High prices
+		    Base price increase
+			Discount drop
+		More purchases
+```
+
+#### 5 Whys graphic
+
+### 7 So-whats graphic
+
+### 80/20 Rule graphic
+
+- 20% input => 80% result
+
+### Insightful analysis
+
+- Can you change the point of view?
+
+- Can you change context?
+
+- Can you change reality?
+
+[Recurring theme: take time to think about and analyze a problem before rushing to solve it]
+
+## 1. What is Critical Thinking?
+
+### The importance of critical thinking
+
+#### Multiple Stakeholders graphic
+
+#### Bottlenecks x Problems / Limited time
+
+### Distinguish causes vs. consequences
+
+#### Evaluate the cause 
+
+#### Consider the consequences 
+
+#### Causes of Incomplete Website
+
+- Code not ready 
+    + Symptom
+
+- Specs not done ^^^
+    + Symptom
+
+- Disagreement on features ^^^
+    + Symptom
+
+- No clarify from leadership ^^^
+    + Root-cause
+
+#### Consquences of Closed Network 
+
+- New customers must call vvv
+
+- Call center is flooded vvv
+
+- Staff is overworked vvv
+
+- Customer service suffers vvv
+
+- Loss of customers 
+
+### Problem Timeline
+
+- Causes
+    + Think backward about the causes
+	+ Symptoms => Root-cause
+
+- Problem ^^^ / vvvv
+
+- Consquences
+    + Think foreward about the consequences
+	+ New problems?
+
+### Break big problems into small ones
+
+#### Profit Problem
+
+```
+Profit Problem [CTQ flowdown]
+    Revenue drop
+	    Low volume
+		    Current customers
+			Prospective customers
+		Low prices
+    Cost increase [from suppliers]
+	    High prices
+		    Base price increase
+			Discount drop
+		More purchases [buying more stuff]
+```
+
+[start on a whiteboard]
+
+### Ask yourself
+
+- What is your big problem composed of?
+
+- What smaller issues drive it?
+
+### Chapter Quiz
+
+1. During the critical thinking process what's the first thing you should consider?
+- schedule
+- consequences
+- causes - Yes
+    + If you don't understand the cause of the problem, it's virtually impossible to solve it
+- stakeholder goals
+
+2. You start on a new project that seems very similar to previous work you've done. You immediately dive in and proceed as you have done before. Why is your bold start probably a mistake?
+- You should first build a budget
+- You should first build a team
+- You should wait for a go-ahead from your supervisors
+- You should take time to think critically about the scope of the project - Yes 
+    + Issues such as identifying stakeholders, information sources, bottlenecks, and lag times should be clarified
+
+3. When do you know that you have broken down a problem sufficiently?
+- when it is impossible to break down the problem further - Yes => No
+    + At this stage, you may have dissected the problem too extensively
+- when solutions begin to become obvious - Yes 
+    + When a problem becomes small, it often becomes simple
+- when the problem divisions become symmetric
+- when the problem parts match the number of team members
+
+4. What's the recommended strategy for dealing with a complex problem that has no obvious solution?
+- Assign parts of the problem to each person on your team
+- List out the consequences, then analyze the cause for each one
+- Throw in the towel and go out for a double latte
+- Break the problem down into smaller, more solvable pieces - Yes 
+    + Big problems are much easier to solve in smaller pieces rather than tackling the whole problem at once
+
+5. Your team has completed writing recommendations for solving a major problem in your business unit. How can you make implementation go smoothly?
+- by anticipating unintended consequences - Yes 
+    + The recommendations may cause more problems than they solve
+- by consulting with senior management
+- by implementing the plans as quickly as possible
+- by making implementation optional
+
+6. Why do people tend to rush off and start solving the problem without understanding causes and consequences first?
+- It allows them to reverse engineer the causes
+- It makes them feel like they're being responsive to stakeholders - Yes 
+    + While it's great to want to be responsive to stakeholders, they're more interested in seeing you solve the true root causes, rather than just getting busy with problem solving
+- They know that causes and consequences get figured out at the end
+- They can avoid getting get tasked with solving additional problems
+
+## 2. Thinking the Problem Through
+
+### Define the problem statement
+
+#### A **problem statement** defines project success
+
+#### A problem statement is your charter
+
+- Outline goals
+
+- Map boundaries 
+
+- Define success [criteria]
+
+- Acknowledge constraints
+
+- Articulate assumptions 
+
+- Identify stakeholders
+
+- Establish timelines 
+
+#### Without a Charter, Confusion
+
+- Goal?
+
+- Metrics?
+
+- Stakeholders?
+
+- Boundaries?
+
+[=> rework]
+
+### Understand the real question 
+
+#### Seek to understand why a solution is needed
+
+#### Understand the Real Question
+
+- Avoid solving symptoms
+
+- Create valuable recommendations 
+
+#### Ask stakeholder 
+
+- What's really driving the request?
+
+- Why do they care?
+
+### Ask focusing questions
+
+#### Ask and answer some focusing questions
+
+- What's the real question?
+
+- Who are the stakeholders?
+
+- How will we measure success?
+
+- What is the scope?
+
+- What are the constraints?
+
+#### Problem Statement
+
+- Reduce costs and increase collections from external agencies by year's end 
+
+#### Stakeholders
+
+- IT 
+
+- Finance 
+
+#### Success
+
+- Cost per dollar collected
+
+- Commission rate 
+
+- Qualitative metrics 
+
+#### Constraints 
+
+- Two out of ten business units 
+
+- Legal and regulatory issues
+
+- End of year 
+
+- Budget 
+
+#### For your problem
+
+- What is the real problem?
+
+- Who are the stakeholders?
+
+- How will we measure success?
+
+- What is the scope?
+
+- What are the constraints? 
+
+### Examine past efforts
+
+#### Ask yourself
+
+- Was this problem addressed in the past? 
+
+- What's different now versus then?
+
+- Were there challenges last time?
+
+- What assumptions are limiting us?
+
+- Who was involved last time? 
+
+#### Different Now vs. Then
+
+- Agencies
+
+- Data 
+
+- Plaform 
+
+#### Limiting Assumptions
+
+- Couldn't measure what we wanted
+
+#### People Involved Last Time 
+
+- Recoveries team 
+
+- Most still here 
+
+### Use new lenses to think critically
+
+#### New Lenses
+
+- Can you change the point of view?
+
+- Can you change context?
+
+- Can you change reality?
+
+#### Changing Point of View
+
+- CEO
+
+- Staff 
+
+- Customers
+
+- [Adjacent groups]
+
+#### Changing Context
+
+- Can you reimagine or redefine the problem?
+
+### Changing Reality
+
+- What is I removed constraints?
+
+- What if I had resources?
+
+- What if I did this instead [of that]?
+
+#### Different viewpoints
+
+- Relationship
+
+- Strategy 
+
+- Pricing
+
+- Training 
+
+[Can you change your point of view?]
+
+### How to find root causes 
+
+#### [Causality]
+
+- Causes
+
+- Problem ^^^ / vvvv
+
+- Consquences
+
+#### What is the root cause?
+
+[Want the root cause, not symptoms]
+
+#### [Reprocussions (effects)]
+
+- Organizational
+
+- Customer
+
+- Competitor
+
+#### Example
+
+- Root cause: No incentive alignment
+
+- Possible consequence: Competitor escalation
+
+### Chapter Quiz
+
+1. Looking at prior efforts on a problem can help you understand previous limitations and gain _____ that can be applied the next time around.
+
+institutional knowledge - Yes 
+    + Many problems have been looked at in the past. Find out what was done before to help you solve your problem more quickly.
+
+stakeholder support
+
+root causes - Yes -> No
+    + If you're facing a problem repeatedly, people clearly didn't figure out the true root cause in the past.
+
+budget dollars
+
+2. Which question is least focusing?
+
+Where do you see this sort of effort leading in the next decade? - Yes
+    + This sort of thinking does not focus effort, but rather expands it in an exploratory way
+
+Which departments need to be excluded from the project?
+
+Who directly benefits the most from the project?
+
+Who is responsible for approving the project budget?
+
+3. Focusing questions help you _____ a problem space.
+
+bound - Yes 
+    + Focusing questions help you define the problem space and put boundaries on it. Without boundaries, your problem solving will be unfocused and inefficient.
+
+avoid
+
+solve
+
+share
+
+4. You've received a concise request for a short, simple project from a colleague in another department. Why should you talk with the stakeholder in more detail?
+
+to develop rapport
+
+to better define the problem - Yes 
+    + Understanding the genuine motivations of the stakeholders can be very helpful in framing a problem.
+
+to scale back the scope of the effort
+
+to recruit team members
+
+5. Causality involves digging down to uncover root causes as well as considering the _____ of potential solutions.
+
+timing
+
+costs
+
+scope
+
+consequences - Yes
+    + Exactly. You must consider the consequences of your solution. If you don't, you risk creating more problems for yourself.
+
+6. What are the main consequences of inadequately defining a problem?
+
+faster startup and implementation
+
+a concise and compact solution
+
+broad impact and increased visibility
+
+wasted effort and an inappropriate solution - Yes
+    + If you do not know the objectives, it is difficult to satisfy them.
+
+7. Your manager asks you to examine a new operational problem from the point of view of a customer. You are not clear on where to begin. How can you make a quick start on this task?
+
+by engaging in role playing
+
+by consulting with the customer relations department
+
+by studying customers' past behaviors
+
+by interviewing a few customers - Yes 
+    + This is the most direct way to get insight into another point of view.
+
+8. When you change _____ you typically look at the problem from a different functional perspective.
+
+context - Yes 
+    + Changing context entails looking at the problem through the perspective of another functional group. Those other groups will see causes you might not ordinarily see from your typical everyday perspective.
+
+reality
+
+jobs
+
+point of view - Yes -> No
+    + Changing your point of view is about looking at a problem from different levels in the organization -- from the CEO's perspective all the way down to front line staff.
+
+9. Your team is being asked to revisit a project that they completed three years ago. Which question should they address to clarify the problem definition?
+
+Can we get away with just a small tweak to the project?
+
+What circumstances have changed since three years ago? - Yes 
+    + In order to best understand the problem, you need to understand how the situation has evolved.
+
+What was the budget last time?
+
+Was the project satisfactorily completed last time?
+
+## 3. Using Critical Thinking Tools
+
+### Challenge how the business operates
+
+#### [Look at 3 Blowups]
+
+1. Business model
+
+2. Revenue
+
+3. Cost 
+
+#### Business model Blowup
+
+- How do you reconsider your market and strategy?
+
+#### Revenue Blowup
+
+- How do you expand your products, pricing, geography, and reach?
+
+#### Cost Blowup
+
+- How do you eliminate drag to become more efficient?
+
+#### [Example: Skybus Airlines]
+
+- Individual meals
+
+- Online customer support (no call center) 
+
+- No refunds
+
+- Tickets as low as $10-$20 each way
+
+- Went out of business; however, used critical thinking to change the industry 
+
+#### Business model Blowup Questions
+
+- If we started over, what would we change?
+
+- How would you double your top metric [in 2 years]?
+
+#### Revenue Blowup Questions
+
+- Who is better at creating customer value?
+
+- How would you triple profits in five years?
+
+#### Cost Blowup Questions 
+
+- How would you operate with two-thirds fewer people?
+
+- How would you eliminate your job?
+
+- What's the most wasteful thing we do?
+    + [What's stopping us from stopping that?]
+
+### Use the five whys of critical thinking
+
+#### Why? Why? Why? Why? Why?
+
+#### Russian Doll Graphic (Animated)
+
+- 6 dolls, each smaller, until get to the "core" doll (the 5th Why)
+
+### Answer the seven so-whats?
+
+#### The Seven So Whats
+
+- A thinking tool that reveals the consequences of an action 
+
+#### [Example] The incentive and bonus plan is broken
+
+1. So what?
+    + We need to change the plan 
+
+2. So what?
+    + We don't know how to fix it 
+
+3. So what?
+    + We need to find someone who can fix it 
+
+4. So what?
+    + We must hire a VP of Compensation 
+
+5. So what?
+    + We must deprioritize other recruting 
+
+6. So what?
+    + We will delay hiring a Suppy Chain VP
+
+7. So what?
+    + We must change this year's supply-chain goals 
+
+#### What is the consequence?
+
+- Business
+
+- Marketplace
+
+- Associates
+
+### Use the 80/20 rule to think critically 
+
+#### 20% input => 80% result 
+
+- Focus on the 20% input
+
+#### 80% input => 20% result
+
+- Don not focus on the 80% input 
+
+#### What are the major drivers of impact? 
+
+#### Profit = Revenue - Cost 
+
+- Increase revenue?
+    + Increase volume?
+	    > Current customers? -> Regions?
+		> Prospective customers? -> Regions?
+	+ Increase price?
+
+- Decrease cost?
+
+### How to successfully conduct analysis
+
+#### Take High Road and Low Road 
+
+- High Road (helicopter)
+
+- Low Road (SUV) 
+
+#### High Road (helicopter)
+
+- What am I proving or disproving?
+
+- Will it be beneficial?
+
+- Will it have impact?
+
+- Does the answer support my recommendation?
+
+#### Low Road (SUV) 
+
+- Only run the numbers you need 
+
+- Get in and get out of the data 
+    + [don't spend a day or a week analyzing data - wasting effort]
+
+- "Don't polish dirt"
+    + [100, 1000, or 1,000,000? Then move on (no decimal places]
+
+#### Focus on...
+
+- Define the problem 
+
+- Generate recommendations 
+
+- Conduct analysis 
+
+- Determine if solution worked 
+
+### Consider the implications of answers
+
+#### Look for similarities between ideas and situations 
+
+#### Consider the Relative Size
+
+- Will your solution have a big enough impact? 
+
+#### Explore connections to other problems
+
+[Network diagram - nodes and edges]
+
+#### [Example: 10 year strategy]
+
+- Products?
+
+- Business? 
+
+- Markets? 
+
+- Acquistions? 
+
+#### [Prioritize scare resources - Spread too thin?]
+
+- 37 High-level projects
+
+- 54 Medium-level projects 
+
+- 200 Enhancements in queue
+
+#### Look for links between problems to discover solutions 
+
+### Chapter Quiz
+
+1. When performing detailed analyses, why should you view the situation from a broad perspective, or the high road, periodically?
+
+to recuperate from tedium
+
+to test the validity of data sources
+
+to check for inconsistencies in assumptions
+
+to assess whether the detailed analysis is appropriate - Yes
+    + The level of detail may not be justified by impact; conversely, more detail may be necessary.
+
+2. Your colleague advocates for solving the easiest problems first. You advocate applying the 80/20 rule. When would your approaches agree?
+
+when the number of problems is overwhelming
+
+when the easy problems have major impacts - Yes 
+    + In this instance, solving simple problems would have a large impact
+
+when the easy problems are inconsequential
+
+when the major problems are very complex
+
+3. Why is it beneficial to repeatedly ask, "So what?"
+
+It is easiest to think in small steps.
+
+People often answer with trivial or obvious explanations.
+
+The first answers may not yield the ultimate consequences.
+
+all of these answers - Yes 
+    + Repeating the question forces you to do an in-depth analysis of consequences.
+
+4. Why is asking repeated "whys" useful?
+
+It challenges those that use only a superficial understanding of the issues.
+
+It is systematic and requires little imagination.
+
+It permits a big payoff with little effort.
+
+It enables you to get to root causes and a basic understanding of the true problem. - Yes 
+    + Asking repeated "whys" permits you to get past jargon and lazy thinking.
+
+5. Metaphorically, the process of asking "why" five times is like what?
+
+peeling an onion to the core - Yes 
+    + By asking "why" you're peeling back superficial causes to get a deep understanding of the core problem.
+
+dicing a large cauliflower into smaller florets
+
+zesting an orange to produce a new spice
+
+cooking a broth to blend the flavors
+
+6. Challenging how the business runs means to _____.
+
+imagine a redesign free from present constraints - Yes 
+    + Consider how you would start over armed with your present knowledge.
+
+expand markets and reconsider pricing
+
+cut costs by 30 percent
+
+replace all management
+
+## 4. Practice Critical Thinking
+
+### Teach others how to think critically
+
+#### 1. Teach the tools
+
+- 5 Whys
+
+- 7 So-whats 
+
+- Blowing up the Business 
+
+- How do properly scope a problem 
+
+#### 2. Create opportunities for practice 
+
+- Let them know you expect them to use the tools and come back to you with deliverables reflecting the use of these tools 
+
+#### 3. Coach the team 
+
+- Don't focus on analytical answers but how they got to those answers 
+
+- Use 80/20 Rule?
+
+- Efficient to getting to those insights? 
+
+- Did they come back to the High Road?
+
+#### 4. Hold them accountable
+
+- Have they thought through the consequences of a recommendation?
+
+- Ask why did an analysis, and how you did an analysis, why did you run numbers, why are you making this recommendation, how does this recommendation tie to other to your problem statement, what are the consequences of recommendation down the road?
+    + "I want you to think about this and come back this afternoon when you have thought about this some more and then we will talk about it"
+
+#### Practice every single day 
+
+1. Teach the tools
+ 
+2. Create opportunities for practice 
+
+3. Coach the team 
+
+4. Hold them accountable
+
+#### Questions 
+
+- When will you share these tools?
+
+- What practice opportunities will you create?
+
+- How will you coach on the methods?
+
+- How will you hold your team accountable? 
+
+### Common pitfalls when solving problems
+
+#### 1. Jumping to answers too quickly [solved by]
+
+- Problem statement (well defined?)
+
+- Focusing questions
+
+- Prior efforts 
+
+- New lenses 
+
+- Causality 
+	
+#### 2. Being unwilling to expand the problem [solved by]
+
+- Blowing up the business 
+
+- The Five Whys 
+
+#### 3. Focusing on the unimportant [solved by]
+
+- Use the 80/20 rule 
+
+#### 4. Accepting the results at face value [solved by]
+
+- Take the high road 
+    + [Ask "what does this mean?"]
+
+- Look for similarities 
+
+#### 5. Not thinking through consequences [solved by]
+
+- Use the Seven So-whats 
+
+### Chapter Quiz
+
+1. You present your boss with an analysis and recommended actions for the employee retention program. Your boss asks what might happen in six months if you make these changes. You don't have an answer so your boss sends you away. What have you forgotten?
+
+to look for similarities to unrelated projects
+
+to prepare an executive summary
+
+to examine the consequences of your analysis - Yes 
+    + Making recommendations is not a good idea, unless the consequences are thoroughly examined.
+
+to ask the five whys
+
+## Conclusion
+
+### Apply critical thinking every day
+
+#### Suggestions
+
+1. Identify a problem
+
+2. Break it into smaller problems
+
+3. Create a problem statement
+
+4. Look for new solutions 
+
+5. Focus on the meaningful 
+
+6. Analyze and think critically 
+
+#### More resources
+
+- "Solving Business Problems" course 
+
+- "Decision-Making Strategies" course 
+
+- https://wwww.thoughtleadersllc.com 
+
+
+[2nd part of course was all about Decision and Risk Analysis like Crystal Ball - need a Python/R tool that does this]

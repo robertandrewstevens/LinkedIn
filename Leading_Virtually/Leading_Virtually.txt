@@ -1,0 +1,217 @@
+# Leading Virtually: Vulnerability and Presence with Working from Home
+
+https://www.linkedin.com/learning/leading-virtually-vulnerability-and-presence-when-working-from-home/simon-sinek-build-trusting-teams?autoplay=true&u=2185266
+
+## Course details
+
+27m * General * Released: 7/22/2020
+
+The ability to lead virtually is more important than ever. The global economy means many organizations are collaborating with clients and colleagues across the world — and the COVID-19 pandemic has forced many on-site teams to transition to work-from-home positions. In these challenging times, leaders have to maintain a careful balancing act — balancing vulnerability and presence, authority and empathy — to truly connect with remote employees and keep their businesses moving in the right direction. This course collects timely, relevant advice for leading virtual teams and projects. Authors Simon Sinek and Charlene Li — and comedian Lisa Lampanelli — offer guidance on building trust, listening, practicing servant leadership, and engaging stakeholders inside and outside the organization.
+
+Note: This course was produced by Big Think. We are pleased to host this content in our library.
+
+## Skills covered
+
+- Virtual Management
+
+- Servant Leadership
+
+## 1. Leading Virtually
+
+### Simon Sinek: Build trusting teams
+
+#### Starting with Why: Building Trusthing Teams
+
+#### Understand trust
+
+- Simon Sinek
+    + Author, *Start With Why*
+
+- Trust is a *feeling*, not an instruction
+
+- Trust emerges in **safe environments** where we feel that our *personal growth* and *well-being* are supported
+
+- Cynicism, paranoia, mistrust and self-interest emerge in unsafe environments
+
+#### Create a safe environment
+
+- Make it a your goal to inspire, not threaten, when addressing performance issues
+
+- Don't say: *If you don't... I can't promise you a job.*
+
+- Say: *Are you okay?... I'm worried about you... I know what you're capable of*
+
+- Recognize that there may be factors of which you're not aware
+
+- Show your empathy to create a space where people can ask for help
+
+#### Show vulnerability
+
+- Vulnerability is about **honesty**
+
+- It means saying:
+    + I don't know what I'm doing
+	+ I don't know how to do that
+	+ I made a mistake
+
+- Model vulnerability for others by admitting your mistakes and exposing your weaknesses
+
+- When you allow yourself and others to bring their humanity to work, you make the organization stronger
+   + [WD40 CEO Gary Ridge, humble, says he is not a expert but a student and sometimes an idiot; wants to build a a culture of learning]
+
+### Charlene Li: Listen at scale
+
+### Charlene Li
+
+- Founder and CEO, Altimeter Group
+
+- Author, *The Engaged Leader*
+
+#### Listening at Scale
+ 
+- Constant turning in to the audiences that are important to you for reaching your goals
+
+#### Extending Your Influence: Listen at Scale
+
+#### Choose your audience wisely
+
+- Once you've selected your key audience, allocate 15 minutes to just listening
+
+- *What is your audience's truth?*
+
+- Hone in on specific converstations
+
+- *Where is your audience located?*
+
+- *What topics are they talking about?*
+
+- Identify and listen to your trusted *filters*
+
+- These are people whose views you trust in the market place:
+    + connectors
+	+ influencers
+	+ subject matter experts
+
+#### Lessons Learned at Red Robin
+
+[story about RR new burger failure, listened to employees via internal social network, and fixed the problem in 30 days when typically 12-18 months to make a change]
+
+- Use your enterprise social network to communicate with the front lines
+
+- This gives you a direct line to the consumer and may help you shortcut your company's development and innovation process
+
+### Charline Li: Share to shape
+
+#### Sharing to Shape
+
+- Sharing ideas with another in order to achieve common goals
+
+#### Extending Your Influence: Share to Shape
+
+#### Consider it a win-win
+
+- Be sure to listen so you understand what others want to hear from you
+
+- Know your sharing limits
+
+- When developing your communication startegy, determine in advance the topics that you will not discuss
+
+#### Lessons Learned by John Chambers, CISCO
+
+[story of Chambers making duck calls videos to show he is a real person and love duck hunting]
+
+- Show your humanity by creating informal and personal videos
+
+#### Lessons Learned by Padmasree Warrior, CISCO 
+
+[posting on social media (virtue signalling?)]
+
+- Pair personal insights with business acumen to create a well-rounded portrait of a leader
+
+### Lisa Lampanelli: Practice servant leadership
+
+- Lisa Lampanelli: Comedian
+    + [wants audience to respond: "Me too!"]
+
+#### Practice Servant Leadershp
+
+- Let your audience know they're not alone
+
+#### How to Pick the Right Story...
+
+#### How to Pick the Right Story for Your Audience
+
+- Get to know the **group dynamic** before hand
+    + Do some research
+
+- Aim for **impact**
+
+- Ask:
+    + *Will my story resonate with the audience spiritually?*
+    + *Will my story resonate with the audience emotionally?*
+
+- Be mindful of your core audience's **limits**
+
+- Ask:
+    + *What are their limits in relation to my own?*
+
+### How to Pick the Right Story *from Your Point of View*
+
+- Try to isolate a **piece of wisdom** that you know for sure:
+    + Draw from *experiences* or *messages* that have driving you throughout your life
+    + Write down what still brings you *joy*
+	+ Think back to your childhood for clues
+	+ Reflect on your *sense of purpose* today
+
+- Choose the story that *lights you up*
+
+#### How to Find Your Voice...
+
+- Formal rules of presentation are useful for giving structure to your remarks
+    + But they can't take the place of your own unique voice
+
+#### How to Find Your Voice *in Terms of Style*
+
+- Practice **attunement**
+    + Listen to yourself and observe how others react to you
+
+- Ask:
+    + *How do I naturally speak?*
+	+ *When do people seem really engaged?*
+
+- Lean into that delivery when crafting your remarks
+
+#### How to Find Your Voice *in Terms of Material*
+
+- Draw on your **passons**:
+    + Make a list of 50 things you *love* and 50 things you *hate*
+
+- When you speak form the heart, you invite people in
+
+- You let your audience know that you're in the same pursuit together
+
+### Charlene Li: Engage to transform
+
+#### Engaging to Transform
+
+- Participation in a dialogue with a group either as a whole or by proxy
+
+#### Extending Your Influence: Engage to Transform
+
+#### Lessons Learned from Mark Bertolini, Aetna
+
+[talked directly to customer who was told life-time benefits had run out to get their perspective (well, duh!)]
+
+- Engage selectively with a problem-solving objective in mind
+
+- Make a plan outlining how and when you will engage with that stakeholder
+
+- Be intentional about your reasons for engaging and clear about the outcomes you expect
+
+
+[instructor has a keen sense of the obvious!]
+
+
+Thoughts
+- Tell story of solving problem at Ford as co-op: data out of control, confirmed, noticed an addional variable (A or B), and make charts for A and B separately: A was in control and B showed wear. Engineer: "We can go home now!"
+

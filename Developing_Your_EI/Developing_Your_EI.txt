@@ -1,0 +1,624 @@
+# Developing Your Emotional Intelligence
+
+https://www.linkedin.com/learning/developing-your-emotional-intelligence/
+
+## Course details
+1h * Beginner * Updated: 6/14/2021
+
+Emotional intelligence can help you build effective relationships at work. Executive coach and organizational psychologist Gemma Roberts explains what emotional intelligence (EQ) is and why it's important. She helps you become more self-aware so that you can identify triggers that may hijack your performance. Gemma also helps you align your intentions and your impact so that you can build strong and collaborative relationships.
+
+## Learning objectives
+
+- What is emotional intelligence?
+
+- Watching for triggers and hijacks
+
+- Finding flow
+
+- Disrupting thinking
+
+- Reclaiming reaction time
+
+- Shifting perspective
+
+- Empathizing
+
+- Listening and communicating
+
+- Playing to strengths
+
+- Collecting feedback
+
+- Aligning intention and impact
+
+## Skills covered
+
+- Emotional Intelligence
+
+## Introduction
+
+### What are the benefits of emotional intelligence?
+
+#### Areas of EQ
+
+- Self-awareness
+
+- Self-management
+
+- Social awareness
+
+- Relationship development
+
+#### Process
+
+1. Event 
+    + cut off by another car
+
+2. Thoughts and emotions
+    + brain
+
+3. Behavior
+    + honk horn
+
+#### Benefits
+
+- Reach personal goals
+
+- Build strong, collaborative relationships
+
+## 1. Understanding Emotional Intelligence
+
+### What is emotional intelligence (EQ)?
+
+#### Defining Emotional Intelligence
+
+- Understanding and expressing emotions
+
+- Using empathy
+
+#### Psychological Makeup
+
+- Emotional intelligence
+
+- Personality
+
+- IQ
+
+#### You can develop your emotional intelligence
+
+- EQ = Emotional Quotient
+
+- IQ = Intelligence Quotient
+
+#### Measuring EQ
+
+- Being aware of emotions
+
+- Expressing emotions
+
+- Controlling emotions
+
+- Relationship management
+
+#### Areas of EQ [repeated]
+
+- Self-awareness
+    + inward
+
+- Self-management
+    + inward
+
+- Social awareness
+    + outward-facing
+
+- Relationship development
+    + outward-facing
+
+### The emotions in EQ
+
+#### Emotions
+
+- Feelings you experience
+    + positive or negative
+	+ minor or major
+
+#### Understanding and managing your emotions is critical
+
+#### Responses to Emotions
+
+[story of Bob presenting report at work]
+
+- Emotion: Fear =>
+
+- Response: Anger => 
+
+- Physical symptoms: Sweaty palms
+
+#### What Emotional Intelligence Drives
+
+- Your reactions
+
+- Your attitude toward challenges
+
+- Your relationships
+
+### Managing emotional reactions
+
+[observe arguement to 2 co-workers]
+
+#### Emotional Responses
+
+1. Learn how the process works
+
+2. Intercept the process
+
+3. Make changes
+
+#### Ways of Thinking
+
+- *Thinking, Fast and Slow* by Daniel Kahneman
+
+1. Fast, emotional, and intuitive
+
+2. Slow, deliberate, and logical
+
+#### Taking Control
+
+1. Accept your emotions
+
+2. Slow down your reactions
+
+#### Process
+
+1. Event
+
+2. **Thoughts and emotions** (Intercept)
+
+3. Behavior 
+
+
+### Chapter Quiz
+
+1. How can you make the disruption of undesirable emotional reactions a routine process?
+- through analysis of past behavior - No
+- through conscious practice - Yes
+- by meditation - No
+- by stifling all responses - No
+
+2. What is the first step in building emotional intelligence?
+- Be aware of how your emotional response process works - Yes
+- Take a personality test
+- Learn a list of possible emotions
+- Find an accountability partner
+
+3. Why is it beneficial to manage emotions?
+- to control subsequent behavior - Yes
+- to foster building relationships - Yes -> NO
+- to enable deliberate thought - Yes -> NO 
+- to boost self-esteem
+
+4. Your level of emotional intelligence will determine _____.
+- how often you will have disagreements with others - No
+- how likely you are to be promoted - No
+- how intelligent you are - No
+- how you react to challenging situations - Yes
+
+5. The following concepts are all important aspects of emotional intelligence. Which one faces inward?
+- relationship management
+- emotion management - Yes
+- social awareness
+- empathy
+
+## 2. Being Self-Aware
+
+### Understanding your personal EQ
+
+#### Misconception
+
+1. Event =>
+    + cut off by another car
+
+2. Behavior (reaction)
+    + honk horn
+
+#### Actual Process
+
+1. Event 
+    + cut off by another car
+
+2. Thoughts and emotions
+    + brain
+
+3. Behavior
+    + honk horn
+
+#### Start by recognizing your emotions
+
+- Exercises Files
+    + "Personal Reflection Tool.pdf"
+
+### Managing your mindset
+
+[story of losing contract - missing from desk]
+
+#### Cognitive Hijack
+
+- Irrational response to an event
+    + Trigger =>
+	+ Emotions =>
+	+ Irrational response
+
+#### Cognitive shortcuts help our brains focus on important information
+
+#### Triggers
+
+- Events or thoughts that consistently take you in the wrong direction
+
+#### What are your emotional triggers?
+
+### Finding your flow
+
+(forget how much time is going by or don't want to stop doing something)
+
+#### Flow
+
+- Complete immersion in an activity (focused)
+
+#### Benefits of Flow
+
+- Achieve peak performance
+
+- Have a positive mental experience
+
+- Decrease emotional triggers
+
+#### [Flow varies by person]
+
+[2 people with same job, one experiences flow, the other experiences stress]
+
+- Clarify your flow and weave it into your working life
+
+### Chapter Quiz
+
+1. A team is debugging legacy code. Marcus is daunted by errors. Jan says, "It can't be done!" Oscar continues to correct errors and loses track of time. Flauta is stuck on the first error. Who is in their flow?
+- Oscar - Yes
+- Jan
+- Marcus
+- Flauta
+
+2. What is flow?
+- having fun at work
+- being flexible
+- complete immersion in an activity - Yes
+- adapting to situations
+
+3. We rely heavily on cognitive shortcuts, which help us to focus on the important information and make quick decisions.
+- TRUE - Yes
+- FALSE
+
+4. What is the principle tool for developing self-awareness?
+- role-playing in stressful, social situations
+- emotional discipline
+- deliberative decision-making
+- analysis of past situations, emotions, and actions - Yes
+
+5. What are the key factors that cause you to react to a situation?
+- how many times you've experienced the same situation before
+- how you think and feel about the situation - Yes
+- how others behave and speak to you
+- how likely you are to be able to influence and change the situation
+
+## 3. Managing Yourself
+
+### Thoughts and emotional intelligence
+
+#### ABCDE
+
+- ABCDE is a tool that helps you take control of difficult situations and exercise emotional intelligence
+
+#### A: Activating Event
+
+[story of 2 coworkers, a PM Pryia and an IC Dan, who is consistently late, and is really late this week]
+
+#### B: Beliefs
+
+[Pyria: "Dan doesn't respect me."]
+
+#### C: Consequences
+
+[angry confrontation]
+
+#### Think like an objective bystander
+
+#### D: Disrupting thought
+
+[Pyria: "Maybe Dan doesn't know how he's impacting me."]
+
+#### E: Effect
+
+- Exercises Files
+    + "Distruptive Thinking Tool.pdf"
+
+### Dealing with stressful situations
+
+#### It takes **practice** to break the chain between thinking, feeling, and reacting
+
+#### Slowing Down Reactions
+
+1. Identify the emotional reaction
+
+2. Remove yourself from the situation
+    + [take slow deep breaths and lower heart rate]
+
+3. Give yourself time to recover
+
+4. Challenge your thoughts
+
+5. Choose how to respond
+
+### Shift perspective to shape behavior
+
+[story about watching a maning down a road]
+
+#### Make shifting perspectives a habit
+
+#### Tips to Broaden Your Perspective
+
+1. Seek out different points of view
+
+2. Ask more questions
+
+3. Get acquainted with new people
+
+4. Read books on a variety of topics
+    + (always be learning)
+
+#### How broad is your perspective?
+
+### Chapter Quiz
+
+1. Margaret is often irked by Julio's interruptions of her meetings. How should Margaret try to view Julio's behavior in order to address the situation?
+- as objectively as possible - Yes
+- from the perspective of her supervisor
+- from Julio's perspective - Yes -> NO
+    + Julio's perspective may be equally as flawed as Margaret's
+- as the other meeting attendees - Yes -> NO
+
+2. What does the 'D' stand for in the ABCDE model?
+- deviating from past behavior
+- deciding action
+- disrupting thoughts - Yes
+- debating next steps
+
+3. Alfred, the chair of an informal committee for road and trail maintenance, wishes to broaden his perspective on problems that may arise in the next year. Which tactic is the LEAST helpful?
+- informally questioning all other committee members
+- examining his own opinions and strategies in detail - Yes
+- reading about committee leadership and road maintenance
+- seeking out new members for the committee
+
+4. What is an effective way of shifting your perspective?
+- Respond to queries and questions
+- Explain the way you see things to others
+- Seek different points of views - Yes
+- Find someone who agrees with you
+
+5. Horst walks into the Tuesday meeting and is immediately confronted by Javier concerning the cost overruns on artwork. What should Horst do?
+- He should tell Javier that he is also upset
+- He should ask for comments from other attendees
+- He should take a moment to calm himself - Yes
+- He should walk out on the meeting
+
+6. Which of these are tactics you can use to slow down reaction time in heated situations?
+- Choose your thoughts
+- all of these answers - Yes
+- Take some time and space to breathe
+- Challenge how you will respond
+
+## 4. Social Awareness
+
+### Develping social awareness
+
+#### Social Awareness
+
+- The ability to understand others and respond to their needs
+
+#### [2 step process]
+
+1. Develop self-awareness
+    + inward
+
+2. Develop social-awareness
+    + outward
+
+#### Develop social-awareness
+
+1. Use your senses to actively gather information
+
+2. Seek to understand others' thoughts and relationship dynamics
+
+#### Are you pickin gup on social cues?
+
+### Connecting with empathy
+
+#### Empathy
+
+- The ability to sense others' emotions, thoughts, and feelings
+
+#### Tips for Developing Empathy
+
+1. Ask questions
+
+2. Imagine how the other person feels
+
+#### Don't assume you know **exactly** what a situation is like for someone else
+
+#### Don't try to indentify with everything the person says
+
+#### [offer support and understanding]
+
+- "I imagine that could make you fee..."
+
+- "I suppose that situation could make you thing..."
+
+#### [Tips]
+
+- Ask questions
+
+- Offer support
+
+### Communication and social awareness
+
+#### [Body communication > words]
+
+#### Your unconscious communication is driven by your thoughts, feelings, and mood
+
+- Person 1: "This should be effective because..."
+
+- Person 2: (doubting body language)
+
+#### **Listen** to find solutions and uncover new perspectives
+
+- Do you listen intently?
+
+- What can you do to become a better listener?
+
+### Chapter Quiz
+
+1. What is the key goal of effective communication?
+- Get your message across to others and listening to their point of view - Yes
+- Learn how to master all forms of verbal and nonverbal communication
+- Speak in a loud and clear tone
+- Ensure that your message is clear so others understand what you want to communicate
+
+2. Susan is trying to empathize with Olivia's recent illness. Which two principles should guide her speech?
+- Recall similar situations and divert attention
+- Use examples and be personal
+- Ask questions and do not presume to know the answers - Yes
+- Use neutral body language and remain quiet
+
+3. Which statement is the most appropriate, empathetic model?
+- That must be totally devastating
+- I can see how that could be really discouraging - Yes
+- I remember when something just like that happened to me
+- My grandmother used to tell me how to fix all problems like that one
+
+4. People who pay attention to their senses so they are socially aware are often said to be _____.
+- observant - Yes -> NO
+    + Yes, they are observant, but they also draw conclusions from the observations
+- intuitive - Yes
+- aggressive
+- nosy
+
+5. Using your senses to learn more about the world and people around you will help to enhance your social awareness.
+- TRUE - Yes
+- FALSE
+
+## 5. Managing Relationships
+
+### Play to your personal strengths
+
+#### Capitalize on your unique communication strengths
+
+#### Relationship Management Skills
+
+- Communicating clearly
+
+- Listening closely
+
+- Ensuring people feel comfortable
+
+- Picking up on group dynamics
+
+- Making authentic connections
+
+#### (Tips)
+
+- How do others perceive you?
+
+- What skill do you have when interacting with others?
+
+- Do you have the ability to understand others' feelings?
+
+- What skills could you develop in these areas?
+
+### Collect feedback to build connection
+
+#### Ask others how they perceive you
+
+#### Listen to feedback without getting self-critical or defensive
+
+#### Review, Refine, Repeat
+
+1. Review how you manage relationships
+
+- "How do I generally come across to others?"
+
+- "How would you describe me when I'm in a team environment?"
+
+- "What am I good at when it comes to interacting with other people?"
+
+- "What could I tweak to get better at building and maintaining relationships?"
+
+[The feedback you receive are opinions, not facts, so try to feedback from as many people get as many as you can]
+
+2. Refine your approach to relationships
+
+3. Repeat the process
+    + (a journey)
+
+### Communicate intention and impact
+
+#### How someone perceives the messsage can be more important than the message itself
+
+#### What do you want people to take away from your message?
+
+#### Focus on the key messages
+
+#### Focusing on Intent
+
+- Boosts confidence
+
+- Allows you to be flexible
+
+- Allows for authenticity
+
+#### What do you want the other person to take away from this interaction?
+
+### Chapter Quiz
+
+1. What are the benefits of enhancing one's strengths rather than creating a new style?
+- authenticity and trust - Yes
+- focus, and discipline
+- authority and clarity
+- self awareness and ease
+
+2. The impact we make is about _____.
+- how someone else perceives us and our message - Yes
+- being a leader in any situation
+- the facts we want people to grasp
+- influencing others during a debate
+
+3. Alex needs to approach several stakeholders individually to deliver details of the current expansion strategy and solicit their feedback. What should Alex's focus be?
+- tone and body language - Yes -> NO
+- feedback and authenticity
+- the perceived message - Yes
+- the delivered message
+
+4. How can you ease the sting of gathering potentially negative feedback?
+- by systematically refuting negative feedback
+- by discussing the negative feedback with others
+- by focusing on the process and gathering multiple opinions - Yes
+- by embracing negative feedback and implementing change
+
+5. You should collect feedback in a variety of situations and contexts.
+- FALSE
+- TRUE - Yes
+
+6. Playing to your strengths is about _____.
+- building your emotional intelligence strength
+- knowing what your strong points are and enhancing those - Yes
+- getting good feedback from others
+- improving your development areas
+
+
+

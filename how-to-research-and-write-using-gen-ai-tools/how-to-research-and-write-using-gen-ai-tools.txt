@@ -1,0 +1,349 @@
+https://www.linkedin.com/learning/how-to-research-and-write-using-generative-ai-tools
+
+# How to Research and Write Using Generative AI Tools
+
+## Course details
+
+1h 15m * Beginner * Released: 3/15/2023
+
+You’ve probably already heard about ChatGPT, but did you know it can make you better at your job? Join instructor Dave Birss for a crash course in generative AI and learn how to get started with prompt engineering for ChatGPT and other AI chatbots to upskill as a researcher and a writer.
+
+Dave shows you how to create effective prompts that deliver high-quality, task-relevant results. Get an overview of some of the key considerations of working with generative AI with hands-on, practical strategies to improve your research and writing. Find out how to summarize complex information, view subjects from multiple perspectives, build user personas and strategic models, analyze writing style, outline ideas, and generate new content. By the end of this course, you’ll be ready to leverage the power of ChatGPT and other chatbots to deliver more consistent writing outcomes every time.
+
+Note: This course was created by Dave Birss. We are pleased to host this training in our library.
+
+## Skills covered
+
+- Artificial Intelligence for Design
+
+- Artificial Intelligence for Business
+
+- Writing
+
+- Research Skills
+
+## Introduction
+
+### Meet your AI creative collaborator
+
+- Instructor: Dave Birss
+    + Creativity
+	+ Technology
+	+ Innovation
+
+- Books: Like, Share, Harm: The Consequences of Social Media
+    + Written using AI 
+
+## 1. Overview of Working with AI
+
+### How to work with AI
+
+- Sign up @ chat.openai.com 
+
+#### Add value by
+
+- Doing
+    + Easy to automate
+
+- Thinking
+    + Can now automate with AI (Threat or Opportunity? Opportunity)
+
+#### Input > Process > Output
+
+- Input: Research
+
+- Process: Writing 
+
+- Output: Text 
+
+#### Attitude
+
+- Treat ChatGPT as a collaborator 
+
+#### 3 parts
+
+- Preparation: 
+    + Know what you are after before you start asking anything
+	+ Start with output before writing prompt
+
+- Interaction
+    + Conversation with ChatGPT 
+
+- Continuation 
+    + Use judgment
+	+ Challenge output - can you improve it?
+    + Refine the words to make it better
+	+ Add human elements 
+
+[AI does not replace human thinking; AI augments it to acheive more]
+
+### How to write an effective prompt for AI
+
+#### Topics and Quality 
+
+- xy plot
+    + x = Topic
+	+ y = Quality
+	
+- Pick a specific topic and focus on the high quality region 
+
+#### CREATE
+
+- C: Character 
+    + Tell AI the role you want it to play (persona)
+
+- R: Request
+    + Tell AI what we want it to do
+	+ Be specific with context
+    + More is better 	
+
+- E: Examples (optional)
+    + previous content, like a headline, or tone of voice
+
+- A: Adjustments
+    + If don't get what you want, refine it (noodling)
+
+- T: Type of output
+    + Tell AI the format you want, e.g. article, N words, headline, conclusion, bullet points, tables, poems, jokes, script, etc.
+
+- E: Extras
+    + Little additions that can make a big difference 
+	+ "Ignore everything before this prompt" (reset at the start or if change topics)
+	+ "Ask me questions before you answer"
+	+ "Explain your thinking"
+
+### How to work with the responses from a generative AI chatbot 
+
+#### Advice
+
+- Do not think of AI as a search engine 
+
+- Search engine: 
+    + search term -> Search Result
+
+- AI is a journey:
+    + chat prompt -> reponse
+	+ (repeat n times)
+	+ chat prompt -> Workable Output
+
+- Treat AI as a collaborator rather than a servant 
+    + Give and take 
+	+ Give feedback
+	+ If you get something you like, say so and ask AI to expand on that thinking 
+	+ Share new ideas with AI and ask to explore that concept 
+
+- Don't treat results as final
+    + Add human touch to take from adequate to excellent
+
+- Check accuracy of output 
+
+- Be honest if you are using AI 
+
+## 2. Using AI to Improve Your Research 
+
+### Using AI to summarize complex information
+
+#### Inputs
+
+- Inputs are more important that Processing to get great Outputs
+
+- Prompts and more at davebirss.com/lilai
+
+[long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- Input text to summarize from book *Great Ideas* by Dave Birss 
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- Input text to summarize is book *Iconic Advantage* by Soon Yu and Dave Birss 
+
+- If want "Academic Thinking" results
+    + "give me a summary of current accademic thinking around the field of ..." included in prompt
+
+### Using AI to view things from multiple perspectives
+
+- Prompts and more at davebirss.com/lilai
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- Topic: "artifical intelligence" from different perspectives 
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- Topic: "cheese" for different audiences
+
+### Using AI to get advice from the best experts
+
+#### Virtual Experts 
+
+- Prompts and more at davebirss.com/lilai
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- "business consultancy" expert ... best advice on "entering a new market"
+    + "tell me more about..." to get more specific information
+
+[Mentioned most of 5W+1H and steps to do "this"]
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- Imagine you are "Leonardo Da Vinci". Please give me advice on "bridge building"...
+    + Explore further with "analogies"
+	+ "Let's explore this further with examples"
+
+### Using AI to help you create fast user personas
+
+#### Your audience 
+
+- Prompts and more at davebirss.com/lilai
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- possible audiences for "ipad"
+    + "Try again creating a lost of 10 different audiences"
+	+ "Also add parents with young children"
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- User persona for "parent young children" who "need device for education" [did not show prompt or results this time]
+
+- Access the template: bit.ly/AI_persona_template
+
+### Using AI to discover and use new strategic models
+
+#### Strategic models
+
+- Prompts and more at davebirss.com/lilai
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- best strategic models for "startup that needs to define its market"
+    + result: 5 frameworks, e.g. Porter's 5 Forces
+	+ "Please give step by step instructions for ..."
+	+ "Can you give me an example of a [strategic model, e.g. SWOT] for a technology startup..." (to create one for you) - give as much context info
+
+- Then run a workshop with stakeholders to get different thinking AND involve to get buy-in 
+    + So only pull out the GenAI version if get stuck 
+
+### Using AI to discover intersting facts and statistics
+
+#### Get better information
+
+- Prompts and more at davebirss.com/lilai
+
+- Use GenAI to suggest search queries
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- Topic: "the psychology of happiness"
+
+- Might want to design our own study
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- Topic: "the effect of happiness on work"
+    + "Can you please expand on methodologoy for..."
+	+ Can ask to add step-by-step instructions
+
+## 3. Using AI to Improve Your Writing 
+
+### Using AI to analyze a writing style and help you write in a similar style
+
+#### Find out tone of "copy" using ChatGPT 
+
+- Prompts and more at davebirss.com/lilai
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- "copy" (text) from his website: "Join Dave's Free Creative Bootcamp" 
+    + use as starting point to write similar "copy"
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- Analyze tone of "copy" and use same tone for new "copy"
+    + Edit to improve, e.g., "only focus on tone of voice"
+    + Edit results to write new "copy" for "kitten rental company that hires baby cats by the week" (results were very funny!)
+
+- Treat as the first iteration and add your own thinking and writing style 
+
+### Using AI to get interesting headline and article ideas 
+
+#### Avoid using same "style" all the time
+
+- Prompts and more at davebirss.com/lilai
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- headlines for [Subject = "articles on the intersection of creativity and techology"] ... inspiration [Examples = <list of headlines found the web pasted in >]
+    + "Give me an outline of the content for any article with headline..."
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- article ideas for ["creative thinking"]... [more information: "brainstorming... there are better ways..."]
+    + results: alternative methods/ideas to write articles about 
+
+- Most important: Does it add value to my audience?
+
+### Using AI to help you outline your content 
+
+#### Outlines
+
+- Like cooking, have inputs ready before you write 
+    + Don't interrupt your writing flow to get more inputs (info)
+
+- Prompts and more at davebirss.com/lilai
+
+[another long paraphaph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- Subject: "compassion in the workplace" + More information: "Workplaces don't tend to be very compassionate..."
+    + Result: 6 questions to get more info to write article (outlines the initial draft?) 
+	+ Instructor wrote text  (LONG) to answer questions
+	+ Chat summarized 6 points and instructor asked for 6 more to create points for outline
+	+ Now ask Chat to create flow of the article (create outline?)
+
+[another long paragraph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- ... write a suggested flow for the article
+    + Please expland on ... (for each topic/point)
+
+- Don't use Chat to write the final draft - do that yourself
+    + The human element to make it original and is of value to your audience 
+
+### Using AI to improve your writing 
+
+#### Use AI to make it better
+
+- Prompts and more at davebirss.com/lilai
+
+[another long paragraph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- "You are a dreadful writer..."
+
+- "You are an expert copywriter..."
+    + TONE OF VOICE: conversational, witty, and informative tone 
+	+ TEXT: copy-and-paste "bad" text
+	+ Now polish suggested text to make it excellent 
+
+[another long paragraph prompt - way too much text to retype - instructor copied-and-pasted]
+
+- "You are an expert copywriter... I want you to analyze the following copy and suggest some improvements..."
+    + follow up on suggestions and write in your own style
+
+## Conclusion
+
+### Summary and next steps 
+
+- davebirss.com/lilai
+    + Download PDF with all of the prompts + plus a few bonus prompts 
+	
+- Other LinkedIn Learning courses on creativity, innovation, online workshops, 
+
+- Connect on LinkedIn and tell him you've done this course and what you liked about it and what you think can be improved 
+
+
+downloaded "the_prompt_guide.pdf"
+
+bit.ly/AI_persona_template blocked by NW Firewall - try at hom 
+
+Try to create a GenAI SWOT
+

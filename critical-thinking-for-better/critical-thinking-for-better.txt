@@ -1,0 +1,1026 @@
+https://www.linkedin.com/learning/critical-thinking-for-better-judgment-and-decision-making
+
+# Critical Thinking for Better Judement and Decision-Making
+
+## Course details
+
+56m * Advanced * Updated: 7/16/2020
+
+The pace of change and volume of information we encounter in daily life make it hard to think through decisions. Instead, people often rely on biases and rules of thumb, which trap them into drawing faulty conclusions. The most successful teams use critical thinking—objective and rational analysis—to illuminate the wisest conclusions. This course prepares leaders to hone the critical thinking skills of their entire organization. Learn how to upgrade critical thinking to avoid deceiving fallacies, spot misleading cognitive biases, craft better arguments, hone judgment, and improve decision-making. Instructor Becki Saltzman teaches skills that will improve how your company or team innovates, tackles challenges, and responds to change.
+
+## Learning objectives
+
+- Comparing critical and strategic thinking
+
+- Minimizing bad judgements
+
+- Recognizing cognitive bias
+
+- Using counterfactual thinking
+
+- Overcoming loss aversion
+
+- Avoiding logical fallacies
+
+- Creating a culture of critical thinking
+
+## Skills covered
+
+- Decision-Making
+
+- Critical Thinking
+
+## Introduction
+
+### Upgrading critical thinking
+
+#### [Need critical thinking]
+
+- Separate fact from fiction
+
+- Transfer knowledge 
+
+- Ask quality questions
+
+- Challenge assumptions
+
+#### Confirmation Bias
+
+- "Objective Facts" Circle
+
+- "Facts Confirming Your Beliefs" Circle
+
+- Intersection: What You Believe
+
+#### Clustering Illusion
+
+- Seeing patterns where there aren't any
+
+### [Feedback loop]
+
+- Better questions => Intellectual curiosity
+
+- Intellectual curiosity => Better questions
+
+### Avoiding five critical-thinking killers
+
+#### [Top Five Critical Thinking Killers]
+
+1. Overreliance on authority
+    + Rely on evidence, not authority
+
+2. Black-and-white thinking 
+    + Hot vs. Not Hot (binary)
+	+ Hot vs. Cold (opposites - ends of a scale)
+
+3. [Hasty] Moral Judgments 
+    + quickly judging something/someone as good or bad 
+	+ delay until after deliberation
+	
+4. Labels
+    + Lump things together [i.e., sterotype, e.g. millenial]
+	+ Miss differences and not evidence-based
+
+5. Resistance to Change 
+    + Changing your mind is required for critical thinking
+
+#### First step
+
+- Set aside immediate and emotional reactions
+
+### Chapter Quiz
+
+1.What is NOT a common critical thinking killer?
+
+black-and-white thinking
+
+asking too many questions - Yes
+    + Asking too many questions may be a distraction, but it's not a major barrier to critical thinking.
+
+hasty moral judgments
+
+labels
+
+2. What causes us to bucketize items and miss important distinctions?
+
+excessive reliance on authority
+
+resistance to change
+
+hasty moral judgments
+
+labels - Yes
+    + Labels encourage us to bucketize items together, when we should use more relevant evidence.
+
+## 1. The Critical Thinking Difference
+
+### Critical versus strategic thinking
+
+#### [Importance of Critical Thinking]
+
+- "Critical thinking is the language of strategy"
+    + Stanford Business School
+
+#### [Three Types of Thinking]
+
+- Critical (Circle)
+    + Information quality
+	+ Information relevance
+	+ Rational beliefs
+	+ Rational actions
+
+- Creative (Circle)
+    + Fresh perspectives
+	+ New ideas and solutions
+
+- Strategic (Circle)
+    + Insights
+	+ Opportunities
+	+ Barriers
+	+ Solutions
+	+ Goals
+
+#### Creating Thinking [example]
+
+- How can we rearrange this problem to discover a solution?
+
+#### Strategic Thinking [example]
+
+- How or why do we do that?
+    + [5 whys/hows example on security => Critical Thinking (overlap)] 
+
+### Seven ways to think about thinking
+
+#### MVQ 
+
+- Most Valuable Question 
+
+#### 1. Purpose
+
+- Why are we doing this?
+    + [5 Whys application]
+
+#### 2. Questions
+
+- What are the best questions to ask?
+
+#### 3. Assumptions
+
+- What can we safely assume?
+
+#### 4. Perspective
+
+- Are we using insights from the wisest points of view?
+
+#### 5. Information
+
+- How strongly is our reasoning supported by relevant information?
+    + [evidence that supports reasoning]
+
+#### 6. Concepts
+
+- Are we all agreeing on the meaning of this idea or concept?
+    + [shared mental model]
+
+#### 7. Conclusions
+
+- What is the best way to interpret this information?
+
+### Conditions to think beneath the surface
+
+#### Ability to Change Your Mind 
+
+- "He who knows only his own side of the case knows little of that"
+    + John Stuart Mill, British economist and philosopher 
+
+#### [Example]
+
+- Decision: How to increase office space
+
+- Options:
+    + Move now
+    + Move later
+    + Remodel
+
+- Assign each to 3 people to debate and then switch assignments and redebate 
+
+#### Reflective Skepticism 
+
+[Apply to above Example as an exercise]
+
+1. Is this a fact?
+
+2. How relevant is this information?
+
+3. Is this statement factually accurate?
+
+4. Is the source credible?
+
+5. Are these claims or arguments ambiguous?
+
+6. Are we uncovering assumptions?
+
+7. Are we detecting bias?
+
+8. Are we spotting logical fallacies?
+
+9. Are there inconsistencies in this line of reasoning?
+
+10. How strong is this argument or claim?
+
+### Chapter Quiz
+
+1. Ivory is listening to a manager present statistics that they believe supports a new initiative. Which type of critical thinking question would Ivory most likely ask at this point?
+
+Are we all agreeing on the meaning of this idea?
+
+What can we safely assume?
+
+Why are we doing this? - No
+
+How strongly is our reasoning supported by relevant information? - Yes
+
+2. Mack and his team have debated on what should be included in the next release of a product. However, they still believe there is more to consider. Which critical thinking condition is the team using?
+
+academic process
+
+ability to think strategically
+
+reflective skepticism - Yes 
+    + This approach helps the team ask a series of questions, and then discuss how each could determine a critical thinking error.
+
+ability to change one's mind
+
+3. Which choice is the best example of a critical thinking question?
+
+How can we find out if this is true? - Yes 
+
+How can we solve this differently?
+
+How can we do that?
+
+What's our mission?
+
+4. You are in a meeting where a coworker is presenting a new product. You start asking questions about the market trends. Which type of thinking is this?
+
+strategic thinking - Yes 
+    + Inquiring about facts, ideas, strengths and weaknesses, or trends exemplifies thinking strategically.
+
+product thinking
+
+critical thinking
+
+creative thinking
+
+5. Which common element of thinking corresponds to the question, "What is the best way to interpret this information?"
+
+concept
+
+purpose
+
+conclusion - Yes 
+    + This common element is about interpreting and giving meaning to information, such as evaluating product defects.
+
+perspective
+
+6. Which is a necessary condition for critical thinking?
+
+influence
+
+collaboration
+
+the ability to change your mind - Yes 
+    + Critical thinking can't thrive without reflective skepticism and the ability to change your mind.
+
+global perspective
+
+
+## 2. Minimizing Bad Judgment
+
+### A Nobel Prize-winning way to think about thinking
+
+[Daniel Kahneman background]
+
+#### System 1 vs. System 2
+
+- System 1
+    + Fast
+	+ Automatic
+	+ Efficient
+	+ Unconscious
+
+- System 2
+    + Slow
+	+ Effortful
+	+ Controlled 
+
+[Key is to match the type to the situation, where most often people apply System 1 when they should apply System 2]
+
+[All DS projects require System 2?]
+
+#### System 2 Thinking
+
+1. Stop multitasking
+
+2. Turn off notifications 
+
+3. Sleep (get enough)
+
+4. Eat (don't judge on an empty stomach)
+
+5. Avoid complex situations (requires self-control and pre-work, e.g. pre-reading)
+
+[error: thinking fast when you should be thinking slow]
+
+### Can you spot these cognitive biases?
+
+#### Notice **blind spot bias** in yourself
+
+[easy to spot biases in others; hard to spot biases in yourself (Richard Feyman - fool yourself quote?)]
+
+#### Confirmation Bias
+
+- Objective Facts (Circle)
+
+- Facts Confriming Your Beliefs (Circle)
+
+- What You Believe (Intersection)
+
+#### Affect heuristic
+
+- [Rely on emomtional feelings]
+    + [e.g., like Telsa cars, so think Telsa company is a good investment]
+
+#### False consensus bias 
+
+- [overestimate how much others agree with us, and think differing opinions are wrong]
+
+#### Clustering Illusion
+
+- Seeing patterns where there aren't any
+    + [And confuse correlation and causation]
+
+#### Availability Heuristic
+
+- Everything happening in the world (Big circle)
+
+- Information covered by the news (Small circle inside big circle)
+
+- [Overestimate likelihood of events that come easily to mind (due to news reports)]
+
+#### [In Class Exercise]
+
+1. "I like their product. We should invest in them."
+    + Affect heuristic
+
+2. "We looked for an found plenty of evidence that the tool we created is the most effective."
+    + Confirmation Bias
+
+3. "I just read a report about people being run over in parking lots... The likelihood of people being run over in parking lots has gone up."
+    + Availability Heuristic
+
+4. "Susan's last 4 proposals have been adopted. I'd bet on Susan's next proposal because she's been on a streak."
+    + Clustering Illusion
+
+5. "Bruce knew that nobody wanted to hear Terrel's presentation."
+    + False consensus bias 
+
+### Chapter Quiz
+
+1. Which statement is true about fast thinking?
+
+Fast thinking allows you to evaluate a decision.
+
+Fast thinking enables you to withstand long meetings.
+
+Fast thinking is prone to misleading biases and judgment errors. - Yes
+    + Thinking too fast causes you to not see all of the facts, and thus leads to biases and judgment errors.
+
+Fast thinking is effortful.
+
+2. Rasherz has done 10 analysis reports this month. His boss thinks Rasherz is on a streak. Which type of bias is Rasherz's boss displaying?
+
+clustering illusion - Yes 
+    + This scenario describes the bias that occurs when there is a pattern with a misleading correlation.
+
+consensus bias
+
+confirmation bias
+
+availability heuristic
+
+3. Which statement reflects confirmation bias?
+
+She doesn't support the proposal.
+
+Everyone we asked agreed with us. - Yes 
+    + Finding only confirming evidence may be a hint that you're only looking for it.
+
+Nobody wants to hear from him.
+
+Her data suggests otherwise.
+
+4. Which statement reflects slow thinking?
+
+My intuition suggests otherwise.
+
+I have a bad feeling about this.
+
+He looks happy about that.
+
+Let's check the safety of that assumption. - Yes 
+
+## 3. Improving Decision Quality
+
+### The REF method: Your intuition referee
+
+#### Intuition
+
+- Thinking you know something without relying on conscious reasoning 
+
+#### Three Conditions for Trusting Intuition: REF
+
+- Regularity
+
+- Exposure
+
+- Feedback
+
+#### Regularity
+
+[verbal comments/examples]
+
+#### Exposure
+
+[verbal comments/examples]
+
+#### Feedback
+
+- Timeline: Intuition ------ Feedback
+    + [Must have a short timeline between Intution and Feedback]
+
+#### [What's not 1 of the 3 Conditions?]
+
+- Regularity
+
+- Exposure
+
+- Feedback
+
+- Confidence - X
+
+### Using conterfactual thinking
+
+#### Conterfactual Thinking
+
+- Uncovering possible alternatives to outcomes from past events 
+
+- Upward counterfactuals are better alternative outcomes
+
+- Downward counterfactuals are worse alternative outcomes 
+
+#### 5 Steps
+
+1. Identify a prior event with an unexpect outcome 
+
+2. Find factors leading to the outcome 
+
+3. Select a factor to modify
+
+4. Assess consequences of modification
+
+5. Generate a counterfactual 
+
+#### [Example: Negotiating terms of payments]
+
+[Under control...]
+
+- First meeting
+
+- Asked to go to net-90 days 
+
+- Stressed supplier's value 
+
+[Did not control...]
+
+- Contract with another company
+
+- New tariffs 
+
+### Overcoming dangers of loss aversion 
+
+#### Choose a Scenario 1
+
+- Option A: +$900, 100% chance?
+    + Most pick this - "sure deal"
+
+- Option B: $1,000, 90% chance? 
+
+#### Choose a Scenario 2
+
+- Option A: -$900, 100% chance?
+
+- Option B: -$1,000, 90% chance? 
+    + Most pick this - not a "sure deal"
+
+[pain of loss > pleasure of win]
+
+#### [Because of loss aversion...]
+
+- Failed projects are considered twice as bad as successful project are considered good 
+
+### [How to fix...]
+
+[Separate Quality of Decision Process and Quality of Outcome]
+
+- Exercise Files > Decision Process Score Card.pdf
+
+#### Score Card 
+
+1. Did we use our preexisting decision framework?
+
+2. Did we gather relevant information?
+
+3. Did we gather irrelevant information?
+
+4. Did we list assumptions to challenge? 
+
+5. Did we make sure our sources are credible? 
+
+6. Did we eliminate biases?
+
+7. Did we include the right people?
+
+8. Did we indentify at least two alternatives?
+
+9. Did we weigh evidence supporting the decision? 
+
+10. Did we weigh evidence rejecting the decision?
+
+11. Did we choose between alternatives? 
+
+#### Decision Process (DP) Scoring
+
+Points Score    Action
+------ -------- --------------------
+11-10  Great DP Consider the outcome
+9- 7   Good DP  Almost there 
+4-6    OK DP    Add to your DP
+0-3    Poor DP  Improve your DP
+
+### Chapter Quiz
+
+1. Which statement does NOT reflect loss aversion?
+
+I will not sell my house for less than what I paid for it.
+
+Let's not renegotiate because we may end up with a worse contract.
+
+You win a few, you lose a few. - Yes
+    + Loss aversion suggests people move to avoid a loss more than to achieve a gain.
+
+Those who might lose will fight harder than those who might gain.
+
+2. Which type of counterfactual refers to an improved outcome?
+
+incline counterfactual
+
+upward counterfactual - Yes 
+
+decline counterfactual
+
+downward counterfactual
+
+3. Which technique is recommended for a loss aversion situation?
+
+Analyze the quality of relevant information with the quality of irrelevant information.
+
+Analyze the quality of a decision process separate from the quality of the people.
+
+Analyze the quality of a decision process separate from the quality of the outcome. - Yes 
+    + One method of achieving this is to use a decision process scorecard that focuses on the decision process and outcome.
+
+Analyze the quality of the outcome with the quality of the alternatives.
+
+4. What are the three conditions necessary to trust intuition?
+
+regularity, exposure, feedback  - Yes 
+
+exposure, confidence, feedback
+
+reality, expertise, frequency
+
+confidence, regularity, expertise
+
+5. Which condition would you least rely on when deciding whether to use your intuition?
+
+regularity
+
+exposure
+
+feedback
+
+confidence - Yes 
+    + This is not a condition you would use to test whether your intuition is reliable.
+
+6. Indra is using counterfactual thinking to discover alternatives for a past unexpected outcome. What is the next step she should take?
+
+Assess consequences of each modification.
+
+Identify factors along the path to the outcome. - Yes 
+    + Indra would need to do this next to understand what happened in the past.
+
+Select one factor at a time to modify.
+
+Generate a counterfactual.
+
+## 4. Critical Thinking Fallacies 
+
+### Most common logical fallacies at work 
+
+#### Logical Fallacies 
+
+- Flaws in reasoning 
+
+#### Identifying Logical Fallacies: Benefits 
+
+- Separate fact from fiction 
+
+- Make better arguments 
+
+- Set aside illogical arguments 
+
+#### Post Hoc, Erog Propter Hoc 
+
+- Latin for "after this, therefore because of this"
+
+- Claiming a former event caused a latter event 
+
+#### Example
+
+- "Did you see our sales dropped in February?"
+
+- "Yes, because Martin joined the company in February!"
+
+[confusing correlation with causation]
+
+#### Ad Hominem
+
+- Ingorning the logic of an argument and instead attacking the person making it 
+
+#### Example
+
+- Person 1: "The numbers for the proposed IT system don't add up."
+
+- Person 2: "But, Marcus, you don't have an MBA!"
+
+#### Straw Man 
+
+- Substiuting argument with a misrepresented view of it 
+
+#### Example
+
+- Person 1: "Let's only hire candidates with five years of experience or less."
+
+- Person 2: "Monique, should we just eliminate all qualifications?"
+    + [Distorted view of Person 1's opinion] 
+
+- Person 2: "We're not going to use Monique's non-qualifications-necessary standard!"
+    + [Attacks Person 1]
+
+[Sneaky argument subsitution]
+
+#### Hasty Generalization
+
+- Drawing conclusions from limited evidence 
+
+#### Example 
+
+- Small sample X (3 dots) is taken from population P (10 x 18 = 180 dots)
+    + Mark Zuckerberg, Bill Gates, and Opra Winfrey were college drop-outs
+
+- Conclusion Z is drawn from sample X and applied to population P 
+    + Dropping out of college will not negatively impact your career 
+
+### Avoiding the planning fallacy
+
+[Taylor Swift: just because you made a plan, doesn't mean that's gonna happen]
+
+#### Planning Fallacy 
+
+- [6 calendars = 6 month plan?]
+
+1. Being overly optimistic 
+
+2. Failing to consider data 
+
+#### [Use The Outside View]
+
+- Inside View
+    + Gathering information
+	+ Determining length of contributions 
+	+ Adding intelligence
+	+ Projecting out 
+
+- Outside View 
+    + Finding references
+	+ Using data 
+	+ Adjusting projections z
+	
+[When others were in this situation, what happened?]
+
+#### Applying the Outside View
+
+- Reference class 
+    + [similar projects or problems]
+
+- Statstics [on reference class]
+
+- Predictions or adjustments 
+
+#### Pro Tip 
+
+- The Green Book
+    + GOV.UK
+	+ Project data 
+	
+### Using framing to your advantage
+
+#### [Eyewitness study example]
+
+- [Framing question changed answers]
+
+- How fast were cars moving when they:
+    + "contacted each other"
+    + "hit each other"
+	+ "smashed each other" => fastest speed estimate
+
+#### Using Framing to Your Advantage 
+
+1. Choose a negative or positive frame 
+    + [use "win" vs. "lose" in question or statement]
+
+2. Take either a loss or gain approach 
+
+3. Match emotions 
+
+#### Positive vs. Negative Framing 
+
+- Positive
+    + Why Acme should win 
+
+- Negative:
+    + Why Titan should lose 
+
+[select depending on your goal]
+
+#### [Loss vs. Gain Example]
+
+- Coin toss gamble
+    + Tails -$100
+    + Heads +$150
+	+ [Most would reject offer because losing $100 psychologically hurts more, but not a rational decision]
+
+#### When to use Gain or Loss Frame
+
+- Gain-framed arguments work when outcome is **clear**
+    + [get favored supplier status if ship on time] 
+	+ [you will live longer if you stop texting while driving]
+
+- Loss-framed arguments work when outcome is **uncertain**
+    + [if you don't ship on time, you won't get favored supplier status]
+	+ [you will die sooner if you don't stop texting while driving]
+
+#### Match emotions example
+
+- How fast were cars moving when they:
+    + "contacted each other" - low emotion
+    + "hit each other" - moderate emotion
+	+ "smashed each other" - high emotion 
+
+[pick emotion to fit desired outcome]
+
+[be on the lookout for others using this framing approach to influence your decisions and judgments]
+
+### Chapter Quiz
+
+1. Which is a key benefit of spotting and avoiding fallacies?
+
+knowing who to support
+
+having more influence
+
+separating fact from fiction - Yes
+    + The three key benefits are separating fact from fiction, making better arguments, and setting aside illogical arguments that others make.
+
+winning more arguments
+
+2. Which statement does NOT reflect a potential planning fallacy?
+
+Our situation is unique.
+
+Let's find statistics from a similar project. - Yes 
+
+They took longer because they didn't know what we know.
+
+Let's go with our best-case scenario.
+
+3. Nathan is getting ready to lead a project. What would you recommend he do to avoid the planning fallacy?
+
+Use your optimism.
+
+Use the outside view. - Yes 
+    + Using this approach allows you to look at data from similar situations and adjust other projections as necessary.
+
+Use your intuition.
+
+Use the inside view.
+
+4. Armina has a message to give to her department in which the outcome is uncertain. How should she frame her argument?
+
+Armina should use a gain frame.
+
+Armina should use a positive frame.
+
+Armina should use a loss frame. - Yes
+    + This is the best choice, since a loss frame is more persuasive than a gain frame when the outcome is unknown.
+
+Armina should use an emotional frame.
+
+5. You are listening to coworkers and notice an ad hominem fallacy in their conversation. What do you need to caution against with this fallacy?
+
+dismissing valid evidence from people with whom you do not agree - Yes 
+    + An ad hominem fallacy occurs when you are ignoring logic or valid content because you are attacking the person making the argument.
+
+confusing correlation with causation
+
+relying too much on your own experiences and jumping to conclusions
+
+substituting sneaky arguments
+
+6. Which statement is false?
+
+Acme should win is a positive frame. "Widget should lose" is a negative frame.
+
+Frames can't make you think you see things that you don't actually see. - Yes 
+
+If the outcome is uncertain, loss-frames are more persuasive than gain-frames.
+
+How information is presented influences your judgment and decisions in ways that can defy reason.
+
+## 5. Creating the Critical Thinking Culture of Curiosity
+
+### Questions that fuel curiosity
+
+#### [What does your leadership value most?]
+
+A. Questions that can't be answered
+
+B. Answers that can't be questioned
+
+[A is better for intellectual curiosity to flourish]
+
+[Curiosity requires valuing questions and it thrives with better questions]
+
+#### Bucket questions
+
+- Help you not ask the same questions 
+
+- 3 types:
+    + Knowledge (evidence)
+	+ Opinion (subjective preference)
+	+ Judgment (reasoning or critical thinking)
+
+#### Interrogation questions 
+
+- Help you ask quality questions 
+
+- Ask yourself if question is:
+    + 1. Well-stated?
+	+ 2. Biased?
+	+ 3. Consider complexity?
+	+ 4. Relevant?
+
+#### Virtuous Circle
+
+- Better Questions => Intellectual curiosity
+
+- Intellectual curiosity => Better Questions
+
+### Organizing a critical thinking workshop
+
+#### Pre-work assignments 1 week before workshop
+
+1. Ask to bring a song to act as critical thinking trigger (???)
+
+2. Exercise Files > Competency Questions.pdf
+
+#### Competency Questions
+
+- What do I know about critical thinking?
+
+- How closely does critical thinking relate to something I know?
+
+- What questions should I have [about critical thinking]? 
+
+- What does the opposite of critical thinking look like? 
+
+#### Circle of Competence
+
+- Exercise Files > Circle of Competence.pdf
+
+- What I think I know (big circle)
+
+- What I know (small circle inside of big circle)
+
+[Warren Buffet investment approach/advice]
+
+#### Reasoning
+
+- Inductive Reasoning
+    + Observations supported by trends or patterns that arrive at a theory 
+	+ [from specific to general]
+
+- Deductive Reasoning 
+    + Theory supported by observations or facts that arrive at an inference
+	+ A = B and B = C => A = C
+	+ [general to specific]
+	+ Angry = Stress and Stress = Boss => Angry = Boss 
+	+ No Concentration = Hungry and Hungry = Team => No Concentration = Team 
+
+
+### Chapter Quiz
+
+1. Which type of questioning can you use to determine whether you are asking the right questions in a situation, and whether those questions are of the best quality?
+
+opinion questions
+
+interrogation questions - Yes
+    + This is the best approach to use in order to keep asking better questions that align with the issue at hand.
+
+judgment questions
+
+bucket questions - Yes -> No
+    + This approach is used to help you assess your question types, instead of asking the same questions repeatedly.
+
+2. Nellwyn hears about a problem in her department, and she needs to determine whether it is true. Which type of reasoning should Nellwyn use?
+
+deliberative
+
+deductive - Yes 
+    + This type of reasoning begins with a set of facts, and helps you to determine whether the facts of a situation are true.
+
+inductive - Yes -> No
+    + This type of reasoning begins with an observation, and would help you to develop a theory.
+
+intuitive
+
+3. You are conducting a critical thinking workshop and using the circles of competence mental model with your team. What is the most important aspect you should consider when using this model?
+
+You should consider the size of the circle.
+
+It highlights what we know. - Yes  -> NO 
+
+It identifies our lack of knowledge. - Yes -> NO 
+
+You should know its boundaries. - Yes 
+
+4. What are the three types of bucket questions?
+
+knowledge, authority, critical
+
+assessment, agreement, discernment
+
+knowledge, opinion, judgment - Yes 
+
+five whys, biased, knowledge
+
+## Conclusion
+
+### Bonus tip 
+
+#### Final comments 
+
+- If you only have a hammer, all your problems look like nails
+    + Critical thinking avoids this 
+
+- Exercise Files > Decision Notebook Guide.pdf 
+
+#### Decision Notebook
+
+- Track decisions 
+
+- Document rationale 
+
+- Follow moods 
+
+- Record sleep 
+
+#### Reach out
+
+https://www.linkedin.com/in/becki-saltzman-406a6111
+
+https://beckisaltzman.com 
+
+
+

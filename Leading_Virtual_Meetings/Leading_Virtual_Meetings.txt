@@ -1,0 +1,295 @@
+Leading Virtual Meetings
+
+Course details
+32m * Beginner + Intermediate * Released: 2/26/2020
+
+Leading virtual meetings is a critical competency for leaders who manage a remote or blended team. Join leadership and management expert Kevin Eikenberry as he identifies the challenges to holding a productive meeting online, and shares tactics for making these meetings successful. Learn about how to choose the right platform, set expectations for conduct, clarify roles, create a great agenda, and more.
+
+Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entrepreneur.
+
+Learning objectives
+
+- The challenges of virtual meetings
+
+- Choosing the right platform to meet virtually
+
+- Setting clear behavioral expectations
+
+- Innovating in a virtual meeting
+
+- Pre-determining a desired outcome
+
+- Creating a great meeting agenda
+
+- Facilitating virtual meetings
+
+- Encouraging participation
+
+- Keeping on track in the moment
+
+- Ending a meeting with an action plan
+
+Contents
+
+* Introduction
+
+- Welcome to better virtual meetings
+
+* 1. The Challenges of Virtual Meetings
+
+- Why virtual meetings can be challenging
++ In order to fix the problems, fist identify the pain points
+> Misused technology
+> Mishandled distractions
+> Lack of accountability
+> Poor facilitation
+> Lack of visual cues
+> It is easier to hide
+
+- Choose the right platform to meet virtually (Web vs. Phone)
++ Are people at a desk? Yes - Web
++ Are people on the go? Yes - Phone
++ Do you need visuals? Yes - Web
++ Do you want participation? No - Phone, Yes - Web
++ Do you want their attention? Yes - Web
++ Use the advantage of dial-in capabilities to benefit everyone
+
+- Make your meeting platform work for you
++ Use a virtual whiteboard
++ Use a chat function for brainstorming
++ Know how it works [functions to improve meetings]
++ Practice in practice time [NOT during the meeting]
+
+- Set clear virtual meeting behavioral expectations
++ Are we on mute? [recommend nobody be on mute unless background noise is distracting]
++ Are we using webcams? [recommended]
++ Is multitasking allowed? [NOT recommended]
++ Set expectations and elicit feedback
++ Key Takeaway: Have clear expectations that the team understands and follows
+
+- Encourage camaraderie in your virtual meetings
++ Open the meeting early [Chance to chat before meeting]
++ Make it OK for people to chat
++ Model the behavior
++ No need to start on time [more important to let people chat and build camaraderie]
++ Lighten up a bit [more important to connect than meet schedule or objectives]
+
+- Chapter Quiz
+
+1. What are two effective ways to build camaraderie during your virtual meetings? 
+A. Start on time
+B. Encourage people to chat before the meeting starts - Yes
+C. Open the meeting room early - Yes
+D. End the meeting exactly when scheduled
+E. Ask participants to share their resume
+
+2. Picking the platform is one key to virtual meeting success.
+TRUE
+
+3. What are three specific factors that can undermine the success of a virtual meeting? 
+A. the technology is misused - Yes
+B. there are no snacks
+C. it is easy for participants to hide - Yes
+D. the wrong people are attending
+E. a lack of accountability for poor meeting behavior - Yes
+
+4. Which expectations should you set to improve your virtual meetings? 
+A. Mute your microphone when you're not talking
+B. Join the meeting when you're fully prepared
+C. Make your webcam active - Yes
+D. Avoid multitasking - Yes
+E. Ask at least three questions per meeting
+
+5. What are the proven ways to make your meeting platform work for you? 
+A. Determine the tool's capabilities - Yes
+B. Practice using the tool before the meeting - Yes
+C. Use the chat tool with larger groups - Yes
+D. End the meetings on time
+E. Check your bandwidth before starting the meeting
+
+* 2. Before the Meeting
+
+- Pretermine the desired outcome
++ [Most important - don't have a meeting if you don't have a desired outcome]
++ Meeting Outcome Examples [Noun + past-tense verb]
+> Budget approved
+> Plans set
+> Decision reached
+> Next steps determined
++ [Share with participants before the meeting begins]
++ Desired Outcomes
+> Allows more preparedness
+> Allows more focus
++ More important for virtual meetings
+> Maintains focus
+> A clear desired outcome before the meeting helps people focus
+> [Helps] Being prepared
+
+- Can you accomplish your goal without meeting?
++ Default Meeting Invites
+> "We should call a meeting"
+> "We should meet on that"
+> "When are you available to meet?"
++ Start with the desired outcome
+> ["Meeting" is an event with  more than 2 people (otherwise just a conversation with 2 people)]
+> [Can you achieve it with 1 or 2 people?]
++ Have an asynchronous chat
+> [Achieve desired outcome without a meeting?]
++ Use email
+> [Achieve desired outcome via email and avoid a meeting?]
++ Have one-on-one conversations
++ Share the document
+
+- Keys to a great agenda
++ The plan for your meeting is an agenda
++ Share it early
++ Include desired outcome(s)
+> [If need to show the topic, also include the desired outcome]
++ Include the login information
++ Place login info in the meeting invite and in the agenda
++ Have a timeline
+> [Use clock time (e.g., 9:00-9:15), not amount of time (e.g., 15 minutes)]
++ Display and use it
+
+- Prepare for effectiveness
++ Pick your spot [location]
++ Don't be distracted
++ Preread the agenda
++ Have information handy
++ Prepare your thoughts
++ Be focused
++ 
+
+- Chapter Quiz
+
+1. What are viable alternatives to a virtual meeting? (find 4 answers) 
+A. Use a chat tool - Yes
+B. Have one on one conversations - Yes
+C. Use email - Yes
+D. Share the working document - Yes
+E. Start an email discussion group
+ 
+2. What is a good example of a clear, desired outcome?
+- project planning
+- business strategy discussions
+- finalized strategies - Yes
+- budgets
+
+3. Removing distractions before the virtual meeting starts is a valuable part of your preparation.
+TRUE
+
+4. An agenda sent before your virtual meeting is _____.
+- rarely read
+- redundant
+- the best way for people to be prepared - Yes
+- a distraction
+
+
+* 3. Making Virtual Meetings Work
+
+- Facilitate your virtual meeting
++ Wait longer for input (pause)
++ Call on people
++ Use questions effectively
++ Effective Questioning Example
+> "Susan - what are your toughts on this issue?"
++ Be more specific
++ Create feedback loops
+
+- Manage participation in your virtual meeting
++ Expect it (set expectations)
++ Share the wealth (ideas)
++ Prep people upfront (tell them what you want)
++ Use the whiteboard [FigJam]
++ Get people to raise their hand
++ Use other tools too (e.g. chat, survey, polling)
+
+- When not everyone is virtual
++ Pretest the techology (check ahead of time)
++ Speak up! (load and slow)
++ One at a time
++ Engage the virtual people first
++ Make it all virtual
+
+- Use webcams in your virutal meeting
++ "It's the next best thing to being there" - Bell System commercial (1977)
+> (turn on web cameras)
++ Use the regularly (one-on-one discussions)
++ Help people relax
++ Help people use them correctly
++ Use them to create engagement
+
+- When your meeting is impromptu
++ The Impromptu Meeting
+> (no time to prepare)
++ How do we make the impromput virtual meeting successful?
++ Set the desired outcome
++ Prepare for success
++ Turn on the webcams
++ Get everyone's input
+> Everyone there has a role, perspective, or information that is needed
+
+- Stay on track in the moment
++ Use the agenda
++ Let everyone be accountable
++ Take things offline
++ Use a parking lot or issue bin
+> Revisit parked or binned issues at end of meeting
+
+- End the meeting with an action plan
++ What, Who, When
++ Keep it visual (slide)
++ Complete it as you go
++ Don't finish wihtout it (complete before end of meeting)
++ Share it immediately
++ Bring it back for the next meeting (start meeting with it)
+
+
+- Chapter Quiz
+
+1. What is the most important reason to have participants use the webcam during a virtual meeting?
+- A webcam encourages people to dress more professionally.
+- A webcam improves communication by adding the visual components of conversation. Yes
+- A webcam incentivizes people to use technology correctly.
+- A webcam keeps people from using or getting distracted by their smartphones.
+
+2. Pretesting the technology before a virtual meeting is important. So before you start, make sure you test _____.
+
+- both of these answers
+- the ambient noise, to make sure it is not distracting - Yes
+- the webcam, to ensure people will have a good view - Yes
+
+3. What is the best reason to use a Parking Lot or Issue Bin?
+It allows you to defer topics that are taking a meeting off track. - Yes
+- It helps you to clearly establish the goals of the meeting.
+- It helps you enhance overall participation in the meeting.
+- It helps you deny people the chance to take the meeting off track.
+
+4. What is the most important thing to do if you're having an impromptu virtual meeting?
+- Thank people for coming.
+- Set or state the desired outcome. Yes
+- Keep the meeting informal.
+- Raise the pressure so you get faster results.
+
+5. What are the "need pieces" for an action plan?
+- What, Who
+- What, Who, When - Yes
+- What, How, When
+- What, How, Why
+
+6. How can you get more participation in your virtual meetings? (find 4 answers) 
+- A. Use the online whiteboard. Yes
+- B. Make sure everyone gets a chance to talk. Yes
+- C. Offer rewards for the most talking.
+- D. Ask people to raise their hand. Yes
+- E. Tell people you expect them to participate. Yes
+
+7. To facilitate means to _____.
+- get others to talk
+- have an agenda
+- make things easier - Yes
+- stop talking
+
+
+Use FigJam for all meetings - keep loaded and bring up as needed
+Even better, created a diagram to review before meeting (don't waste others' time getting it setup)

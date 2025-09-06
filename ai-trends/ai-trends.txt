@@ -1,0 +1,357 @@
+https://www.linkedin.com/learning/ai-trends/
+
+# AI Trends
+
+## Course details
+
+1h 10m * Beginner * Updated: 8/24/2023
+
+AI has shifted swiftly from the realm of science fiction to everyday use. But of the multitude of tools and technologies now available, which ones are best suited to your workflows and organization? In this ongoing series, industry experts guide you through the AI products and concepts that are out there—and how to identify what is most likely to benefit your organization.
+
+To provide you with a variety of perspectives, each lesson is taught by a different AI thought leader: senior staff instructor Morten Rand-Hendriksen, AI ethicist Vilas Dhar, VP of engineering and AI product strategy at LinkedIn, Xavier Amatriain, and more! Tune in to start identifying the best ways to bring AI into your organization!
+
+Note: Because this is an ongoing series, viewers will not receive a certificate of completion.
+
+## Learning objectives
+
+- Learn about the ways in which AI will redefine what work means.
+
+- Discover practical use cases for ChatGPT plugins.
+
+- Explore the limitations of generative AI.
+
+- Review the fundamentals of prompt engineering.
+
+- Explore how facial recognition works at a high level.
+
+- Identify the best ways to use GitHub Copilot in your organization.
+
+## Skills covered
+
+- Generative AI
+
+- Artificial Intelligence (AI)
+
+## Introduction
+
+### Welcome to AI Trends
+
+[verbal comments with screen shots flashing by]
+
+## 1. Emerging Technologies: The Very Latest
+
+### Google Gemini
+
+- 3 versions: 
+    + nano
+	+ pro
+	+ ulta (beta testing)
+
+- Google AI for Developers: How it works
+    + Figure 1: AICore architecture
+	
+- "Multimodal retrieval augmented generation (RAG)" notebook
+
+- "Getting Started with the Vertex AI Gemini API & Python SDK" notebook
+
+- youtube videos
+
+- https://www.linkedin.com/learning/introduciton-to-google-gemini
+    + Available in 2024 (sometime)
+
+### Multimodal prompting
+
+- Mulimodal: text, images, videos, voice, other
+    + Used to need OCR to recongize text, images, or videos (?)
+
+### Assistant GPTs
+
+- OpenAI: "Assistants API" webpage
+    + "Assistants" API page (REST)
+	+ "Playbround" page 
+
+- Overview
+    + Assistant: ID, Name, Instruction
+    + Thread (stateful): ID, User message, Assistant response
+	+ Run(receives and sends messages to/from Thread as a pair): ID, Assitant, Thread, Steps 
+
+- Usage chart (flashed by)
+
+### Claude
+
+- Alternative to OpenAI's ChatGPT 
+
+- Access in 3 ways
+    + Webpage
+	+ AWS
+	+ GCP
+
+### OpenAI API 
+
+- OpenAI: Assistants API (same content as before - but shorter/faster?)
+
+### Microsoft Security Copilot 
+
+- Can use Copilot for Security
+    + Threat detection
+
+- Microsoft Security Copilot undestands plain-test queries or requests and provides relevant solutions or step-by-step breakdowns to resolve any issue at hand
+
+- Microsoft Security Copilot combines a chatbot interface with threat intelligence and security-specific skills
+
+- Microsoft Security Copilot simplified the process of summarizing events and generating ready-to-share reports  
+
+### Bing and OpenAI
+
+[verbal summary of Bing with GhatGPT from OpenAI]
+
+### AI agents
+
+- AgentGPT webpage demo
+
+- Tiny whiteboard with flowchart on how agents work 
+
+- 2 key features/differences
+    + Long-term memory
+	+ Able to perform actions on behalf of user 
+	
+- Are AI agents safe to use?
+    + [experimental, so cannot be guaranteed, so OK to experiment with but not rely on for important decisions]
+
+- Should I start using AI agents today?
+    + [As of June 2023: No, unless you want to experiment and learn - "interesting toys" - but can use as assistants for work]
+
+- Are AI agents the future of AI? 
+    + [potential - rapidly evolving]
+
+### The LLM Landscape
+
+- Large Language Model (LLM)
+    + billons or trillons of parameters
+
+- words to tokens
+
+- Transformer 
+    + Token and Attention (%)
+	+ "Attention is All You Need"
+
+### Google AI products: Bard, PaLM, and more 
+
+- PaLM 2
+    + Pathways Language Model Version 2
+    + PaLM 2 API
+    + Med PaLM
+	+ Codey (coding assist, like GitHub Copilot)
+
+- VertexAI
+
+- Imagen (GenAI)
+    + Text from images 
+
+- Chirp: speech to text 
+
+- MusicLM 
+    + Text to music 
+
+### PaLM 2 and Bard 
+
+- Bard - Chatbot with PaLM2
+
+- Bard demo 
+
+### AI regulations
+
+[verbal]
+
+- Guiding principles
+    + Don't treat as an afterthought - Responsible AI by design
+	+ Multi-disciplary approach - DS, legal, etc.
+	+ Continiouly monitor algorithms 
+	+ Invest in training people in responsible AI
+
+- Benefits
+    + retain public trust
+	+ positive impact on bottom-line 
+	+ efficiency - avoid having to fix biases later by Responsible AI by Design
+	+ Attract AI talent 
+
+### Azure AI Studio
+
+- Copilot: AI-powered tools 
+
+- Azure + ML Models
+    + GUI - no-code
+	+ ChatGPT - low-code
+	+ Deploy with Azure services
+
+- Azure AI Studio
+    + Select or add data soure
+	+ Data Management ("grounding")
+	+ Model Catalogs (repo)
+	+ Azure ML Prompt Flow (prompt engineering framework)
+	+ Safety - bad content checking
+
+### General artificial intelligence
+
+[verbal comments on GenAI potential]
+
+- Myth: GenAI will displace humans 
+    + Do more by partnering humans and GenAI 
+
+- Build curiosity in GenAI
+    + 10-15 years away?
+
+### ChatGPT plugins
+
+- What are ChatGPT plugins?
+    + Customizable additions to ChatGPT 
+
+- How can developers create and integrate their own ChatGPT plugins?
+    + Sign up at OpenAI website, but still early stages so can join community and learn and start creating, but not ready to add to OpenAI website for public 
+
+- How do ChatGPT plugins work?
+    + Orchestrator for specific subject matter domains (e.g. math question connected to Wolfram Alpha)
+
+- What are some common use cases for ChatGPT plugins?
+    + "app store moment" - 10 available now on OpenAI website, just like when app store started and then exploded, so expect many more use cases (B2C, B2B, private)
+
+### GPT-4
+
+[Joystick analogy - continously improved]
+
+- GPT: Generative Pre-trained Transformer 
+
+- GPT "demo" (fast)
+
+- GPT-3 vs GPT-4
+    + GPT-4 better at reasoning and consise answers, but slower
+
+- https://openai.com 
+    + Introducing GPT-4, OpenAI's most advanced system 
+    + Introducting ChatGPT Plus (subscription)
+
+- Microsoft Bing, 365, and Azure [use GPT]
+
+- GPT passed lawyer's Bar exam
+    + GPT-3 < 10%-ile
+	+ GPT-4 > 10%-ile 
+
+- Training: Data before Sep 2021
+    + for both GPT-3 and GPT-4, but GPT-4 can accept URLs as input 
+
+- Word limitations 
+    + GhatGPT: 3,000
+    + CPT-4: 25,000	
+
+- Socratic mode
+
+- Understand photos and graphics 
+
+- Chat GPT: fastest growing product
+    + 100 million users 
+	+ Many apps are using it now - showed examples
+
+### ChatGPT
+
+- AI and ML are already permeating our culture
+
+- https://chat.openai.com/chat
+    + Q: "What is Chat GPT?"
+    + A: ...
+	
+- GPT: Generative Pre-trained Transformer 
+
+- OpenAI: AGIs (Aritifcial General Intelligence)
+    + DALL-E 
+	+ Whisper
+
+- Algorithm
+
+- Autoregressive (AR)
+
+- ChatGPT is trained with data from 2021 and earlier
+
+- https://openai.com/api 
+
+["You're probably not going to be replaced by a ChatGPT, but you might be replaced by someone who knows how to use it"]
+
+### Prompt engineering 
+
+- Generative AI: What is a **prompt**?
+    + Instructions
+	+ Question
+	+ Input data
+	+ Examples 
+	
+- Generative AI: What is a **prompt engineering**?
+    + [Evolving - not defined yet]
+	+ Prompt creating is only once component of generative AI engineering 
+	+ e.g., QA 
+	
+## 2. AI Trends
+
+### Generative AI
+
+- Game: predict next image in a squence (pattern recognition) 
+
+- Generative Aritifical Intelligence 
+
+- https://this-person-does-not-exist.com/en 
+
+- https://deepfakeweb.com/ 
+
+- https://www.musi-co.com/
+
+- https://www.compose.ai 
+
+- https://copilot.github.com 
+
+### Facial recognition
+
+[many examples]
+
+- Postive and negative uses
+    + Good: security/safety
+	+ Bad: errors (false positives), privacy violations
+
+- Opt-In vs. Out-Out (of online serivces)
+
+- Privacy By Design (for developers) 
+
+- Legislation and Regulations
+    + e.g., GDPR: General Data Protection Regulation 
+
+- Privacy Law - informed consent 
+
+## 3. AI Tools and APIs
+
+### GitHub Copilot 
+
+- Your AI pair programmer (webpage)
+
+- GitHub Copilot for Business is now available (github blog post)
+
+- Research: quantifying GitHub Copilot's impact on develper productivity and happiness (github blog post)
+    + 46% of code written
+    + 61% of Java Developers 
+	+ 90% Faster Tasks
+	+ 75% Better Focus
+
+- Improved OpenAI Codex 
+    + FIM: Fill In the Middle
+
+- Lightweight Client Side Model 
+
+- Prevents Insecure Code 
+
+- GitHub Copilot for Business is now available (github blog post)
+    + (reviewed a little)
+
+
+
+
+
+
+
+
+

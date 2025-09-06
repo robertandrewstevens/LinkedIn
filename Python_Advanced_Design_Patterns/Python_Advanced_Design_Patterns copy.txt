@@ -1,0 +1,224 @@
+Python: Advanced Design Patterns
+
+https://www.linkedin.com/learning/python-advanced-design-patterns/
+
+## Course details
+
+1h 24m * Advanced * Released: 2/21/2018
+
+Design patterns encourage clean programming. In this course, take a look at some advanced design patterns as applied to Python. Instructor Jungwoo Ryoo begins by looking at why - or why not - use design patterns in the first place. Jungwoo then steps through some design best practices, going over topics such as quality attributes and domain-specific patterns. He also introduces some practical design patterns described by the Gang of Four, including Command, Interpreter, and Memento. Plus, he helps you grasp how these patterns actually work at the code level by walking through sample scripts.
+
+## Learning objectives
+
+- Architectural vs. design patterns
+
+- Why use design patterns?
+
+- Design best practices
+
+- Domain-specific patterns and security patterns
+
+- Gang of Four design patterns
+
+- Command, Mediator, and State
+
+- Template method
+
+## Skills covered
+
+- Python (Programming Language)
+
+- Design Patterns
+
+## Introduction
+
+### Welcome
+
+#### MVC Architecture
+
+   ===[Model]====
+   |            ^
+   | Updates    |
+   |            | Manipulates
+   v            | 
+[View]    [Controller]
+   ^            ^
+   |            |
+   | Sees       | Uses
+   |            | 
+   +===[User]===+ 
+
+#### Quality Attributes
+
+- Performance
+
+- Security
+
+- Maintainability
+
+#### Gang of Four
+
+*Design Patterns: Elements of Reusable Object-Oriented Software* by Erich Gamma, Richard Helm, Ralpha Johnson, John Vlissides
+
+- Command
+
+- Facade
+
+- Interpreter
+
+- Mediator
+
+- Memento
+
+- State
+
+- Template method
+
+#### Facade
+
+[diagram with client clases and subsystem classes]
+
+- Structural pattern
+
+### What you should know before watching this course
+
+#### What You Should Know
+
+- Basic knowledge of Python
+
+- *Python: Design Patterns*
+    + [Previous course from instructor recommended by not required - not in FoW]
+
+## 1. Understanding Design Patterns: Review
+
+### What is a design pattern?
+
+#### Solutions to Your Programming Problems
+
+- hillside.net: The Hillside Group
+
+#### Design Patterns
+
+- Well-known and documented solutions to
+    + Recurring challenges in an object-oriented programming environment
+
+#### Types of Design Patterns
+
+- Creational
+
+- Structural
+
+- Behavioral
+
+#### Creational Patterns
+
+- Create objects
+
+- Examples:
+    + Singleton
+    + Factory
+    + Builder
+    + Prototype
+
+#### Structural Patterns
+
+- Assemble classes and their instances
+
+- Examples:
+    + Decorator
+	+ Proxy
+	+ Adaptor
+	+ Composite
+	+ Bridge
+
+#### Behavioral Patterns
+
+- Regulate communications among objects
+
+- Examples:
+    + Observer
+	+ Visitor
+	+ Iterator
+	+ Strategy
+	+ Chain of responsibility
+
+#### *Python: Design Patterns*
+
+- [Take this course if these concepts are new to you]
+
+{decided to stop here and take prereq - even though no FoW credit}
+
+### Architectural vs. design patterns
+
+### Patterns and frameworkds
+
+
+### Design pattern adoption
+
+
+### Python as an object-oriented programming (OOP) language
+
+
+### Why use desing patterns, or why not?
+
+
+## 2. Design Best Practices
+
+### Quality attributes and design patterns
+
+### Domain-specific patterns
+
+### Security patterns
+
+### Case study: Intercepting validator
+
+### Intercepting validator example
+
+
+## 3. Gang of Four (GoF) Patterns, Part 1
+
+### Facade
+
+
+### Facade example
+
+### Command
+
+### Command example
+
+### Interpreter
+
+
+### Interpretor example
+
+### Practioner's perspective: Practices
+
+
+## 4. Gang of Four (GoF) Patterns, Part 2
+
+### Mediator
+
+### Mediator example
+
+### Memento
+
+### Memento example
+
+
+### State
+
+### State example
+
+
+### Template method
+
+
+### Template method example
+
+### Practioner's perspective: Development
+
+
+## Conclustion
+
+### Next steps
+

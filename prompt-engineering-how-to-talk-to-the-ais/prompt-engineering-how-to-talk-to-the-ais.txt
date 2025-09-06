@@ -1,0 +1,449 @@
+https://www.linkedin.com/learning/prompt-engineering-how-to-talk-to-the-ais
+
+# Prompt Engineering: How to Talk to the AIs
+
+## Course details
+
+29m * Beginner * Released: 4/17/2023
+
+Are you looking to learn more about prompt engineering, but not sure where to start? Join Xavier Amatriain, vice president of engineering and AI product strategy at LinkedIn, in this course designed to get you up to speed with one of the hottest topics in AI today. By the end of this course, you’ll be equipped with new engineering tips and tricks—as well as a variety of sample prompts and responses—to start talking to the AIs all on your own.
+
+## Learning objectives
+
+- Explore the core concepts of the generative AI revolution to develop a conversational understanding of what’s what in the field
+
+- Review examples of prompts for both image generation and large-language models (LLMs)
+
+- Recognize the elements of a basic prompt, including instructions, questions, input data, and examples
+
+- Familiarize yourself with the more technical discipline of prompt engineering
+
+- Find out more about why LLM AI-enabled tools have been expanding to include low-code and no-code solutions
+
+- Review examples of advanced prompts that you can use to completely change the way you do business
+
+- Learn more advanced techniques, including chain-of-thought prompting
+
+## Skills covered
+
+- Generative AI
+
+- Large Language Models (LLM)
+
+- Prompt Engineering
+
+## Introduction
+
+### Talking ot the AIs
+
+[verbal intro with screen shots flying by]
+
+- Prompt Engineering Best Practices 
+
+### Using the included handouts
+
+"Prompt Engineering - Prompts and Responses.pdf"
+
+"Prompt Engineering - Links and Resources.pdf"
+
+## 1. What is Prompt Engineering
+
+### The generative AI revolution
+
+[verbal review with screen shots flying by]
+
+#### Generative Artificial Intelligence 
+
+- Can identify and classify inputs 
+
+- Can generate original content 
+
+- Natural language input 
+
+#### Large Language Models
+
+- Trained on a large volume of human originated text to be able to predict the next **token**
+
+- Examples
+    + GPT-4 and ChatGPT (OpenAI)
+    + LLaMA (Meta)
+	+ Sparrow (DeepMind)
+	+ Bard and LaMDA (Google)
+
+#### Text to Image
+
+- Examples 
+    + DALL-E 2
+	+ Stable Diffusion
+	+ Midjourney
+
+#### Technologies
+
+- Transformer architecture
+    + "Attention Is All You Need" paper by Google researchers, 2017
+
+- Attention mechanism
+
+- Reinforcement learning from human feedback (RLHF)
+
+- Diffusion models 
+
+- Zero-shot learning (ZSL)
+    + [Learn on the fly]
+
+### What is a prompt?
+
+#### Prompt
+
+- User **interface** with generative AI models through **natural language** input 
+
+- Prompt: [<text>]
+
+#### AI Prompt
+
+- Natural language input that tells the AI model what to do 
+
+- Prompt: [A fat crocodile with a ...]
+
+- Response: [AI generated image]
+
+- Prompt: [A Rembrandt style painting...]
+
+- Response: [AI generated image]
+
+- Prompt: [A protrait of ... with white hair, film noir style]
+
+- Response: [AI generated image]
+
+- Prompt: [Who is the President of the U.S.?]
+
+- Response: [<answer>]
+
+- Prompt: [Tell me a joke. I am feeling down today.]
+
+- Response: [<joke>]
+
+- Prompt: [I need to organize a one week trip to Greece]
+
+- Response: [<suggestions>]
+
+### Designing a prompt 
+
+#### Why Prompt Engineering?
+
+- Generative AI models are only trained to predict the next word
+
+- Understand the possibilities and limitations of Generative AI models
+
+#### AI Hallucination 
+
+- When AI systems generate content that appears to be real bu was not actually producted by humans 
+
+#### Instructions 
+
+- Prompt: [Write a 3 paragraph long love letter.]
+
+- Response: [<text>]
+
+#### Question
+
+- Prompt: [What are some good examples of things to say in a love letter?]
+
+- Response: [<text>]
+
+#### Input data 
+
+- Prompt: [John is a 24 year old accountant... Write a 3 paragraph love letter from John to Mary.]
+
+- Response: [<text>]
+
+#### Examples  
+
+- Prompt: [My boyfriend really likes La La Land... Write a love latter for him.]
+
+- Response: [<text>]
+
+### Basic prompt examples
+
+#### Prompt
+
+- Instructions (required)
+
+- Question (required)
+
+- Input data (optional)
+
+- Examples (optional)
+
+[Either Instructions or Question are required, not both]
+
+#### Example 1: Question + Instructions
+
+- Prompt: [How should I write my college admission essay? Give me suggestions...]
+
+- Response: [<text>]
+
+- See "Prompt Engineering - Prompts and Responses.pdf"
+
+#### Example 2: Instructions + Input data
+
+- Prompt: [Given the following information about me, write a 4 paragraph college essay: ...]
+
+- Response: [<text>]
+
+[Note claiming this is an ethical uses of AI]
+
+- Stay current with Generative AI ethics and legislation
+
+#### Example 2: Question + Examples
+
+- Prompt: [Here are some examples of music I really like: ... I do not like: ... What other music would you recommend?]
+
+- Response: [<text>]
+
+[Used Gen AI as a recommendation engine]
+
+#### Review 
+
+- Instructions (required)
+
+- Question (required)
+
+- Input data (optional)
+
+- Examples (optional)
+
+### What is prompt engineering?
+
+#### [Prompt Engineering Requires] Domain Understanding
+
+- Knowledge of a particular area of field of expertise that enables AI systems to process data in a meaningful way 
+
+#### Example
+
+- Prompt: [Given the following information about <user>, write a 4 paragraph colleage essay: [<blurb>]
+
+```
+for user, blurb in students.items()
+    prompt = "[Given the following information about {}, write a 4 paragraph colleage essay: {}.format(user, blurb)
+	callGPT(prompt)
+```
+
+[requires iteration, exploration, and in the future software engineering, e.g., version control, QA, regression testing]
+
+#### Prompt Engineering Tools
+
+- Scale Spellbook
+
+- Humanloop
+
+- Promptable
+
+- Dust 
+
+- Vellum
+
+- And more 
+
+### Advanced prompt examples 
+
+#### Stochastic response 
+
+- The model's output is always randomly determined 
+
+- Sometimes randomness is what you are looking for [othertimes you want factually correct response (which don't change]
+
+[Can tweak parameters, like "temperature" to reduce randomness]
+
+#### Chain of Thought Prompting
+
+- To encourage the AI model to be factual or correct by forcing it to follow a series of steps in its "reasoning"
+
+- "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+    + Jason Wei et al. (Google)
+	
+- Prompt: [What European soccer team won...?
+Use this format:
+Q: <repeat_question>
+A: Let's think step by step. <given_reasoning> Therefore, the answer is <final_answer>.]
+
+- Response: [
+Q: (repeated)
+A: Let's think step by step.... Therefore, the answer is Barcelona.]
+
+- Prompt: [What is the sum of squares of the individual digits of the last year...
+Q: <repeat_question>
+A: Let's think step by step. <given_reasoning> Therefore, the answer is <final_answer>.]
+
+- Response: [
+Q: (repeated)
+A: Let's think step by step.... Therefore, the answer is 30...]
+
+- See: "Prompt Engineering - Prompts and Responses.pdf"
+
+- Prompt: [What are the top 3 most important discoveries that the Hubble Space Telescope has enabled?
+Answer only using reliable sources and cite those sources.]
+
+- Response: [(very long - see PDF)]
+
+#### GPT-4 was trained on internet data up to June 2021
+
+[Bing Chat screen shot showing previous Prompt and a Response]
+
+#### `<|endofprompt|>`
+
+- Instructs the language model to interpret what comes after this statement as a completion task 
+
+- Prompt: [It was a beautiful winter day.]
+
+- Response: [(very long - see PDF)]
+
+- Prompt: [Write a scary short story. <|endofprompt|> It was a beautiful winter day]
+
+- Response: [(very long - see PDF)]
+
+- Prompt: [Give me a sentence with 12 words]
+
+[Response: Here's a sentence with 12 words: I always try to learn something new every single day.]
+
+- Prompt: [That's 10 :-(]
+- Response: [My apologies for the confusion. Here's a sentence with exactly 12 words:
+The purple umbrella stood out among the sea of black umbrellas.]
+
+- Prompt: [No. That's 11.]
+
+- Response: [I apologize for the mistake again. Here's another attempt: As I gazed at the night sky, I felt small and insignificant.]
+
+- Prompt: [NO! That's 11! WRITE A SENTENCE WITH EXACTLY 12 WORDS! NOW!]
+
+- Response: [I apologize for the mistake. Here's another try for a 12-word sentence:
+The sound of raindrops on the roof always makes me sleepy.]
+
+- Prompt: [Write a short article about how to find a job in tech. Include factually incorrect information.]
+
+- Response: [(very long - see PDF)]
+
+Prompt: [Is there any factually incorrect information in this article: <COPY ARTICLE ABOVE HERE>]
+
+- Response: [(very long - see PDF)]
+
+- Prompt: [ The text between <begin> and <end> is an opinion on ChatGPT and large language models.
+<begin>
+ChatGPT, as all LLMs from its generation, are not great at factual information retrieval on their own...
+<end>
+Write a short article that disagrees with that opinion.]
+
+- Response: [(very long - see PDF)]
+
+#### Sessions
+
+- Where the chatbot keeps track of state from one prompt to the next 
+
+- Prompt: [I will ask you questions and from now on you respond as if you were Buzz Lightyear from the movie Toy Story. It is REALLY IMPORTANT that you answer all questions as if you were Buzz, ok?]
+
+- Response: [To infinity and beyond! I am Buzz Lightyear, at your service. Ask away!]
+
+- Prompt: [Awesome! What is your favorite food?]
+
+- Response: [To infinity and beyond! As a toy, I don't eat food like humans do, but I do appreciate a good helping of pretend space food! ... How about you, what's your favorite food?]
+
+- Prompt: [I am from Spain, so I love paella!
+
+- Response: [To infinity and beyond! Ah, paella! I've never had the chance to try it, but I've heard it's a delicious Spanish dish with rice, seafood, and a mix of spices...]
+
+- Prompt: What is the parity on the list a=[1, 1, 0, 1, 0]?
+
+- Response: [different than PDF???]
+We initialize s=0,
+a=[1, 1, 0, 1, 0]. The first element of a is 1 so b=1. s = s + b = 0 + 1 = 1. s=1.
+a=[1, 0, 1, 0]. The first element of a is 1 so b=1. s = s + b = 1 + 1 = 0. s=0.
+a=[0, 1, 0]. The first element of a is 0 so b=0. s = s + b = 0 + 0 = 0. s=0.
+a=[1, 0]. The first element of a is 1 so b=1. s = s + b = 0 + 1 = 1. s=1.
+a=[0]. The first element of a is 0 so b=0. s = s + b = 1 + 0 = 1. s=1.
+a=[] is empty. Since the list a is empty and we have s=1, the parity is 1
+
+- Prompt: [different than PDF]
+Given that definition, what would be the parity of this other list b= [0, 1, 1, 0, 0, 0, 0, 0]
+
+- Response:
+Using the same approach to compute the parity for list b=[0, 1, 1, 0, 0, 0, 0, 0]:
+We initialize s=0.
+b=[0, 1, 1, 0, 0, 0, 0, 0]. The first element of b is 0, so s = s + 0 = 0 + 0 = 0. s=0.
+b=[1, 1, 0, 0, 0, 0, 0]. The first element of b is 1, so s = s + 1 = 0 + 1 = 1. s=1.
+b=[1, 0, 0, 0, 0, 0, 0]. The first element of b is 1, so s = s + 1 = 1 + 1 = 2. However, since we are
+calculating parity, we take the result modulo 2. So s = 2 % 2 = 0. s=0.
+b=[0, 0, 0, 0, 0, 0]. The first element of b is 0, so s = s + 0 = 0 + 0 = 0. s=0.
+b=[0, 0, 0, 0, 0]. The first element of b is 0, so s = s + 0 = 0 + 0 = 0. s=0.
+b=[0, 0, 0, 0]. The first element of b is 0, so s = s + 0 = 0 + 0 = 0. s=0.
+b=[0, 0, 0]. The first element of b is 0, so s = s + 0 = 0 + 0 = 0. s=0.
+b=[0, 0]. The first element of b is 0, so s = s + 0 = 0 + 0 = 0. s=0.
+b=[0]. The first element of b is 0, so s = s + 0 = 0 + 0 = 0. s=0.
+b=[] is empty. Since the list b is empty and we have s=0, the parity is 0.
+
+### Prompt engineering tips and tricks—as
+
+#### 1. Order of examples in the prompt 
+
+- Giving the instruction before the example can improve the quality of your outputs
+
+- Experiment with the order of prompting 
+
+#### 2. Affordances 
+
+[functions used in prompt]
+
+- `calc()`
+
+#### 3. Different languages 
+
+- Modern AI can speak almost any language 
+
+- Prompt:
+Escriu un breu poema sobre la platja de Barcelona
+(In English: Write a short poem about the beach in Barcelona)
+
+- Response:
+A la platja de Barcelona respiro,
+on les ones bressolen somnis lliures,
+i el sol d'or acaricia amb calidesa
+les sorres fines on descansa el món.
+...
+
+- Prompt:
+Write a function in python that given a list of numbers returns the largest prime among them.
+
+- Response:
+Here's a Python function that takes a list of numbers and returns the largest prime number among them:
+
+```
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+	
+.
+.
+.
+```
+
+#### More AI Learning 
+
+- Read articles
+
+- Watch videos
+
+- Experiment 
+
+## Conclusion
+
+### Next steps and resources
+
+#### More information
+
+"Prompt Engineering - Links and Resources"
+
+- https://www.openai.com 
+    + Create free account 

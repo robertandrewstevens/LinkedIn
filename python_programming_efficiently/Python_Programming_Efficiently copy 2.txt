@@ -1,0 +1,188 @@
+Python: Programming Efficiently
+
+https://www.linkedin.com/learning/python-programming-efficiently-2/
+
+## Course details
+2h 19m * Intermediate * Released: 10/2/2020
+
+Cut down on your development time by learning how to write elegant code in an efficient manner, specifically in Python—the popular and pragmatic computer language. Michele Vallisneri explains how to make your Python code more expressive and concise, and leverage the most powerful features of the language. He shines a spotlight on some of the strongest third-party packages you can take advantage of, discusses object-oriented and functional programming, and shares strategies for improving the performance of your code. Michele illustrates these concepts with many intriguing examples, showing how to make 3D images and animations of the sun, draw fractals, implement a graphical programming language, and more.
+
+## Skills covered
+
+Python (Programming Language)
+
+## Introduction
+
+### Programming efficiently with Python
+
+[verbal and visual intro]
+
+### Base knowledge
+
+#### Helpful Base Knowledge
+
+- Basic knowledge of Python
+
+- Simple math: Logical operations, functions, and trigonometry
+
+- How websites work: URLs and HTML
+
+[can't download courese files (notebooks) - try on Mac]
+
+
+
+## 1. Installation and Setup
+
+### Install the Anaconda Python distribution on macOS X
+
+
+### Install the Anaconda Python distribution on Windows
+
+
+### Work with Jupyter Notebooks
+
+
+## 2. Writing Python Efficiently
+
+### Writing Python efficiently
+
+
+### Python vs. C 
+
+
+### Design efficient loops
+
+
+### Comprehensions and generators
+
+
+### Exploit Python collections
+
+
+### Write Pythonic code
+
+
+### Challenge: Analyze Olympic medalist data
+
+
+
+### Solution: Analyze Olympic medalist data
+
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+4.
+
+
+## 3. Leveraging Python Libraries
+
+### Choose the best libraries for your task
+
+
+### Download webpages with requests
+
+
+### Manipulate images with Pillow
+
+
+### Parse HTML with Beautiful Soup
+
+
+### Make movies with Matplotlib
+
+
+### Serve webpages with Flask
+
+
+### Challenge: Image-editing application
+
+
+### Solution: Image-editng application
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+4.
+
+
+## 4. Efficient Python with Object-Oriented and Functional Programming
+
+### Object-Oriented and functional programming
+
+
+### Divide and conquer with Python classes
+
+
+### Exploit class inheritance
+
+
+### Functional techniques in Python
+
+
+### Funciton decorators
+
+
+### Challenge: Bale of turtles
+
+
+### Solution: Bale of turtles
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+4.
+
+
+## 5. Performance Optimization in Python
+
+### Computer architecture and optimization technqiues
+
+
+### Time profiling
+
+
+### Memory profiling
+
+### Algorithm complexity
+
+
+### Introduction to parallel programming
+
+### Challenge: Inverted index
+
+
+### Solution: Inverted index
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+## Conclusion
+
+### Keep taking advantage of Python
+
+
+

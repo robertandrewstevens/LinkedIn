@@ -1,0 +1,3062 @@
+https://www.linkedin.com/learning/unit-testing-and-test-driven-development-in-python/
+
+
+# Unit Testing and Test Driven Development in Python
+
+Course details
+2h | Beginner | Released: 6/27/2018
+
+Every software developer wants to ship high-quality applications. Test-driven development (TDD) is a key discipline that can help you enhance your development process—and, in turn, your code base—by ensuring that crashes and bugs are addressed early on. In this course, join Richard Wells as he covers unit testing and TDD for Python projects. Richard provides an overview of both unit testing and TDD, explaining why both are crucial for developers. He also shows how to set up your development environment for TDD and goes over the `pytest` unit-testing framework. Throughout the course, he shares best practices and provides examples and test cases that can help you gain a practical understanding of TTD in Python.
+
+## Learning objectives
+
+- What is unit testing?
+
+- What is test-driven development (TDD)?
+
+- Setting up your development environment
+
+- Setting up `pytest` with Eclipse and PyCharm
+
+- Working with `pytest`
+
+- `assert` statements and exceptions
+
+- Test doubles
+
+- TDD best practices
+
+## Skills covered
+
+- Python (Programming Language)
+
+- Test-Driven Development
+
+## Introduction
+
+### Welcome
+
+[Verbal intro and hand-drawn cartoons]
+
+## 1. Overview of Test-Driven Development
+
+### What is unit testing?
+
+#### Why do we need unit tests?
+
+- Software bugs hurt the business
+
+- Software testing catches the bugs before they get to the field
+
+- Need several levels of safety nets 
+
+#### Levels of Testing 
+
+1. Unit Testing: Testing at the function level 
+
+2. Component Testing: Testing is at the library and complied binary level
+
+3. System Testing: Tests the external interfaces of a system which is a collection of subsystems
+
+4. Performance Testing: Testing done at subsystem and system levels to verify timing and resource usages are acceptable
+
+#### Unit Testing Specifics
+
+- Tests individual functions
+
+- A test should be written for each test case for a function
+    + All positive and negative test cases 
+
+- Groups of tests can be combined into test suites for better organization 
+
+- Executes in the development environment rather than the production environment 
+
+- Execution of the tests should be automated
+
+#### A Simple Example 
+
+```
+import pytest  # (necessary?)
+
+# Production code
+def str_len(theStr):
+    return len(theStr)
+
+# A unit test 
+def test_string_length():
+    testStr = "1"              # 1. Setup
+	result = str_len(testStr)  # 2. Action
+	assert result == 1         # 3. Assert 
+```
+
+#### Summary 
+
+- Unit tests are the first safety net for catching bugs before they get to the field
+
+- Unit tests validate test cases for individual functions 
+
+- Unit tests should build and run in the developer's development environment 
+
+- Unit tests should run fast
+
+### What is Test-Driven Development (TDD)?
+
+#### Test-Driven Development (TDD)
+
+- A process where the developer takes personal responsibility for the quality of their code 
+
+- Unit tests are written BEFORE the production code 
+
+- Do not write all tests or production code at once 
+
+- Tests and production code are both written together in small bits of functionality 
+
+#### TDD Benefits
+
+- Gives you the confidence to change the code 
+
+- Gives you immediate feedback 
+
+- Documents what the code is doing 
+
+- Drives good object-oriented design 
+
+#### TDD Beginnings 
+
+- Created by Kent Beck in the 1990s as part of the Extreme Programming software development process
+    + At Chrysler
+
+- He wrote the first TDD unit testing framework in Smalltalk called SUnit 
+
+- Collaborated with Erich Gamma to implement the first Java unit testing framework JUnit 
+
+- JUnit has been the basis for many other xUnit testing frameworks written for other languages 
+
+#### TDD Work Flow: Red, Green, Refactor
+
+- TDD has the following phases in its work flow:
+
+1. Write a failing unit test - the RED phase 
+
+2. Write just enough production code to make that test pass - the GREEN phase 
+
+3. Refactor the unit test and the production code to make it clean - the REFACTOR phase 
+
+- Repeat until the feature is complete 
+
+#### Uncle Bob's 3 Laws of TDD 
+
+1. You may not write any production code until you have written a failing unit test 
+
+2. You may not write more of a unit test than is sufficient to fail, and not compiling is failing 
+
+3. You may not write more production code than is sufficient to pass the currently failing unit test 
+
+### Example TDD session: The FizzBuzz Kata 
+
+- Kata: martial arts exercise
+
+- PyCharm IDE intro 
+
+- PyCharm integrates with test runner "pytestrunner.py" in bottom panel 
+	+ Hitting Play button (>) executes code and runs `pytest`
+	
+- "Use Cases" window on RHS
+    + In order of increasing complexity
+	+ 8 total 
+	+ Change "-" to "x" when complete use case
+
+- Use Cases 
+	+ Can I call FizzBuzz
+	+ Get "1" when I pass in 1
+	+ Get "2" when I pass in 2 
+	+ Get "Fizz" when I pass in 3
+	+ Get "Buzz" when I pass in 5
+	+ Get "Fizz" when I pass in 6 (a multiple of 3)
+	+ Get "Buzz" when I pass in 10 (a multiple of 5)
+	+ Get "FizzBuzz" when I pass in 15 (a mulitple of 3 and 5)
+
+### Example Part 1: Initial TDD 
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def test_canAssertTrue():
+    assert True
+```
+
+```
+$ pytest  # passes
+```
+
+### Example Part 2: Can I call FizzBuzz 
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def test_canCallFizzBuzz():
+    fizzBuzz(1)
+```
+
+- Fails unit test because `fizzBuzz` does not exist yet
+    + RED phase complete 
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    return
+
+def test_canCallFizzBuzz():
+    fizzBuzz(1)
+```
+
+```
+$ pytest  # Play button - passes
+```
+
+- No need to refactor 
+
+### Example Part 3: Get "1" when I pass in 1
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    return
+
+def test_canCallFizzBuzz():
+    fizzBuzz(1)
+	
+def test_returns1With1PassedIn():
+    retVal = fizzBuzz(1)
+	assert retVal = "1"
+```
+
+```
+$ pytest  # Play button - fails
+```
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    return "1"
+
+def test_canCallFizzBuzz():
+    fizzBuzz(1)
+	
+def test_returns1With1PassedIn():
+    retVal = fizzBuzz(1)
+	assert retVal = "1"
+```
+ 
+```
+$ pytest  # Play button - passes 
+```
+
+- "FizzBuzzTest.py" - Refactor 
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    return "1"
+
+#def test_canCallFizzBuzz():
+#    fizzBuzz(1)
+	
+def test_returns1With1PassedIn():
+    retVal = fizzBuzz(1)
+	assert retVal = "1"
+```
+
+### Example Part 4: Get "2" when I pass in 2 
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    return "1"
+	
+def test_returns1With1PassedIn():
+    retVal = fizzBuzz(1)
+	assert retVal = "1"
+	
+def test_returns2With2PassedIn():
+    retVal = fizzBuzz(2)
+	assert retVal = "2"
+```
+
+```
+$ pytest  # Play button - fails 
+```
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    #return "1"
+    return str(value)
+	
+def test_returns1With1PassedIn():
+    retVal = fizzBuzz(1)
+	assert retVal = "1"
+	
+def test_returns2With2PassedIn():
+    retVal = fizzBuzz(2)
+	assert retVal = "2"
+```
+
+```
+$ pytest  # Play button - passes 
+```
+
+- "FizzBuzzTest.py" - Refactor 
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    return str(value)
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    #retVal = fizzBuzz(1)
+	#assert retVal = "1"
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    #retVal = fizzBuzz(2)
+	#assert retVal = "2"
+    checkFizzBuzz(2, "2")
+```
+
+```
+$ pytest  # Play button - passes 
+```
+
+### Example Part 5: Get "Fizz" when I pass in 3
+
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    return str(value)
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    checkFizzBuzz(2, "2")
+
+def test_returnsFizzWith3PassedIn():
+    checkFizzBuss(3, "Fizz")
+```
+
+```
+$ pytest  # Play button - fails  
+```
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    if value == 3:
+	    return "Fizz"
+    return str(value)
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    checkFizzBuzz(2, "2")
+
+def test_returnsFizzWith3PassedIn():
+    checkFizzBuss(3, "Fizz")
+```
+
+```
+$ pytest  # Play button - passes 
+```
+
+- Nothing to refactor 
+
+### Example Part 6: Get "Buzz" when I pass in 5
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    if value == 3:
+	    return "Fizz"
+    return str(value)
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    checkFizzBuzz(2, "2")
+
+def test_returnsFizzWith3PassedIn():
+    checkFizzBuss(3, "Fizz")
+	
+def test_returnsBuzzWith5PassedIn():
+    checkFizzBuss(5, "Buzz")
+```
+
+```
+$ pytest  # Play button - fails 
+```
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    if value == 3:
+	    return "Fizz"
+    if value == 5:
+	    return "Buzz"		
+    return str(value)
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    checkFizzBuzz(2, "2")
+
+def test_returnsFizzWith3PassedIn():
+    checkFizzBuss(3, "Fizz")
+	
+def test_returnsBuzzWith5PassedIn():
+    checkFizzBuss(5, "Buzz")
+```
+
+```
+$ pytest  # Play button - passes  
+```
+
+- Nothing to refactor
+
+### Example Part 7: Get "Fizz" when I pass in 6 (a multiple of 3)
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    if value == 3:
+	    return "Fizz"
+    if value == 5:
+	    return "Buzz"		
+    return str(value)
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    checkFizzBuzz(2, "2")
+
+def test_returnsFizzWith3PassedIn():
+    checkFizzBuss(3, "Fizz")
+	
+def test_returnsBuzzWith5PassedIn():
+    checkFizzBuss(5, "Buzz")
+	
+def test_returnsFizzWith6PassedIn():
+    checkFizzBuss(6, "Fizz")
+```
+
+```
+$ pytest  # Play button - fails 
+```
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    if (value % 3) == 0:
+	    return "Fizz"
+    if value == 5:
+	    return "Buzz"		
+    return str(value)
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    checkFizzBuzz(2, "2")
+
+def test_returnsFizzWith3PassedIn():
+    checkFizzBuss(3, "Fizz")
+	
+def test_returnsBuzzWith5PassedIn():
+    checkFizzBuss(5, "Buzz")
+	
+def test_returnsFizzWith6PassedIn():
+    checkFizzBuss(6, "Fizz")
+```
+
+```
+$ pytest  # Play button - pass  
+```
+
+- No need to refactor now 
+    + Code can be improved later
+
+
+### Example Part 8: Get "Buzz" when I pass in 10 (a multiple of 5)
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    if (value % 3) == 0:
+	    return "Fizz"
+    if value == 5:
+	    return "Buzz"		
+    return str(value)
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    checkFizzBuzz(2, "2")
+
+def test_returnsFizzWith3PassedIn():
+    checkFizzBuss(3, "Fizz")
+	
+def test_returnsBuzzWith5PassedIn():
+    checkFizzBuss(5, "Buzz")
+	
+def test_returnsFizzWith6PassedIn():
+    checkFizzBuss(6, "Fizz")
+	
+def test_returnsBuzzWith10PassedIn():
+    checkFizzBuss(10, "Buzz")
+```
+
+```
+$ pytest  # Play button - fails
+```
+
+- "FizzBuzzTest.py"
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    if (value % 3) == 0:
+	    return "Fizz"
+    if (value % 5) == 0:
+	    return "Buzz"		
+    return str(value)
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    checkFizzBuzz(2, "2")
+
+def test_returnsFizzWith3PassedIn():
+    checkFizzBuss(3, "Fizz")
+	
+def test_returnsBuzzWith5PassedIn():
+    checkFizzBuss(5, "Buzz")
+	
+def test_returnsFizzWith6PassedIn():
+    checkFizzBuss(6, "Fizz")
+	
+def test_returnsBuzzWith10PassedIn():
+    checkFizzBuss(10, "Buzz")
+```
+
+```
+$ pytest  # Play button - passes 
+```
+
+- "FizzBuzzTest.py" - Refactor 
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    #if (value % 3) == 0:
+    if isMultiple(value, 3):
+	    return "Fizz"
+    #if (value % 5) == 0:
+    if isMultiple(value, 5):
+	    return "Buzz"		
+    return str(value)
+
+def isMultiple(value, mod):  # added
+    return (value % mod) == 0
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    checkFizzBuzz(2, "2")
+
+def test_returnsFizzWith3PassedIn():
+    checkFizzBuss(3, "Fizz")
+	
+def test_returnsBuzzWith5PassedIn():
+    checkFizzBuss(5, "Buzz")
+	
+def test_returnsFizzWith6PassedIn():
+    checkFizzBuss(6, "Fizz")
+	
+def test_returnsBuzzWith10PassedIn():
+    checkFizzBuss(10, "Buzz")
+```
+
+```
+$ pytest  # Play button - passes 
+```
+
+
+### Example Part 9: Get "FizzBuzz" when I pass in 15 (a mulitple of 3 and 5)
+
+- "FizzBuzzTest.py" 
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    if isMultiple(value, 3):
+	    return "Fizz"
+    if isMultiple(value, 5):
+	    return "Buzz"		
+    return str(value)
+
+def isMultiple(value, mod):  # added
+    return (value % mod) == 0
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    checkFizzBuzz(2, "2")
+
+def test_returnsFizzWith3PassedIn():
+    checkFizzBuss(3, "Fizz")
+	
+def test_returnsBuzzWith5PassedIn():
+    checkFizzBuss(5, "Buzz")
+	
+def test_returnsFizzWith6PassedIn():
+    checkFizzBuss(6, "Fizz")
+	
+def test_returnsBuzzWith10PassedIn():
+    checkFizzBuss(10, "Buzz")
+	
+def test_returnsFizzBuzzWith15PassedIn():
+    checkFizzBuss(15, "FizzBuzz")
+```
+
+```
+$ pytest  # Play button - fails  
+```
+
+- "FizzBuzzTest.py" 
+
+```
+import pytest 
+
+def fizzBuzz(value):
+    if isMultiple(value, 3):
+	    if isMultiple(value, 5):
+		    return "FizzBuzz"
+	    return "Fizz"
+	if isMultiple(value, 5):
+	    return "Buzz"		
+    return str(value)
+
+def isMultiple(value, mod):  # added
+    return (value % mod) == 0
+
+def checkFizzBuzz(value, expectedRetVal):
+    retVal = fizzBuzz(value)
+	assert retVal = expectedRetVal
+
+def test_returns1With1PassedIn():
+    checkFizzBuzz(1, "1")
+
+def test_returns2With2PassedIn():
+    checkFizzBuzz(2, "2")
+
+def test_returnsFizzWith3PassedIn():
+    checkFizzBuss(3, "Fizz")
+	
+def test_returnsBuzzWith5PassedIn():
+    checkFizzBuss(5, "Buzz")
+	
+def test_returnsFizzWith6PassedIn():
+    checkFizzBuss(6, "Fizz")
+	
+def test_returnsBuzzWith10PassedIn():
+    checkFizzBuss(10, "Buzz")
+	
+def test_returnsFizzBuzzWith15PassedIn():
+    checkFizzBuss(15, "FizzBuzz")
+```
+
+```
+$ pytest  # Play button - passes  
+```
+
+- No need to refactor 
+
+## 2. Setting Up a Development Environment
+
+### Python virtual environments
+
+#### What are Python virtual environments?
+
+- By default all Python packages are installed in a single directly on the system 
+    + However, multiple Python projects might have different and conflicting packages dependencies
+
+- Virtual environments solve this by creating isolated Python environments that can be customized per project
+
+- Virtual environments are directories containing links to the system's Python install and providing sub-directories for installing additional Python packages in that particular virtual environment 
+
+- The PATH environment variable is updated to point to the virtual environment when that virtual environment is activated 
+
+#### Setting Up a Python Virtual Environment in Python 2.7
+
+- Install `virtualenv` utility via `pip install virtualenv`
+
+- Create a new virtual environment with the command `virtualenv <NameOfVirtualEnv>`
+
+- Activate your virtual environment by sourcing the activate script in the virtual environments `bin` directory
+    + i.e., `source ./<NameOfVirtualEnv>/bin/activate`
+
+- Deactivate your virtual environment with the `deactivate` command 
+
+#### Example
+
+```
+$ pip install virtualenv
+$ virtualevn pytest_27_venv
+$ source ./pytest_27_venv/bin/activate 
+$ pip install pytest
+$ pytest
+$ deactivate
+$ pytest # "command not found"
+```
+
+#### Setting Up a Python Virtual Environment in Python 3
+
+- Python 3 comes with a virtual environment module built-in called `venv`
+
+- `virtualenv` can also be used with Python 3, but `venv` is recommended by the Python community, as it is built into Python 3, creates smaller virtual environments, and is extendable 
+
+- The only difference with creating, activating, deactivating, or deleting virtual environments with `venv` versus `virtualenv` is the creation command
+
+- To create a virtual environment with `venv`, you run the command:
+
+```
+$ python3 -m venv <VirtualEnvironmentName>
+```
+
+#### Example
+
+```
+$ python3 -m venv pytest_3_venv
+$ source pytest_3_venv/bin/activate 
+$ pip3 install pytest
+$ pytest
+$ deactivate
+$ pytest # "command not found"
+```
+
+#### Setting Up a Python Virtual Environment in Windows
+
+- Use a bash shell in Windows
+    + e.g., `cygwin.com`
+
+- Follow the instructions on the `python.org` website for running virtual environments directly from Windows normal command line window:
+
+https://docs.python.org/3/tutorial/venv.html
+
+### Set up `pytest` in PyCharm
+
+["live" demo in PyCharm]
+
+### Set up `pytest` in Eclipse PyDev 
+
+["live" demo in PyDev]
+
+## 3. `pytest` Overview
+
+### Overview of `pytest` 
+
+#### What is `pytest`?
+
+- `pytest` is a Python unit testing framework 
+
+- It provides the ability to create tests, test modules, and test fixtures 
+
+- Uses the built-in Python `assert` statement
+
+- Has command line parameters to help filter which tests are executed and in what order 
+
+#### Creating a Test
+
+- Tests are python functions with "test" at the beginning of the function name
+
+- Tests do verification of values using the standard Python `assert` statement
+
+```
+# test_SomeFunction.py
+def test_SomeFunction():
+    assert 1 == 1
+```
+
+- Similar tests can be grouped together by including them in the same module or class
+
+#### Example
+
+["live" demo in PyCharm using CLI]
+
+"pytest_test.py"
+
+```
+$ pytest -v
+```
+
+### Test discovery
+
+#### Test discovery
+
+- `pytest` will automatically discover tests when you execute based on a standard naming convention
+
+- Test functions should include "test" at the beginning of the function name 
+
+- Classes with tests in them should have "Test" at the beginning of the class name and not have an `__init__` method
+
+- Filenames of test modules should start or end wiht "test"
+    + i.e., "test_example.py" or "example_test.py"
+
+#### Example
+
+["live" demo in PyCharm using CLI]
+
+"my_test_file.py" (N/A)
+
+```
+# my_test_file.py
+
+def test_me():
+    assert True
+
+def test_me2():
+    assert True 
+
+def not_a_test():
+    assert True
+```
+
+"test_file.py" (N/A)
+
+```
+# test_file.py
+
+def test_it():
+    assert True
+
+def test_it2():
+    assert True 
+```
+
+```
+$ pytest -v
+```
+
+- "my_test_file.py" 
+    + `test_me` and `test_me2` were tested
+    + `not_a_test` was ignored
+
+"test_file.py" modified
+
+```
+# test_file.py
+
+class TestClass:
+    def test_it(self):
+        assert True
+
+    def test_it2(self):
+        assert True 
+
+class MyTestClass():
+    def test_it(self):
+        assert True
+
+    def test_it2(self):
+        assert True 
+```
+
+```
+$ pytest -v
+```
+
+- "my_test_file.py" 
+    + `TestClass` 2 functions were tested
+    + `MyTestClass` 2 functions were ignored
+
+### An Xunit-style setup and teardown
+
+#### Xunit Style Setup and Teardown
+
+XUnit style setup/teardown functions will execute code before and after:
+
+- Test modules
+
+```
+def setup_module():
+def teardown_module():
+```
+
+- Test functions
+
+```
+def setup_function():
+def teardown_function():
+```
+
+- Test classes
+
+```
+def setup_class():
+def teardown_class():
+```
+
+- Test methods in test classes 
+
+```
+def setup_method():
+def teardown_method():
+```
+
+#### Example Part 1
+
+- "test_file.py" (N/A)
+
+```
+def setup_function(function):
+    if function == test1:
+	    print("\nSetting up test1")
+	elif function == test2:
+	    print("\nSetting up test2")
+	else:
+	    print("\nSetting up unknown test")
+
+def teardown_function(function):
+    if function == test1:
+	    print("\nTearing up test1")
+	elif function == test2:
+	    print("\nTearing up test2")
+	else:
+	    print("\nTearing up unknown test")
+
+def test1():
+    print(("Executing test1")
+	assert True
+
+def test2():
+    print(("Executing test2")
+	assert True
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ pytest -v -s
+```
+
+#### Example Part 2
+
+- Update "test_file.py"
+
+```
+def setup_module(module):
+    print("Setup Module")
+	
+def teardown_module(module):
+    print("Teardown Module")
+
+def setup_function(function):
+    if function == test1:
+	    print("\nSetting up test1")
+	elif function == test2:
+	    print("\nSetting up test2")
+	else:
+	    print("\nSetting up unknown test")
+
+def teardown_function(function):
+    if function == test1:
+	    print("\nTearing up test1")
+	elif function == test2:
+	    print("\nTearing up test2")
+	else:
+	    print("\nTearing up unknown test")
+
+def test1():
+    print(("Executing test1")
+	assert True
+
+def test2():
+    print(("Executing test2")
+	assert True
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ pytest -v -s
+```
+
+#### Example Part 3
+
+- Update "test_file.py"
+
+```
+class TestClass:
+    @classmethod
+    def setup_class(cls):
+        print("Setup TestClass")
+	
+    def teardown_class(cls):
+        print("Teardown TestClass")
+
+    def setup_method(self, method):
+        if method == self.test1:
+	        print("\nSetting up test1")
+	    elif method == test2:
+	        print("\nSetting up test2")
+	    else:
+	        print("\nSetting up unknown test")
+
+    def teardown_method(self, method):
+        if method == test1:
+	        print("\nTearing up test1")
+	    elif method == test2:
+	        print("\nTearing up test2")
+	    else:
+	        print("\nTearing up unknown test")
+
+    def test1(self):
+        print(("Executing test1")
+	    assert True
+
+    def test2(self):
+        print(("Executing test2")
+	    assert True
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ pytest -v -s
+```
+
+### Test fixtures
+
+#### Test fixtures
+
+- Test fixtures allow for reuse of setup and teardown code across tests
+
+- The `pytest.fixture` decorator is applied to functions that are decorators
+
+- Individual unit tests can specify which fixtures they want executed 
+
+````
+@pytest.fixture():
+def math():
+    return Math()
+
+def test_Add(math):
+    assert math.add(1, 1) == 2
+```
+
+- The `autouse` parameter can be set to `True` to automatically execute a fixture before each test 
+
+#### Example Part 1
+
+- "test_file.py" (N/A)
+
+```
+import pytest 
+
+@pytest.fixture()
+def setup():
+    print("\nSetup")
+
+def test1():
+    print(("Executing test1")
+	assert True
+
+def test2():
+    print(("Executing test2")
+	assert True
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ pytest -v -s
+```
+
+#### Example Part 2
+
+- "test_file.py" (N/A)
+
+```
+import pytest 
+
+@pytest.fixture()
+def setup():
+    print("\nSetup")
+
+# add `setup` to function args
+def test1(setup):
+    print(("Executing test1")
+	assert True
+
+def test2():
+    print(("Executing test2")
+	assert True
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ pytest -v -s
+```
+
+#### Example Part 3
+
+- "test_file.py" (N/A)
+
+```
+import pytest 
+
+@pytest.fixture()
+def setup():
+    print("\nSetup")
+
+def test1(setup):
+    print(("Executing test1")
+	assert True
+
+@pytest.mark.usefixtures("setup")  # added
+def test2():
+    print(("Executing test2")
+	assert True
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ pytest -v -s
+```
+
+#### Example Part 4
+
+- "test_file.py" (N/A)
+
+```
+import pytest 
+
+@pytest.fixture(autouse=True)  # added `autouse=True`
+def setup():
+    print("\nSetup")
+
+# removed `setup` from function args
+def test1():
+    print(("Executing test1")
+	assert True
+
+# @pytest.mark.usefixtures("setup")
+def test2():
+    print(("Executing test2")
+	assert True
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ clear
+$ pytest -v -s
+```
+
+#### Test Fixture Teardown 
+
+- Test fixtures can each have their own optional teardown code which is called after a fixture goes out of scope
+
+- There are two methods for specifying teardown code:
+    + `yield` keyword
+	+ request-context object's `addfinalizer` method
+
+#### Test Fixture Teardown  - `yield` 
+
+- When the `yield` keyword is used, the code after `yield` is executed after the fixture goes out of scope 
+
+- The `yield` keyword is a replacement for the `return` keyword, so any values are also specified in the `yield` statement 
+
+```
+@pytest.fixture():
+def setup():
+    print("Setup")
+	yield
+	print("Teardown")
+```
+
+#### Test Fixture Teardown  - `addfinalizer`
+
+- With the `addfinalizer` method, a `teardown` method is defined and added via the `request` context's `addfinalizer` method 
+
+```
+@pytest.fixture():
+def setup(request):
+    print("Setup")
+	def teardown:
+	    print("Teardown")
+	request.addfinalizer(teardown)
+```
+
+- Multiple finalization functions can be specified
+
+#### Example
+
+- "test_file.py" (N/A)
+
+```
+import pytest 
+
+@pytest.fixture()
+def setup1():
+    print("\nSetup 1")
+	yield
+	print("\nTeardown 1")
+
+@pytest.fixture()
+def setup2(request):
+    print("\nSetup 2")
+	
+	def teardown_a():
+	    print("\nTeardown A")
+
+	def teardown_b():
+	    print("\nTeardown B")
+	
+	request.addfinalizer(teardown_a
+	request.addfinalizer(teardown_b
+
+def test1(setup1):
+    print("Executing test1")
+	assert True 
+
+def test2(setup2):
+    print("Executing test2")
+	assert True 
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ clear
+$ pytest -v -s
+```
+
+#### Test Fixtures Scope 
+
+- Test fixtures can have the following four different scopes which specify how often the fixture will be called:
+
+1. Function: Run the fixture once for each test 
+
+2. Class: Run the fixture once for each class of tests 
+
+3. Module: Run the fixture once when the module goes in scope 
+
+4. Session: The fixture is run when `pytest` starts 
+
+#### Example
+
+- "test_file.py" (N/A)
+
+```
+import pytest 
+
+@pytest.fixture(scope="session", autouse=True)
+def setupSession():
+    print("\nSetup Session")
+
+@pytest.fixture(scope="module", autouse=True)
+def setupModule():
+    print("\nSetup Module")
+	
+@pytest.fixture(scope="function", autouse=True)
+def setupFunction():
+    print("\nSetup Function")
+
+def test1(setup1):
+    print("Executing test1")
+	assert True 
+
+def test2(setup2):
+    print("Executing test2")
+	assert True 
+```
+
+- "test_file2.py" (N/A)
+
+```
+import pytest 
+
+@pytest.fixture(scope="module", autouse=True)
+def setupModule2():
+    print("\nSetup Module2")
+
+@pytest.fixture(scope="class", autouse=True)
+def setupClass2():
+    print("\nSetup Class2")
+	
+@pytest.fixture(scope="function", autouse=True)
+def setupFunction2():
+    print("\nSetup Function2")
+
+class TestClass:
+    def test_it(self):
+        print("TestIt")
+	    assert True 
+
+def test2(setup2):
+    def test_it2(self):
+        print("TestIt2")
+	    assert True 
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ pytest -s
+```
+
+#### Test Fixture Return Objects and Params
+
+- Test fixtures can optionally return data which can be used in the test 
+
+- The optional `params` array argument in the fixture decorator can be used to specify the data returned to the test 
+
+- When a `params` argument is specified, then the test will be called one time with each value specified 
+
+```
+@pytest.fixture(params=[1, 2])
+def setupData(request):
+    return request.param 
+
+def test1(setupData):
+    print(setupData
+```
+
+#### Example
+
+- "test_file.py" (N/A)
+
+```
+import pytest 
+
+@pytest.fixture(params=[1, 2, 3])
+def setup(request):
+    retVal = request.param
+    print("\nSetup retVale = {}".format(retVal))
+	return retVal 
+
+def test1(setup):
+    print("\nsetup = {}".format(setup))
+	assert True 
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ pytest -s
+```
+
+### Assert statements and exceptions
+
+#### Using the `assert` Statement 
+
+- `pytest` allows the use of the built-in Python `assert` statement for performing verifications in a unit test 
+
+- Comparison on all fo the Python data types can be performed using the standard comparison operators:
+    + `<`, `>`, `<=`, `>=`, `==`, and `!=`
+
+```
+def test_IntAssert():
+    assert 1 == 1
+
+def test_StrAssert():
+    assert "str" == "str"
+
+def test_floatAssert():
+    assert 1.0 == 1.0
+	
+def test_arrayAssert():
+    assert [1, 2, 3] == [1, 2, 3]
+	
+def test_dictAssert():
+    assert {"1": 1} == {"1": 1}
+```
+
+- `pytest` expands on the message returned from `assert` failures to provide more context in the test results
+
+#### Comparing Floating Point Values 
+
+- Validating floating point values can sometimes be difficult as internally the value is a binary fraction
+    + i.e., 1/3 is internally 0.33333333...
+
+- Because of this, some floating point comparisons that would be expected to pass will fail
+
+```
+# Failing test 
+def test_BadFloatCompare():
+    asset (0.1 + 0.2) == 0.3
+```
+
+- The `pytest` `approx` function can be used to verify that two floating point values are "approximately" equivalent to each other with a default tolerance of 1e-6
+
+```
+# Passing test 
+def test_GoodFloatCompare():
+    val = 0.1 + 0.2
+    asset val == approx(0.3)
+```
+
+#### Verifying Exceptions 
+
+- In some cases we want to verify that a function throws an exception under certain conditions 
+
+- `pytest` provides the `raises` helper to perform this verification using the `with` keyword 
+
+- If the specified exception is not raised in the code block specified after the `raises` line, then the test fails 
+
+```
+def test_Exception():
+    with raises(ValueError)
+	    raise ValueError 
+```
+
+#### Example 1
+
+- "test_file1.py" (N/A)
+
+```
+def test_IntAssert():
+    assert 1 == 1
+
+def test_StrAssert():
+    assert "str" == "str"
+
+def test_floatAssert():
+    assert 1.0 == 1.0
+	
+def test_arrayAssert():
+    assert [1, 2, 3] == [1, 2, 3]
+	
+def test_dictAssert():
+    assert {"1": 1} == {"1": 1}
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ pytest -v
+```
+
+#### Example 2
+
+- "test_file1.py" (N/A)
+
+```
+def test_float(): 
+    asset 0.1 + 0.2 == 0.3
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ clear 
+$ pytest -v  # fails 
+```
+
+#### Example 3
+
+- "test_file1.py" (N/A)
+
+```
+from pytest import approx
+
+def test_float(): 
+    asset 0.1 + 0.2 == approx(0.3)
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ clear 
+$ pytest -v  # passes
+```
+
+#### Example 4 - Part 1
+
+- "test_file1.py" (N/A)
+
+```
+from pytest import raises 
+
+def raisesValueException(): 
+    pass
+	# raise ValueError
+
+def test_exception():
+    with raises(ValueError):
+	    raisesValueException()
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ clear 
+$ pytest -v  # fails 
+```
+
+#### Example 4 - Part 2
+
+- "test_file1.py" (N/A)
+
+```
+from pytest import raises 
+
+def raisesValueException(): 
+    pass
+	raise ValueError
+
+def test_exception():
+    with raises(ValueError):
+	    raisesValueException()
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ clear 
+$ pytest -v  # passes 
+```
+
+### Command line arguments: `pytest` 
+
+#### Specifying What Tests Should Run 
+
+- By default, `pytest` will automatically discover and run all tests in all properly named modules from the current working directory and sub-directories 
+
+- There are several command line arguments for controlling which discovered tests actually are executed 
+
+- `moduleName`: Simply specify the module name to run only the tests in that module
+
+- `DirectoryName/`: Runs any tests found in the specified directory 
+
+- `-k "expression"`: Matches tests found that match the evaluateable expression
+    + The string values include module, class, and function names
+    + e.g., "TestClass and TestFunction"
+
+- `-m "expression"`: Matches tests found that have a `pytest.mark` decorator that matches the specified expression 
+
+#### Additional Useful Command Line Arguments 
+
+- `-v`: Report in verbose mode
+
+- `-q`: Run in quiet mode 
+    + Can be helpful when running hundreds or thousands of tests at once 
+
+- `-s`: Don't capture console output
+    + Show print statements in the console 
+
+- `--ignore`: Ignore the specified path when discovering tests 
+
+- `--maxfail`: Stop after the specified number of failures 
+
+#### Example
+
+- "test_file1.py" (N/A)
+
+```
+import pytest
+
+def test1():
+    print("\nTest1")
+    assert True
+```
+
+- "test_file2.py" (N/A)
+
+```
+import pytest
+
+def test2():
+    print("\nTest2")
+    assert True
+```
+
+- "test_file3.py" (N/A)
+    + in subdirectory "testSubDirectory"
+
+```
+import pytest
+
+def test3():
+    print("\nTest3")
+    assert True
+```
+
+- Terminal using `pytest_3_venv`
+
+```
+$ pytest -v -s
+$ pytest -v -s test_file1.py
+$ clear
+$ ptytest -v -s testSubDirectory/
+$ clear
+$ ptytest -v -s -k "test2"
+$ clear
+$ ptytest -v -s -k "test2 or test3"
+```
+
+- "test_file1.py" (N/A)
+
+```
+import pytest
+
+@pytest.mark.test1  # added
+def test1():
+    print("\nTest1")
+    assert True
+```
+
+- "test_file3.py" (N/A)
+    + in subdirectory "testSubDirectory"
+
+```
+import pytest
+
+@pytest.mark.test3  # added
+def test3():
+    print("\nTest3")
+	assert True
+```
+
+```
+$ clear
+$ ptytest -v -s -m "test1 or test3"
+```
+
+## 4. The Supermarket Checkout Kata
+
+### Supermarket Checkout Kata overview
+
+#### Overview 
+
+- Checkout class that maintains a list of items that are being checked out 
+
+- Checkout class provides interfaces for:
+    + Setting the prices of individual items 
+    + Adding individual items to the check out 
+    + The current total cost for all the items added 
+    + Add an apply discounts on select items when N number are purchased 
+
+#### Test Cases 
+
+- Can create an instance of the Checkout class 
+
+- Can add an item price 
+
+- Can add an item 
+
+- Can calculate the current total 
+
+- Can add multiple items and get correct total 
+
+- Can add discount rules 
+
+- Can apply discount rules to the total 
+
+- Exception is thrown for an item added without a price 
+
+### Setup and first test case 
+
+#### Part 1: Initial TDD step
+
+- "TestCheckout.py"
+    + (only final version is available)
+
+```
+def test_AssertTrue():
+	assert True
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails 
+```
+
+#### Part 2: Can create instance of Checkout class
+
+- "Checkout.py"
+    + (only final version is available)
+
+```
+class Checkout:
+    pass 
+```
+
+- "TestCheckout.py"
+
+```
+from Checkout import Checkout
+
+def test_CanInstantiateCheckout():
+	co = Checkout()
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes
+```
+
+### Add items, add items prices, and calculate current total
+
+#### Part 3: Can add item price
+
+- "TestCheckout.py"
+
+```
+from Checkout import Checkout
+
+def test_CanInstantiateCheckout():
+	co = Checkout()
+
+def test_CanAddItemPrice():
+    co = Checkout()
+	co.addItemPrice("a", 1)
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    pass 
+```
+
+```
+$ ptytest  # used "Play" button (">")  - fails
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    def addItemPrice(self):
+	    pass 
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails 
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    def addItemPrice(self, item, price):
+	    pass 
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+- "TestCheckout.py" - refactor
+    + Remove `test_CanInstantiateCheckout`
+
+```
+from Checkout import Checkout
+
+def test_CanAddItemPrice():
+    co = Checkout()
+	co.addItemPrice("a", 1)
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+#### Part 4: Can add an item
+
+- "TestCheckout.py"
+
+```
+from Checkout import Checkout
+
+def test_CanAddItemPrice():
+    co = Checkout()
+	co.addItemPrice("a", 1)
+
+def test_CanAddItem():
+    co = Checkout()
+	co.addItem("a")
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    def addItemPrice(self, item, price):
+	    pass 
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails 
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    def addItemPrice(self, item, price):
+	    pass 
+	
+	def addItem(self, item):
+	    pass 
+```
+
+```
+$ ptytest  # used "Play" button (">") - pass 
+```
+
+- "TestCheckout.py" - Refactor 
+
+```
+import pytest 
+from Checkout import Checkout
+
+@pytest.fixture()
+def checkout():
+    checkout = Checkout()
+	return checkout 
+
+def test_CanAddItemPrice(checkout):
+	checkout.addItemPrice("a", 1)
+
+def test_CanAddItem(checkout):
+	checkout.addItem("a")
+```
+
+```
+$ ptytest  # used "Play" button (">") - pass 
+```
+
+#### Part 5: Can calculate the current total 
+
+- "TestCheckout.py"
+
+```
+import pytest 
+from Checkout import Checkout
+
+@pytest.fixture()
+def checkout():
+    checkout = Checkout()
+	return checkout 
+
+def test_CanAddItemPrice(checkout):
+	checkout.addItemPrice("a", 1)
+
+def test_CanAddItem(checkout):
+	checkout.addItem("a")
+
+def test_CanCalculateTotal(checkout)
+	checkout.addItemPrice("a", 1)
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 1
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    def addItemPrice(self, item, price):
+	    pass 
+	
+	def addItem(self, item):
+	    pass 
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails 
+```
+
+
+- "Checkout.py"
+
+```
+class Checkout:
+    def addItemPrice(self, item, price):
+	    pass 
+	
+	def addItem(self, item):
+	    pass 
+	
+	def calculateTotal(self):
+	    return 1
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+- "TestCheckout.py" - Refactor
+    + Removed `test_CanAddItemPrice` and `test_CanAddItem` 
+
+```
+import pytest 
+from Checkout import Checkout
+
+@pytest.fixture()
+def checkout():
+    checkout = Checkout()
+	return checkout 
+
+def test_CanCalculateTotal(checkout)
+	checkout.addItemPrice("a", 1)
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 1
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+### Add multiple items and calculate total 
+
+#### Part 6: Can add multiple items and get correct total
+
+- "TestCheckout.py"
+
+```
+import pytest 
+from Checkout import Checkout
+
+@pytest.fixture()
+def checkout():
+    checkout = Checkout()
+	return checkout 
+
+def test_CanCalculateTotal(checkout)
+	checkout.addItemPrice("a", 1)
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 1
+	
+def test_GetCorrectTotalWithMultipleItems(checkout):
+	checkout.addItemPrice("a", 1)
+	checkout.addItemPrice("b", 2)
+    checkout.addItem("a")
+    checkout.addItem("b")
+	assert checkout.calculateTotal() == 3
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    def addItemPrice(self, item, price):
+	    pass 
+	
+	def addItem(self, item):
+	    pass 
+	
+	def calculateTotal(self):
+	    return 1
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails 
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    def __init__(self):
+	    self.prices = {}
+		self.total = 0
+
+    def addItemPrice(self, item, price):
+	    self.prices(item) = price
+	
+	def addItem(self, item):
+	    self.total += self.prices[item]
+	
+	def calculateTotal(self):
+	    return self.total
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes
+```
+
+- No need to refactor at this point 
+
+### Add and apply discounts 
+
+#### Part 7: Can add discount rules
+
+- "TestCheckout.py"
+
+```
+import pytest 
+from Checkout import Checkout
+
+@pytest.fixture()
+def checkout():
+    checkout = Checkout()
+	return checkout 
+
+def test_CanCalculateTotal(checkout)
+	checkout.addItemPrice("a", 1)
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 1
+	
+def test_GetCorrectTotalWithMultipleItems(checkout):
+	checkout.addItemPrice("a", 1)
+	checkout.addItemPrice("b", 2)
+    checkout.addItem("a")
+    checkout.addItem("b")
+	assert checkout.calculateTotal() == 3
+	
+def test_canAddDiscountRule(checkout):
+    checkout.addDiscount("a", 3, 2)
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    def __init__(self):
+	    self.prices = {}
+		self.total = 0
+
+    def addItemPrice(self, item, price):
+	    self.prices(item) = price
+	
+	def addItem(self, item):
+	    self.total += self.prices[item]
+	
+	def calculateTotal(self):
+	    return self.total
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails 
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    def __init__(self):
+	    self.prices = {}
+		self.total = 0
+
+    def addDiscount(self, item, nbrOfItems, price):
+	    pass
+	
+    def addItemPrice(self, item, price):
+	    self.prices(item) = price
+	
+	def addItem(self, item):
+	    self.total += self.prices[item]
+	
+	def calculateTotal(self):
+	    return self.total
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+- "TestCheckout.py" - Refactor
+
+```
+import pytest 
+from Checkout import Checkout
+
+@pytest.fixture()
+def checkout():
+    checkout = Checkout()
+	checkout.addItemPrice("a", 1)  # moved from function
+	checkout.addItemPrice("b", 2)  # moved from function
+	return checkout 
+
+def test_CanCalculateTotal(checkout)
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 1
+	
+def test_GetCorrectTotalWithMultipleItems(checkout):
+    checkout.addItem("a")
+    checkout.addItem("b")
+	assert checkout.calculateTotal() == 3
+	
+def test_canAddDiscountRule(checkout):
+    checkout.addDiscount("a", 3, 2)
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+#### Part 8: Can apply discount rules to the total - Part 1
+
+- "TestCheckout.py"
+
+```
+import pytest 
+from Checkout import Checkout
+
+@pytest.fixture()
+def checkout():
+    checkout = Checkout()
+    checkout.addItemPrice("a", 1)
+    checkout.addItemPrice("b", 2)
+    return checkout 
+
+def test_CanCalculateTotal(checkout)
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 1
+	
+def test_GetCorrectTotalWithMultipleItems(checkout):
+    checkout.addItem("a")
+    checkout.addItem("b")
+    assert checkout.calculateTotal() == 3
+	
+def test_canAddDiscountRule(checkout):
+    checkout.addDiscount("a", 3, 2)
+	
+def test_canApplyDiscoutRule(checkout):
+    checkout.addDiscount("a", 3, 2)
+    checkout.addItem("a")
+    checkout.addItem("a")
+    checkout.addItem("a")
+    assert checkout.calculateTotal() == 2    
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    def __init__(self):
+	    self.prices = {}
+		self.total = 0
+
+    def addDiscount(self, item, nbrOfItems, price):
+	    pass
+	
+    def addItemPrice(self, item, price):
+	    self.prices(item) = price
+	
+	def addItem(self, item):
+	    self.total += self.prices[item]
+	
+	def calculateTotal(self):
+	    return self.total
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails 
+```
+
+- "TestCheckout.py"
+
+```
+import pytest 
+from Checkout import Checkout
+
+@pytest.fixture()
+def checkout():
+    checkout = Checkout()
+	checkout.addItemPrice("a", 1)
+	checkout.addItemPrice("b", 2)
+	return checkout 
+
+def test_CanCalculateTotal(checkout)
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 1
+	
+def test_GetCorrectTotalWithMultipleItems(checkout):
+    checkout.addItem("a")
+    checkout.addItem("b")
+	assert checkout.calculateTotal() == 3
+	
+def test_canAddDiscountRule(checkout):
+    checkout.addDiscount("a", 3, 2)
+
+@pytest.mark.skip  # added
+def test_canApplyDiscoutRule(checkout):
+    checkout.addDiscount("a", 3, 2)
+    checkout.addItem("a")
+    checkout.addItem("a")
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 2    
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+
+- "Checkout.py"
+
+```
+class Checkout:
+    class Discount:
+	    def __init__(self, nbrItems, price):
+		    self.nbrItems = nbrItems
+			self.price = price 
+			
+    def __init__(self):
+	    self.prices = {}
+	    self.discounts = {}
+		self.items = {}
+
+    def addDiscount(self, item, nbrOfItems, price):
+	    discount = self.Discount(nbrOfItems, price)
+		self.discounts[item] = discount 
+		
+    def addItemPrice(self, item, price):
+	    self.prices(item) = price
+	
+	def addItem(self, item):
+	    if item in self.items:
+	        self.items[item] += 1
+		else:
+		    self.items[item] = 1
+	
+	def calculateTotal(self):
+	    total = 0
+		for item, cnt in self.items.items():
+		    total += self.prices[item] * cnt
+	    return total
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+#### Part 8: Can apply discount rules to the total - Part 2
+
+- "TestCheckout.py"
+
+```
+import pytest 
+from Checkout import Checkout
+
+@pytest.fixture()
+def checkout():
+    checkout = Checkout()
+	checkout.addItemPrice("a", 1)
+	checkout.addItemPrice("b", 2)
+	return checkout 
+
+def test_CanCalculateTotal(checkout)
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 1
+	
+def test_GetCorrectTotalWithMultipleItems(checkout):
+    checkout.addItem("a")
+    checkout.addItem("b")
+	assert checkout.calculateTotal() == 3
+	
+def test_canAddDiscountRule(checkout):
+    checkout.addDiscount("a", 3, 2)
+
+# @pytest.mark.skip  # removed
+def test_canApplyDiscoutRule(checkout):
+    checkout.addDiscount("a", 3, 2)
+    checkout.addItem("a")
+    checkout.addItem("a")
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 2    
+```
+
+```
+$ ptytest  # used "Play" button (">") - failed (just to verify)
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    class Discount:
+	    def __init__(self, nbrItems, price):
+		    self.nbrItems = nbrItems
+			self.price = price 
+	
+    def __init__(self):
+	    self.prices = {}
+	    self.discounts = {}
+		self.items = {}
+
+    def addDiscount(self, item, nbrOfItems, price):
+	    discount = self.Discount(nbrOfItems, price)
+		self.discounts[item] = discount 
+		
+    def addItemPrice(self, item, price):
+	    self.prices(item) = price
+	
+	def addItem(self, item):
+	    if item in self.items:
+	        self.items[item] += 1
+		else:
+		    self.items[item] = 1
+	
+	def calculateTotal(self):
+	    total = 0
+	    for item, cnt in self.items.items():
+             if item in self.discouts:
+			    discount = self.discounts[item]
+			    if cnt >= discount.nbrItems:
+                    nbrOfDiscounts = cnt/discount.nbrItems
+                    total += nbrOfDiscounts * discount.price 
+                    remaining = cnt % discount.nbrItems 
+                    total += remaining * self.prices[item]	
+                else:
+                    total += self.prices[item] * cnt
+			else:
+			    total += self.prices[item] * cnt
+	    return total
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+- "Checkout.py" - Refactor 
+
+```
+class Checkout:
+    class Discount:
+        def __init__(self, nbrItems, price):
+            self.nbrItems = nbrItems
+            self.price = price 
+			
+    def __init__(self):
+	   self.prices = {}
+	   self.discounts = {}
+        self.items = {}
+
+    def addDiscount(self, item, nbrOfItems, price):
+	   discount = self.Discount(nbrOfItems, price)
+        self.discounts[item] = discount 
+		
+    def addItemPrice(self, item, price):
+	    self.prices(item) = price
+	
+    def addItem(self, item):
+        if item in self.items:
+	       self.items[item] += 1
+        else:
+		  self.items[item] = 1
+	
+	def calculateTotal(self):
+	    total = 0
+	    for item, cnt in self.items.items():
+	        total += self.calculateItemTotal(item, cnt)
+	    return total
+	
+	def calculateItemTotal(self, item, cnt):
+	    total = 0
+	    if item in self.discouts:
+	        discount = self.discounts[item]
+             if cnt >= discount.nbrItems:
+                 total += self.calculateItemDiscountedTotal(self, item, cnt, discount)
+             else:
+                 total += self.prices[item] * cnt
+         else:
+             total += self.prices[item] * cnt
+		
+	    return total
+    
+    def calculateItemDiscountedTotal(self, item, cnt, discount):
+        total = 0
+        nbrOfDiscounts = cnt/discount.nbrItems
+        total += nbrOfDiscounts * discount.price 
+        remaining = cnt % discount.nbrItems 
+        total += remaining * self.prices[item]		
+	   return total 
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+### Throw exception when adding an item with no price 
+
+#### Part 8: Exception is thrown for item added without a price
+
+- "TestCheckout.py"
+
+```
+import pytest 
+from Checkout import Checkout
+
+@pytest.fixture()
+def checkout():
+    checkout = Checkout()
+	checkout.addItemPrice("a", 1)
+	checkout.addItemPrice("b", 2)
+	return checkout 
+
+def test_CanCalculateTotal(checkout)
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 1
+	
+def test_GetCorrectTotalWithMultipleItems(checkout):
+    checkout.addItem("a")
+    checkout.addItem("b")
+	assert checkout.calculateTotal() == 3
+	
+def test_canAddDiscountRule(checkout):
+    checkout.addDiscount("a", 3, 2)
+
+def test_canApplyDiscoutRule(checkout):
+    checkout.addDiscount("a", 3, 2)
+    checkout.addItem("a")
+    checkout.addItem("a")
+    checkout.addItem("a")
+	assert checkout.calculateTotal() == 2 
+	
+def test_ExceptionWithBadItem(checkout):
+    with pytest.raises(Exception):
+        checkout.addItem("c")	
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails
+```
+
+- "Checkout.py"
+
+```
+class Checkout:
+    class Discount:
+	    def __init__(self, nbrItems, price):
+		    self.nbrItems = nbrItems
+			self.price = price 
+			
+    def __init__(self):
+	    self.prices = {}
+	    self.discounts = {}
+		self.items = {}
+
+    def addDiscount(self, item, nbrOfItems, price):
+	    discount = self.Discount(nbrOfItems, price)
+		self.discounts[item] = discount 
+		
+    def addItemPrice(self, item, price):
+	    self.prices(item) = price
+	
+	def addItem(self, item):
+	    if item not in self.prices:
+		    raise Exception("Bad Item")
+		
+	    if item in self.items:
+	        self.items[item] += 1
+		else:
+		    self.items[item] = 1
+	
+	def calculateTotal(self):
+	    total = 0
+		for item, cnt in self.items.items():
+		    total += self.calculateItemTotal(item, cnt)
+	    return total
+	
+	def calculateItemTotal(self, item, cnt):
+	    total = 0
+		if item in self.discouts:
+			discount = self.discounts[item]
+			if cnt >= discount.nbrItems:
+                total += self.calculateItemDiscountedTotal(self, item, cnt, discount)
+            else:
+                total += self.prices[item] * cnt
+		else:
+			total += self.prices[item] * cnt
+		
+		return total
+    
+    def calculateItemDiscountedTotal(self, item, cnt, discount):
+        total = 0
+        nbrOfDiscounts = cnt/discount.nbrItems
+        total += nbrOfDiscounts * discount.price 
+        remaining = cnt % discount.nbrItems 
+        total += remaining * self.prices[item]		
+        return total 
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+- No obvious Refactoring needed
+    + Methods could be made smaller and use some clean up
+
+## 5. Test Doubles
+
+### Test doubles, `unittest.mock`, and `monkeypatch` overview 
+
+#### What Are Test Doubles?
+
+- Almost all code depends (i.e., collaborates) with other parts of the system
+
+- Those other parts of the system are not always easy to replicate in the unit test environment or would make tests slow if used directly 
+
+- Test doubles are objects that are used in unit tests as replacements to the real production system collaborators
+
+#### Types of Test Doubles
+
+- Dummy: Objects that can be passed around as necessary but do not have any type of test implementation and should never be used 
+
+- Fake: These objects generally have a simplified functional implementation of a particular interface that is adequate for testing but not for production 
+
+- Stub: These objects provide implementations with canned answers that are suitable for the test 
+
+- Spies: These objects provide implementations that record the values that were passed in so they can be used by the test 
+
+- Mocks: These objects are pre-programmed to except specific calls and parameters and can throw exceptions when necessary 
+
+#### Mock Frameworks
+
+- Most mock frameworks provide easy ways for automatically creating any of these types of test doubles **at runtime**
+
+- The provide a fast means for creating mocking expectations for your tests 
+
+- They can be much more efficient than implementing custom mock objects of your own creation 
+
+- Creating mock objects by hand can be tedious and error prone 
+
+#### `unittest.mock`
+
+- Python mocking framework 
+
+- Built into Python version 3.3 and newer 
+
+- Needs to be installed for older versions of Python with the command:
+    + `pip install mock`
+
+#### `unittest.mock` - `Mock` Class 
+
+- `unittest.mock` provides the `Mock` class that can be used as a fake, stub, spy, or true mock for all your tests
+
+- The `Mock` class has many initialization parameters for controlling its behavior
+
+- Once it has been called, a `Mock` object has many built-in functions for verifying how it was used 
+
+```
+# Example
+def test_Foo():
+    bar = Mock()
+	functionThatUsesBar(bar)
+	bar.assert_called_once()
+```
+
+### `Mock` Initialization
+
+- `Mock` provides many initialization parameters that can be bused to control the `Mock` object's behavior
+
+- The `spec` parameter specifies the interface that `Mock` object is implementing 
+
+- The `side_effect` parameter specifies a function that should be called when the mock is called 
+
+- The `return_value` parameter specified the return value when the mock is called 
+
+```
+# Example
+def test_Foo():
+    bar = Mock(spec=SpecClass)
+    bar2 = Mock(side_effect=barFunc)
+    bar3 = Mock(return_value=1)
+```
+
+#### `Mock` - Verification
+
+- `Mock` provides many built-in functions for verifying how it was used such as the following asserts:
+    + `assert_called`: `assert` the mock called
+    + `assert_called_once`: `assert` the mock called once (exactly one time)
+    + `assert_called_with`: `assert` the last call to the mock was with the specified parameters
+    + `assert_called_once_with`: `assert` the mock called once with the specified parameters
+    + `assert_any_call`: `assert` the mock was ever called with the specified parameters 
+    + `assert_not_called`: `assert` the mock was not called
+
+#### `Mock` - Additional Verification
+
+- `Mock` provides these additional built-in attributes for verification:
+    + `assert_has_calls`: `assert` the mock was called with the list of calls 
+    + `called`: A boolean value indicating if the mock was ever called
+    + `call_count`: An integer value representing the number of times the `Mock` object was called
+    + `call_args`: The arguments the mock was last called with 
+    + `call_args_list`: A list containing the arguments that were used for each call to the mock 
+
+#### `unittest.mock` - `MagicMock` Class 
+
+- `unittest.mock` also provides the `MagicMock` class 
+
+- `MagicMock` is derived from `Mock` and provides a default implementation of many of the default "magic" methods defined for objects in Python 
+    + e.g., `__str__`
+
+- The following magic methods are not implemented by default in `MagicMock`:
+    + `__getattr__`
+    + `__setattr__`
+    + `__init__`
+    + `__new__`
+    + `__prepare__`
+    + `__instancecheck__`
+    + `__subclasscheck__`
+	+ `__del__`
+
+- I will use `MagicMock` in all of the examples, and I use it by default in practice as it can simplify test setup
+
+#### `pytest` `monkeypatch` Test Fixture 
+
+- `pytest` provides the `monkeypatch` text fixture to allow a test to dynamically replace:
+    + Module and class atrributes
+	+ Dictionary entries
+	+ Environment variables
+
+```
+def callIt()
+    print("Hello World")
+	
+def test_patch(monkeypatch)
+    monkeypatch(callIt, Mock())
+    callIt()
+    callIt.assert_called_once()
+```
+
+### Example - Part 1: Start TDD
+
+- "ToDo.txt" (N/A)
+    + Can call readFromFile
+	+ readFromFile returns correct string 
+	+ readFromFile throws exception when file doesn't exist 
+
+- "TestDoubles_Tests.py"
+
+```
+def test_canCallReadFromFile():
+    readFromFile()
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails
+```
+
+- "LineReader.py"
+
+```
+def readFromFile(filename):
+    pass
+```
+
+- "TestDoubles_Tests.py"
+
+```
+from LineReader import readFromFile 
+
+def test_canCallReadFromFile():
+    readFromFile("blah")
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+- Nothing to refactor
+
+### Example - Part 2: readFromFile returns correct string 
+
+- "TestDoubles_Tests.py"
+
+```
+import pytest
+from unittest.mock import MagicMock
+from LineReader import readFromFile 
+
+def test_canCallReadFromFile():
+    readFromFile("blah")
+	
+def test_returnsCorrectString(monkeypatch):
+    mock_file = MagicMock()
+	mock_file.readline = MagicMock(return_value="test line")
+	mock_open = MagicMock(return_value=mock_file)
+	monkeypatch.setattr("builtins.open", mock_open)
+    result = readFromFile("blah")
+	mock_open.assert_called_once_with("blah", "r")
+	assert result == "test line"
+```
+
+- "LineReader.py"
+
+```
+def readFromFile(filename):
+    pass
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails 
+```
+
+- "LineReader.py"
+
+```
+def readFromFile(filename):
+    infile = open(filename, "r")
+    line = infile.readline()
+    return line 
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails 
+```
+
+- "TestDoubles_Tests.py"
+
+```
+import pytest
+from unittest.mock import MagicMock
+from LineReader import readFromFile 
+
+# remove
+#def test_canCallReadFromFile():
+#    readFromFile("blah")
+	
+def test_returnsCorrectString(monkeypatch):
+    mock_file = MagicMock()
+    mock_file.readline = MagicMock(return_value="test line")
+    mock_open = MagicMock(return_value=mock_file)
+    monkeypatch.setattr("builtins.open", mock_open)
+    result = readFromFile("blah")
+    mock_open.assert_called_once_with("blah", "r")
+    assert result == "test line"
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+- Nothing to refactor
+### Example - Part 3: readFromFile throws exception when file doesn't exist 
+
+- "TestDoubles_Tests.py"
+
+```
+import pytest
+from pytest import raises
+from unittest.mock import MagicMock
+from LineReader import readFromFile 
+	
+def test_returnsCorrectString(monkeypatch):
+    mock_file = MagicMock()
+    mock_file.readline = MagicMock(return_value="test line")
+    mock_open = MagicMock(return_value=mock_file)
+    monkeypatch.setattr("builtins.open", mock_open)
+    result = readFromFile("blah")
+    mock_open.assert_called_once_with("blah", "r")
+    assert result == "test line"
+	
+def test_throwsExceptionWithBadFile(monkeypatch):
+    mock_file = MagicMock()
+    mock_file.readline = MagicMock(return_value="test line")
+    mock_open = MagicMock(return_value=mock_file)
+    monkeypatch.setattr("builtins.open", mock_open)
+    mock_exits = MagicMock(return_value=False)
+    monkeypatch.setattr("os.path.exists", mock_exists)
+    with raises(Exception):
+        restuls = readFromFile("blah")
+```
+
+- "LineReader.py"
+
+```
+def readFromFile(filename):
+    infile = open(filename, "r")
+    line = infile.readline()
+    return line 
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails 
+```
+
+- "LineReader.py"
+
+```
+import os
+
+def readFromFile(filename):
+    if not os.path.exists(filename): 
+        raise Exception("Bad File")
+    infile = open(filename, "r")
+    line = infile.readline()
+    return line 
+```
+
+```
+$ ptytest  # used "Play" button (">") - fails 
+```
+
+- "TestDoubles_Tests.py"
+
+```
+import pytest
+from pytest import raises
+from unittest.mock import MagicMock
+from LineReader import readFromFile 
+	
+def test_returnsCorrectString(monkeypatch):
+    mock_file = MagicMock()
+    mock_file.readline = MagicMock(return_value="test line")
+    mock_open = MagicMock(return_value=mock_file)
+    monkeypatch.setattr("builtins.open", mock_open)
+    mock_exits = MagicMock(return_value=True)  # added 
+    monkeypatch.setattr("os.path.exists", mock_exists)  # added 
+    result = readFromFile("blah")
+    mock_open.assert_called_once_with("blah", "r")
+    assert result == "test line"
+	
+def test_throwsExceptionWithBadFile(monkeypatch):
+    mock_file = MagicMock()
+    mock_file.readline = MagicMock(return_value="test line")
+    mock_open = MagicMock(return_value=mock_file)
+    monkeypatch.setattr("builtins.open", mock_open)
+    mock_exits = MagicMock(return_value=False)
+    monkeypatch.setattr("os.path.exists", mock_exists)
+    with raises(Exception):
+        results = readFromFile("blah")
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+- "TestDoubles_Tests.py" - Refactor 
+
+```
+import pytest
+from pytest import raises
+from unittest.mock import MagicMock
+from LineReader import readFromFile 
+
+@pytest.fixture()  # added 
+def mock_open(monkeypatch):
+    mock_file = MagicMock()
+    mock_file.readline = MagicMock(return_value="test line")
+    mock_open = MagicMock(return_value=mock_file)
+    monkeypatch.setattr("builtins.open", mock_open)
+    return mock_open
+
+def test_returnsCorrectString(mock_open, monkeypatch):
+    #mock_file = MagicMock()
+    #mock_file.readline = MagicMock(return_value="test line")
+    #mock_open = MagicMock(return_value=mock_file)
+    #monkeypatch.setattr("builtins.open", mock_open)
+    mock_exits = MagicMock(return_value=True)  # added 
+    monkeypatch.setattr("os.path.exists", mock_exists)  # added 
+    result = readFromFile("blah")
+    mock_open.assert_called_once_with("blah", "r")
+    assert result == "test line"
+	
+def test_throwsExceptionWithBadFile(mock_open, monkeypatch):
+    #mock_file = MagicMock()
+    #mock_file.readline = #MagicMock(return_value="test line")
+    mock_open = MagicMock(return_value=mock_file)
+    #monkeypatch.setattr("builtins.open", mock_open)
+    mock_exits = MagicMock(return_value=False)
+    monkeypatch.setattr("os.path.exists", mock_exists)
+    with raises(Exception):
+        results = readFromFile("blah")
+```
+
+```
+$ ptytest  # used "Play" button (">") - passes 
+```
+
+## 6. Test-Driven Development Best Practices
+
+### TDD best practices
+
+#### Always Do the Next Simplest Test Case 
+
+- Doing the next simplest test case allows you to gradually increase the complexity of your code
+
+- If you jump into the complex test cases too quickly, you will find yourself stuck writing a lot of functionality all at once
+
+- Beyond just slowing you down, this can also lead to bad design decisions 
+
+#### Use Descriptive Test Names 
+
+- Code is read 1000 time more than it's written 
+    + Make it clear and readable
+
+- Unit tests are the best documentation for how your code works 
+    + Make them easy to understand 
+
+- Test suites should name the class or function under test and the test names should describe the functionality being tested 
+
+#### Keep Test Fast 
+
+- One of the biggest benefits of TDD is the fast feedback on how your changes have affected things 
+
+- This goes away if your unit tests take more than a few seconds to build and run 
+
+- To help your test stay fast, try to:
+    + Keep console output to a minimum - this slows thing down and can clutter up the testing framework output 
+    + Mock out any slow collaborates with test doubles that are fast
+
+#### Use Code Coverage Tools
+
+- Once you have all your test cases covered and you think you're done, run your unit test through a code coverage tool 
+
+- This can help you identify any test cases you may have missed
+    + Especially negative test cases 
+
+- You should have a goal of 100% code coverage in functions with real logic in them 
+    + i.e., not simple getters/setters 
+
+#### Run Your Tests Multiple Times and In Random Order 
+
+- Running your xtests many times will help ensure that you don't have any flaky tests that fail intermittently
+
+- Running your tests in random order ensures that your tests don't have any dependencies between each other 
+
+- Use the `pytest-random-order` plugin to randomize the order that the tests are executed and the `pytest-repeat` plug in to repeat one or more tests a specific number of times
+
+#### Use a Static Code Analysis Tool 
+
+- Pylint is an excellent open source code analysis tool that will find errors in your code that you may have missed in your testing 
+
+- Pylint can verify your Python code meets your team's coding standard 
+    + Or the PEP8 standard by default 
+
+- Pylink can also detect duplicated code and can generate UML diagrams from it's analysis of the code 
+
+## Conclusion 
+
+### Summary 
+
+#### Course Summary 
+
+- What Unit Testing and Test Drive Development are 
+
+- Went over the PyTest unit testing framework 
+
+- Supermarket Checkout Kata 
+
+- Reviewed the types of Test Doubles and how they each can help with isolating the code under test 
+
+- Went over some best practices of Unit Testing and Test Driven Development 
+
+#### TDD Readings
+
+- *Test Driven Development: By Example* by Kent Beck
+
+- *Clean Code: A Handbook of Agile Software Craftsmanship* by Robert Martin
+
+- *Working Effectively with Legacy Code* by Michael Feathers
+
+#### What To Do Next?
+
+- Continue to practice your new discipline of TDD everyday, both in work and with additional code Katas
+
+- Read the books from the previous slide and work through their examples 
+
+- Watch Robert Martin's "Clean Code" video series, which is an excellent resource for how to write code in general 
+    + https://cleancoders.com/ 

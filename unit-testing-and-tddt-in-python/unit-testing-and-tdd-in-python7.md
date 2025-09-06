@@ -1,0 +1,42 @@
+Conclusion
+================
+Robert A. Stevens
+2024-04-15
+
+### Summary
+
+#### Course Summary
+
+-   What Unit Testing and Test Drive Development are
+
+-   Went over the PyTest unit testing framework
+
+-   Supermarket Checkout Kata
+
+-   Reviewed the types of Test Doubles and how they each can help with
+    isolating the code under test
+
+-   Went over some best practices of Unit Testing and Test Driven
+    Development
+
+#### TDD Readings
+
+-   *Test Driven Development: By Example* by Kent Beck
+
+-   *Clean Code: A Handbook of Agile Software Craftsmanship* by Robert
+    Martin
+
+-   *Working Effectively with Legacy Code* by Michael Feathers
+
+#### What To Do Next?
+
+-   Continue to practice your new discipline of TDD everyday, both in
+    work and with additional code Katas
+
+-   Read the books from the previous slide and work through their
+    examples
+
+-   Watch Robert Martin’s “Clean Code” video series, which is an
+    excellent resource for how to write code in general
+
+    -   <https://cleancoders.com/>

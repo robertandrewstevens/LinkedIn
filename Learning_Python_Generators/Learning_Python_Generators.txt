@@ -1,0 +1,335 @@
+Learning Python Generators
+
+https://www.linkedin.com/learning/learning-python-generators-17425534/
+
+## Course details
+
+37m * Intermediate * Released: 5/24/2022
+
+Generators are a concept unique to Python. They're incredibly helpful if you know how and when to use them. Simply put, generators are possibly the best way to iterate through large and complex data sets. In this course, Megan Amendola covers the basics you need to know about Python generators, starting from what they are, how to create them, what they’re for, and ways to use them. Megan teaches you the benefit of using Python generators to improve your program’s performance and save memory when working with large data sets using generator functions. She also covers what Python’s yield keyword is and what it does, how to create a generator expression, how to combine multiple generators into a pipeline, and more. Megan also provides challenges and solutions as you go along so you can test your knowledge as you learn.
+
+## Skills covered
+
+Python (Programming Language)
+
+## Introduction
+
+### About the Python generators
+
+#### Python Generators
+
+- Generator functions
+
+- Generator expressions
+
+- Generator pipelines
+
+### Previous knowledge
+
+#### What You Should Know
+
+- Python basics
+
+- Data types
+
+- Functions
+
+- List compreshensions
+
+### Project files
+
+#### Exercise Files
+
+- [download and follow along]
+
+### Chapter Quiz
+
+1. Python generators are mostly used to interact with _____.
+- small data sets
+- lists
+- large data sets - Yes
+    + Large datasets can eat up memory, so using a generator can allow you to interact with them more easily
+- multiple classes
+
+## 1. Understanding Generator Functions
+
+### What are Python generators?
+
+#### Python Generators
+
+- Large data sets
+
+- Function that holds its own state but is too small for a whole class
+
+- Creating an iterator
+
+### Generator functions
+
+- Written like regular functions
+
+- Utilize the `yield` keyword
+
+- Returns a lazy iterator - not stored in memory
+
+#### `app.py`
+
+- Exercise Files > chapter1 > v2_geneator_functions > app.py 
+
+### Interacting with the generator object
+
+- Convert type
+
+- Loop
+
+- next()
+
+- Generator objects are exhausted after use
+
+- Exercise Files > chapter1 > v2_geneator_functions > app.py 
+
+### Generators and memory
+
+- Exercise Files > chapter1 > v4_memory > memory.py 
+
+### Challenge: Squaring numbers
+
+- Create a function called "square"
+
+- The function will take a range stop number 
+
+- the function should square the numbers for each number in the range (1, number)
+
+- Exercise Files > chapter1 > v5_6_challenge_squaring > square.py 
+
+### Solution: Squaring numbers
+
+### Chapter Quiz
+
+1. What is the biggest benefit of using a generator?
+- creating an iterator
+- holding an internal state
+- using less code
+- memory saving - Yes
+    + Generators can save you memory, making it easier to work with large data sets and other cumbersome tasks.
+
+2. Which Python keyword creates generator functions?
+- return
+- and
+- yield - Yes
+    + Generator functions use the `yield` keyword to lazily iterate through information.
+- if
+
+3. If a generator object becomes exhausted when using next(), what is the error you'll receive?
+- IndexError
+- OverflowError
+- SystemError
+- StopIteration - Yes 
+    + A generator object that has been exhausted using `next()` will return a StopIteration error.
+
+4. Which option is a generator function?
+
+# no
+python
+def evens():
+    num = 1
+    while True:
+        if num % 2 == 0:
+            yield num
+        return
+        num += 1
+
+# no 
+python
+def evens():
+    num = 1
+    while num < 20:
+        if num % 2 == 0:
+            print(num)
+        num += 1
+
+# yes 
+# A generator function contains the `yield` keyword so an internal state is kept and memory is saved.
+python
+def evens():
+    num = 1
+    while True:
+        if num % 2 == 0:
+            yield num
+        num += 1
+
+# no 
+python
+def evens():
+    num = 1
+    while True:
+        if num % 2 == 0:
+            return num
+        num += 1
+
+## 2. Generator Expressions
+
+### Reviewing Python compreshensions
+
+#### Python List Comprehensions
+
+- This is how you create a list comprehension
+
+```
+my_list = [expression for element in iterable]
+```
+
+- Exercise Files > chapter2 > v1_review > app.py 
+
+### Generator expressions
+
+#### Generator Expressions
+
+- This is how you create a list comprehension
+
+```
+my_list = [expression for element in iterable]
+```
+
+- This is how you create a generator expression
+
+```
+my_list = (expression for element in iterable)
+```
+
+- Exercise Files > chapter2 > v2_expressions > app.py 
+
+- Create an iterator in a single line of code 
+    + Still saves memory 
+
+#### Interacting with a Generator Expression
+
+- Convert type
+
+- Loop
+
+- next()
+
+- Generator objects are exhausted after use 
+
+### Working with expressions
+
+- Exercise Files > chapter2 > v3_interacting > app.py 
+
+### Comprehensions vs. expressions
+
+#### Comprehensions vs. Expressions 
+
+- Comprehensions can be faster
+
+- Expressions save on memory
+
+- Exercise Files > chapter2 > v4_comp_vs_exp > memory.py 
+
+### Challenge: Most words
+
+#### Challenge: The Most words
+
+- Find the string with the most words
+
+- Use a generator expression 
+
+- Exercise Files > chapter2 > v5_6_most_words > most.py 
+
+### Solution: Most words
+
+### Chapter Quiz
+
+1. What is not a way to view or interact with the elements inside of a generator object?
+- `for` loop
+- `list()`
+- `next()`
+- `print()` - Yes
+    + Print will not show you what is inside of a generator expression object.
+
+2. Which statement about generator expressions versus list comprehensions is false?
+- Generator expressions will always be faster than list comprehensions - Yes
+    + Typically, list comprehensions are faster than generator expressions
+- Using generator expressions and list comprehensions can make your code less readable
+- Generator expressions will use less memory than list comprehensions
+- Both generator expressions and list comprehensions create an iterator
+
+3. What is the correct way to build a list comprehension?
+- `[for element in iterable: expression ]`
+- `[expression for element in iterable]` - Yes
+    + The expression comes first and then the typical notation for a `for` loop.
+- `[expression : for element in iterable]`
+- `[for element in iterable expression ]`
+
+4. Which option is a generator expression?
+- `[num / 2 for num in numbers]`
+- `(num / 2 for num in numbers)` - Yes 
+    + Generator expressions use parentheses
+- `{num / 2 for num in numbers}`
+- `{num: num / 2 for num in numbers}`
+
+## 3. Generator Pipelines
+
+### What is a pipeline?
+
+#### Generator Pipelines
+
+- Break up tasks into functions
+
+- Functions used in combination 
+
+- String together generators in order to create a pipeline
+
+- Exercise Files > chapter3 > v1_pipelines > app.py 
+
+### Challenge: Counting characters
+
+#### Challenge: Counting Characters
+
+- Find the string's character lenght, not including spaces
+
+- Find the string with a character length less than 130 characters
+
+- Use a combination of generator functions and/or expressions 
+
+- Exercise Files > chapter3 > v2_3_characters > char.py 
+
+### Solution: Counting characters
+
+### Chapter Quiz
+
+1. What is a generator pipeline?
+- using a generator to clean data
+- using a generator at the end of cleaning data
+- using a generator to loop through data
+- using generators in combination with each other - Yes
+    + A pipeline uses more than one generator to interact with information in combination with each other
+
+## 4. Practice Python Generators
+
+### Challenge: Weather data
+
+#### Challenge: Weather Data
+
+- Clean the data
+
+- Temp = Int
+
+- Date = DateTime object 
+
+- Wind speed = Float 
+
+- Exercise Files > chapter4 > v1_weather_challenge > weather.py 
+
+### Solution: Weather data
+
+## Conclusion
+
+### Next steps
+
+#### Python Generators
+
+- Context manager and coroutines
+
+#### Python Data Analysis
+
+- NumPy and pandas

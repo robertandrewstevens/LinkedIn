@@ -1,0 +1,137 @@
+https://www.linkedin.com/learning/unit-testing-in-python/
+
+# Unit Testing in Python
+
+## Course details
+1h 29m | Advanced | Released: 3/3/2020
+
+Unit testing — which involves testing small, isolatable pieces of code — can help you catch and fix bugs before they crop up in your final product. And by adopting test-driven development (TDD) and writing unit tests before production code, you can take even greater responsibility for your project's quality. Curious about how to best approach unit testing in your own Python projects? This course shows you how. Join instructor Jasmine Omeke as she goes over TDD techniques for Python projects using the pytest testing framework and a Docker container.
+
+Jasmine begins by providing a basic overview of both TDD and pytest as she shows how to write a basic test. She then delves into how to use pytest features to automatically run unit tests, as well as how to best organize your pytest projects. Then, see how to hop into an existing project and use pytest tests to figure out the core behavior of the source code, determine which source code functions still need to be tested, and add in more tests.
+
+## Skills covered
+
+- Python (Programming Language)
+
+- Unit Testing
+
+## Introduction
+
+### Python unit testing with `pytest`
+
+
+### Why `pytest`?
+
+
+### Roadmap
+
+
+### Exercise files
+
+## 1. Installation and Setup
+
+### Docker and VS Code (Mac)
+
+### Docker and VS Code (PC)
+
+
+### Running `pytest` with Docker 
+
+
+## 2. Overview of Test-Driven Development and Pytest Features
+
+### Overview of TDD
+
+
+### Basic tests and assertions
+
+
+### Exceptions
+
+
+### Challenge: Exceptions
+
+
+### Solution: Exceptions
+
+### Sad path testing
+
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+
+## 3. Test Automation with Fixtures and Parametrizaton 
+
+### Fixtures to amortize costly operations
+
+
+### Factory fixtures
+
+
+### Parametrization
+
+
+### Challenge: Parametrization
+
+
+### Solution: Parametrization 
+
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+## 4. Organizing Your Pytest Project 
+
+### Using `conftest.py` for common functions 
+
+
+### Modularizing `conftest.py`
+
+
+### Chapter Quiz
+
+1.
+
+
+## 5. Using Pytest with an Existing Project 
+
+### Reading tests to surmise behavior
+
+
+### Challenge: Adding test coverage
+
+
+### Solution: Adding test coverage 
+
+
+
+### Chapter Quiz
+
+1.
+
+
+
+## Conclusion
+
+### Next steps

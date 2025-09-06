@@ -1,0 +1,119 @@
+https://www.linkedin.com/learning/artificial-intelligence-how-project-managers-can-leverage-ai/
+
+# Artificial Intelligence: How Project Managers Can Leverage AI
+
+## Course details
+
+48m * Intermediate * Released: 1/7/2021
+
+Learn practical ways to use AI in your projects. Instructor Oliver Yarbrough covers ways to adapt to AI and stay relevant, use AI to derive value from data, see AI in action on projects, recognize AI trends in project management, and discover how to interact with AI stakeholders. Oliver introduces how to collect and curate the data that your AI needs, then explains how you can leverage AI in project management. It’s important to complement AI capabilities with your human strengths. Oliver shows you how to interact with digital stakeholders and why facilitative leadership works better in AI-driven environments. He steps you through how to leverage AI to pull the most important information from curated data. By giving AI the right data, you can get better guidance and improve your decisions. Oliver covers how to leverage AI to track your project's progress and to improve agile project management. In conclusion, Oliver discusses emerging trends and how to stay informed on advances in AI.
+
+## Learning objectives
+
+- Describe how to approach AI technology for the most benefit.
+
+- List technologies that enable AI capabilities.
+
+- Explain how natural language chatbots enable AI technologies.
+
+- Describe the benefits of AI with project management platforms.
+
+- Compare and contrast the functions of PMOs and COEs.
+
+## Skills covered
+
+- Project Management
+
+- Artificial Intelligence for Business
+
+## Introduction
+
+### Project management in an age of AI disruption
+
+## 1. How Project Managers Can Adapt to AI 
+
+### Integrating people skills with AI predictability
+
+
+### Engaging AI stakeholders
+
+
+### Transitioning to facilitative leadership 
+
+
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+4.
+
+
+## 2. Derviving Value from Data with AI 
+
+### Curating data with AI 
+
+
+### Gleaning data insights with AI 
+
+
+### Making data-driven decisions with AI
+
+
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+4.
+
+
+## 3. AI in Action: Practical Ways to Use It
+
+### Building an AI project model
+
+
+### Collaborating in real time
+
+
+### Monitoring project progress
+
+
+
+### Chapter Quiz
+
+1.
+
+2.
+
+
+## 4. Emerging AI Trends in Project Management
+
+### AI's impact on agile project management
+
+### AI's role in the modern PMO  
+
+
+### Rise of AI centers of excellent
+
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+## Conclusion 
+
+### Continuing your AI journey as a project manager 

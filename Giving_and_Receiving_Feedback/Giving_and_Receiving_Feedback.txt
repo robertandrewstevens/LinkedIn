@@ -1,0 +1,422 @@
+# Giving and Receiving Feedback: The art and science of feedback
+
+https://www.linkedin.com/learning/giving-and-receiving-feedback-18926015/the-art-and-science-of-feedback?autoplay=true&dApp=203077808&leis=LAA&u=2185266
+
+## Course details
+28m * General * Released: 4/4/2023
+
+All professionals are trying to get better at what they do. No matter where you work, or what your role, the only way to improve is with feedback. Giving — and receiving — feedback is a skill that's relevant to every member of an organization. In this course, psychologist and author Dr. Gemma Leigh Roberts first guides you through both how to receive feedback effectively — by tuning into a growth mindset, managing your emotional response to feedback, and implementing feedback. Gemma then teaches you on how to effectively provide feedback by reducing bias, following a tested frame for giving feedback, and learning how to give feedback regularly. Join Gemma in this course and learn tips that will help lead you into a cycle of continuous development, and a growth mindset that can help propel your career and your relationships forward.
+
+## Skills covered
+
+- Constructive Feedback
+
+## Introduction
+
+### The art and science of feedback
+
+- Reach your potential 
+
+- Unveil blind spots
+
+- Create a growth mindset
+
+### Chapter Quiz
+
+1. Why should you incorporate a feedback cycle into your professional and personal life?
+- to meet regulations
+- to enable improvement - Yes
+    + Implementing changes based on feedback is one of the simplest ways to improve
+- to avoid complaints
+- to placate the system
+
+2. The potential trap refers to _____.
+- focusing too much on the negative feedback you receive from others
+- failing to reach your potential because you keep getting stuck in your ways and can't learn new methods - Yes -> NO
+- not reaching your potential because you're unclear on how you can improve and how you come across to others - Yes
+- focusing too much on positive feedback you receive from others
+
+3. What kind of feedback is most useful?
+- specific and constructive - Yes
+    + Suggestions for improvement are easy to implement
+- personal and detailed
+- impersonal and general
+- strategic and critical
+
+## 1. Receiving Feedback
+
+### Asking for feedback
+
+#### Feedback
+
+- A process to help yo get better, continue what you're good at, and build better relationships
+
+#### Gather Feedback
+
+- People you trust
+
+- Stakeholders who can help you move forward
+
+- Those you admire
+
+- Someone with skills you'd like to develop
+
+- People with whom you have a difficult relationship
+
+#### [How to ask for feedback]
+
+- Ask for feedback in a specific area
+
+- Consider how the feedback will be delivered
+
+- Be gracious and grateful for feedback
+
+- Ask multiple people for feedback
+
+- Look for indirect feedback
+
+- Be objective
+
+### Creating a growth mindset with feedback
+
+#### Fixed Mindset
+
+- Belief that people are born with a set level of competence, intelligence, and skill
+
+#### Growth Mindset
+
+- Belief that ability can be developed, talents can be learned, and strengths can be enhanced
+
+#### [Growth Mindset > Fixed Mindset]
+
+- Always focus on getting better
+
+#### Feedback Facts
+
+- It helps you improve
+
+- You'll make mistakes
+
+- You won't always like it or agree with it
+
+- You can choose how to interpret and use it
+
+#### Productive Feedback
+
+- Specific, useful, and delivered with the intention of helping you to develop or improve
+
+#### Unproductive Feedback
+
+- General, unhelpful, or delivered without positive intent
+
+#### [Advice]
+
+- Wait for the emotion to settle
+
+- Was the feedback specific, helpufl, and delivered with positive intent?
+
+- What changes will you make?
+
+### Managing emotions during feedback
+
+#### Our thoughts and feeling create the story we tell ourselves
+
+#### Appreciate feedback and use it constructively, without fixating on it
+
+- We all make mistakes
+
+- We can all improve
+
+#### [Advice]
+
+- Take time to process
+
+- Don't fixate
+
+- Separate opinion and fact
+
+- Focus on the future
+
+[exercise: reflect on recent feedback, write a story, and list initial negative interpretation/view and positive interpretation/view and then write a positive story and things to do to grow and develop (?)]
+
+### Making changes with feedback
+
+#### [Steps]
+
+1. Decide what to take from the feedback (changes)
+
+2. Set a goal (what you want to achieve)
+
+3. Consider how to achieve your goal (tactics)
+
+4. Choose how to measure progress (reflection? completion of activies? )
+
+### Chapter Quiz
+
+1. How does a growth mindset influence your attitude toward feedback?
+- It makes feedback welcome and eagerly anticipated - Yes
+    + A growth mindset enables continuous improvement and development
+- It supports creativity and innovation
+- It helps you approach feedback objectively
+
+2. Partha has just received unusual praise for his efforts on a project. How can he stay objective and put this praise into context?
+- by studying the downside of the project
+- by accepting success and moving on to other areas
+- by doubting the veracity of the respondent
+- by soliciting feedback from others - Yes
+    + Other opinions and feedback are available, which Partha should also consider
+
+## Providing Feedback
+
+### Following the five feedback steps
+
+#### Providing Feedback
+
+- Prepare your message
+    + (including how to deliver)
+
+- Tailor communication
+
+- Focus on your tone
+
+- Explore facts and concrete examples
+
+- Listen well
+
+### Minimizing bias when providing feedback
+
+#### It takes 6 instances of positive feedback to counteract 1 piece of negative feedback
+
+- Do
+    + Balance what's gone well with opportunties for improvement
+    + Be mindful of your delivery
+
+- Don't
+    + Assume you know the answers
+	+ Shy away from difficult feedback
+	+ Offer feedback when you don't have any
+
+### Providing simple and effective feedback
+
+#### Informal Feedback
+
+- Unplanned advice and suggestions about what someone could do to move forward
+
+#### Make informal feedback part of everyday conversation
+
+- Keep feedback positive
+
+- Focus on intention
+
+- Use an approachable tone
+
+- Be honest and constructive
+
+- Make it a habit
+
+### Creating a feedback strategy
+
+#### [Provide feedback to...]
+
+- Your direct reports
+
+- Project team
+
+- Mentees
+
+- Interns
+
+- Colleagues
+
+- Manager
+
+#### Where and how will you deliver feedback?
+
+#### Schedule feedback into your diary (planner?)
+
+[never cancel - gives bad impression (person is not a priority) and jeapoardizes trust]
+
+#### How will you invite the other person to join you for feedback?
+
+[ask if they want it - don't force it on them]
+
+#### How will you prepare your feedback?
+
+- Be clear on your intention
+    + (help them improve skills, change something, build stronger relationship...)
+
+[exercise: make a plan (5W + 1H) for feedback and make part of weekly routine]
+
+### Chapter Quiz
+
+1. Why should you provide more positive messaging than negative messaging?
+- to be sensitive toward fragile egos and defense mechanisms - Yes
+    + The human brain pays much more attention to negative messages than to positive messages.
+- to make the critical messages more credible
+- to earn respect and make friends
+
+2. How can you ensure that you provide balance in your feedback?
+- by avoiding negative topics
+- through careful planning - Yes
+    + Reviewing your feedback ahead of time can enable proper balance
+- by focusing on ways to improve
+- by alternating between positive and negative feedback - Yes -> NO
+    + Alternating messages in your feedback can be confusing
+
+3. Gao has just been asked for feedback on her interactions with a new design project. How should she respond?
+- by focusing on positive and constructive ideas
+- by providing an outline of her criticisms
+- by declining to provide feedback
+- by affirming that she will provide some thoughts later - Yes
+    + There is no shame in asking for time to be of service to others
+
+4. What should be the primary source of data for evaluating your own style of feedback?
+- performance reviews
+- feedback from others - Yes
+- coaching conversations
+- self-evaluation
+
+5. After Bud receives feedback, he retreats and extensively considers it despite his confusion and misgivings. What should he do instead?
+- Implement preliminary changes
+- Issue a rebuttal to criticisms
+- Interact with those providing feedback - Yes
+    + Feedback should be collaborative, cooperative, and ongoing
+
+6. Maria receives a harsh criticism on her latest report. She gets angry at first, but then becomes preoccupied with defending her initial report. How would you best describe her behavior?
+- counterproductive and inflammatory
+- natural and justified
+- unproductive and closed to other perspectives - Yes
+- positive and part of the growth cycle
+
+7. When you take a step back from challenging feedback to give yourself some time, what else should you do?
+- Smile and move on to other issues
+- Make a list of the action points
+- Reassure the person providing the feedback that you are considering their points - Yes
+    + The party needs to know that you are taking in and considering the information
+- Focus on the criticisms
+
+8. Why should you gather feedback from multiple perspectives?
+- to establish a clear picture of the objective truth - Yes
+- to appease the feelings of others
+- to provide justification for actions
+- to manage your ego
+
+9. Why do people sometimes become argumentative when presented with feedback?
+- They allow ego to get in the way - Yes
+    + Ego serves to protect identity
+- They try to correct the perspective
+- They present indisputable facts
+- They assume there are errors in the feedback
+
+10. Where should you focus your attention when you receive developmental criticism?
+- on assigning blame
+- on past failures
+- on respecting the opinions of others
+- on future improvement - Yes
+    + You should focus on changes for the better
+
+11. How should you analyze a confrontational situation to create the best outcome?
+- by blocking out irrational criticism
+- by listing counterpoints to critical feedback
+- by remaining passive and indifferent
+- by using an objective perspective - Yes
+    + Try to analyze the situation from the point of view of an objective reporter
+
+12. In high performing teams, it takes _____ examples of positive feedback to counteract the effects of one piece of negative feedback.
+- one
+- fifteen
+- two
+- six - Yes
+
+13. Why is the use of a "feedback sandwich" discouraged?
+- It is not collaborative or interactive
+- It rewards subjectivity
+- It can conceal negative feedback - Yes
+    + You can easily forget the negative message delivered between two positive messages
+- It conveys a confusing message - Yes -> No
+    + Alternating negative and positive messages does not have to be confusing
+
+14. You want to provide informal feedback to others, and make it a habit. How should you start?
+- by practicing it daily - Yes
+    + Make informal feedback a small part of a few daily interactions
+- by interacting with others who need help
+- by planning it
+
+15. What should you draw upon to generate informal feedback?
+- cautionary tales
+- rules of behavior
+- inside information
+- personal experience - Yes
+    + Personal anecdotes can often form the basis of valuable informal feedback
+
+16. When Moa receives feedback, she tends to get upset and argumentative with the delivery person. What should she work on?
+- remaining objective
+- being appreciative
+- depersonalizing her acceptance of feedback - Yes
+    + Moa should be able to remove personal feelings and attacks from the interaction
+- using feedback for learning - Yes -> NO
+    + This should certainly be an objective, but it is not Moa's primary problem
+
+17. After evaluating your styles for receiving and giving feedback, what should you do?
+- Confront your detractors with evidence
+- Proceed on a steady course until the next evaluation
+- Set goals and implement strategies for improvement - Yes
+    + Striving to improve should become a habit
+- Share your evaluations with your supervisors
+
+18. What is one of the five steps for delivering good feedback?
+- Book a meeting place
+- Use concrete examples and explore facts - Yes
+- Find ways to always make the feedback positive
+- Make the process as swift as possible
+
+19. What are development blind spots?
+- when you lack awareness about your own development areas - Yes
+- weaknesses that are only present when you start a new job
+- development areas that are inevitable and impossible to change
+- development areas that are easy to overcome
+
+20. What makes blind spots difficult to correct?
+- stubbornness
+- unawareness - Yes
+    + Blind spots are, by definition, unknown
+- fear
+- ineptitude
+
+21. How can you become aware of your own blind spots?
+- by changing your behavior to minimize feedback
+- by engaging with others and responding to feedback
+- by analyzing feedback and your own behavior - Yes
+    + Situational exercises can be useful
+
+22. When is informal feedback typically delivered?
+- as a performance review
+- in an office environment
+- by a manager
+- in the moment - Yes
+
+## Conclusion
+
+### Reflecting on your feedback journey
+
+#### Commit to apply one thing you learned in this course
+
+https://gemmaleighroberts/mindsetmatters
+
+[Practice, practice, practice]
+
+### Chapter Quiz
+
+1. How do you achieve comprehensive change and progress?
+- by using rewards and punishments
+- by adopting small changes in habits - Yes
+    + Small changes can accumulate and lead to a more comprehensive change
+- by organizing and setting goals
+- by listening to feedback
+
+
+Thoughts
+- Do 2 exercises (end of "Managing emotions during feedback" and search for the other)
+- Take Leading without authority (no matter if in FoW or not!) - seems to be the constant feedback from (Joy and Terence [who mimicks Joy])
+- Transfer all FoW notes and othe training notes to Mac, make a repo, and convert notes to Markdown docs to add notes, plans, etc.
+- Buy/read Atomic Habbits (in DS podcast)

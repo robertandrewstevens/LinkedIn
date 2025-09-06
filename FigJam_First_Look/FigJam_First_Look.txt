@@ -1,0 +1,52 @@
+FigJam First Look
+Ideate and brainstorm with teammates using FigJam
+
+Course details
+19m * Beginner * Released: 5/4/2021
+
+Brainstorm better with FigJam. Learn about the new whiteboard collaboration tool for user experience and design thinking projects. This short introductory course explores the FigJam collaborative workflow and deep integration with Figma, which allows Figma designers and non-designer stakeholders to easily share ideas. Discover how to set up accounts, manage teams, create and edit files, collaborate with teammates, and integrate Figma content in a FigJam file.
+
+* Introduction
+
+- Ideate and brainstore with teammates using FigJam
++ FigJam is online
++ Figma is part of platform (on PC?)
+
+* 1. Get Started with FigJam
+
+- Set up accounts and manage teams
++ [Try FigJam] on website
++ [Log in] with existing account or Google
++ Pick Team/Project on LHS
++ or [Create New team]
++ Invite others
+
+- Create and manage FigJam files
++ Start with existing Figma file or new FigJam file
++ FigJam Templates
++ Can [Share] with others
+
+- Use the core tools in a FigJam file
++ Explained tool bar at the bottom and other controls
++ Select an object, "+" will appear around border, click it and will duplicate it with connection
+
+- Collarate with teammates
++ Muliple people can work on a file at the same time 
++ ID icons at top RHS
++ Comments option (bubble icon)
++ Version history tracker and can roll-back to older version or duplicate it - hit [Escape] to go back
+
+- Include Figma content in a FigJam file
++ Switch between Figma and FigJam projects
++ Figma has limited features (layers), but can include in FigJam flowcharts
++ Include FigJam flowcharts in Figma - show up as seperate layers
+
+* Conclusion
+
+- Learn more about Figma
++ See other courses on their web site
+
+
+Find email about Figma/FigJam
+
+Use for collaborative storyboarding - see goals

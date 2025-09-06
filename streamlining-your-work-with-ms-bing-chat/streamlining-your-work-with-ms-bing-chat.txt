@@ -1,0 +1,512 @@
+https://www.linkedin.com/learning/streamlining-your-work-with-microsoft-bing-chat/
+
+# Streamlining Your Work with Copilot (formerly Bing Chat/Bing Chat Enterprise)
+
+## Course details
+
+35m * General * Updated: 12/7/2023
+
+AI chatbots are all the rage these days, but they’re often misunderstood. Are they merely simple question-answering machines? Absolutely not. And they can completely change the way you work. In this course, Jess Stratton shows you the ropes of how to get started using the popular chat AI tool Microsoft Bing Chat.
+
+Learn how Bing Chat can perform a wide variety of tasks and help you streamline your entire workflow, from generating ideas and summarizing data to solving common work problems such as planning itineraries, scheduling, and communicating with coworkers. Follow along with Jess as she explains how to boost your productivity using Bing Chat, beginning with a quick primer on how chat AI tools function, then diving into how to put them to work for you. By the end of this course, you’ll be ready to perform robust online searches, generate ideas, compose text, automate your work, fact-check the results, and more.
+
+## Skills covered
+
+- Artificial Intelligence for Business
+
+- ChatGPT
+
+## Introduction
+
+### Put your fingers to work: Chatting as a productivity tool
+
+#### [intro]
+
+[verbal comments and screenshots]
+
+- Note: Bing Chat/Bing Chat Enterprise has been rebranded as Copilot 
+
+## 1. Get Started with Chat AI
+
+### Understand how chat AI works
+
+#### [how it works]
+
+- https://lnkd.in/esQr_iz9 
+
+- [Chatbot demo]
+
+- [Bing chat demo]
+    + https://www.microsoft.com/edge
+    + [top RHS (b): Chat, Compose, Insights]
+	+ [bottom middle: Choose a conversation style: Creative, Balanced, Precise]
+
+### Get access to Microsoft Big Chat
+
+#### [Instructions]
+
+https://www.microsoft.com/edge 
+
+[download if don't already have it]
+
+[Top RHS (b)]
+
+[Chat, Compose, Insights]
+
+[bottom middle: Choose a conversation style: Creative, Balanced, Precise]
+
+[bottom: Welcome back! What would you like to chat about?]
+
+[if first time: Turn On button at the bottom]
+
+#### [Demo with Landon Hotel web page]
+
+[knows on a hotel web page]
+
+[populated with sample questions]
+
+[Change settting with 3 dots at top of pane - blue  means option is toggled on]
+
+### Chapter Quiz
+
+1. Shandra is getting ready to compose a Bing Chat for the first time. What type of conversation style will be used?
+
+Balanced - Yes
+    + Balanced is the default style that is informative and friendly, resulting in reasonable and fast responses.
+
+Creative
+
+Precise
+
+2. What does the "Turn on" button do?
+
+It engages the Compose feature.
+
+It enables context-aware questions. - Yes
+    + This allows you to ask Bing Chat questions about the current website you are visiting or the PDF file you are using.
+
+It opens Bing Chat.
+
+3. Which environment does not allow a user to interact with Microsoft Bing Chat?
+
+a Microsoft Edge browser
+
+a Chrome browser - Yes 
+    + Bing Chat will not work with the Chrome browser; the Microsoft Edge browser allows you to interact with Bing Chat.
+
+a Windows system
+
+a Mac system
+
+4. Microsoft Bing now includes a Chat Generative Pre-trained Transformer. What is this?
+
+a chatConvo
+
+a chatbot - Yes 
+    + A chatbot is the technology that allows a conversation to occur without having to repeat or restate context.
+
+a ChatGPT - Yes -> No
+    + This is the acronym used for "Chat Generative Pre-trained Transformer," but there is a different term for what the technology is.
+
+## 2. Chatting with Big Chat 
+
+### Get your questions answered with chat AI
+
+#### [Demo with Landon Hotel web page]
+
+[Compose - quick peak]
+
+[Insights - quick peak]
+
+#### [General Q&A]
+
+https://www.bing.com 
+
+[same interface except uses entire screen instead of a pane on the RHS]
+
+[use broom icon to restart with new topic (forgets previous topic)]
+
+["Explain like I'm five years old"]
+
+["What's a good starter book I could read to learn more about this?"]
+
+[Can click "Stop Responding" at any time, e.g., it takes too long or don't need more info]
+
+[more examples, incuding misspellings]
+
+### Summarize data with chat AI
+
+#### [Demo on "Company Information For new Hires.docx"]
+
+[Word doc in docs.google.com, and open up sidebar - (b) on RHS -  with MS Edge and current Word version]
+
+[More Precise]
+
+"Summarize this with bullet points"
+
+#### [Demo on "Mis/Disinformation is a big problem. The pros (and future pros) are on it."]
+
+[www.linkedin.com post in MS Edge]
+
+[Open up sidebar - (b) on RHS -  with MS Edge]
+
+[Broom button to reset]
+
+[More Precise]
+
+"Summarize this"
+
+#### [Demo: Buying a printer]
+
+https://wwww.big.com/chat 
+
+[More Balanced]
+
+"Compare the top 5 small  office printers with pros, cons, and price."
+
+"format the results as a table"
+
+### Leverage chat AI to compose text
+
+#### [Demo: Compose Text]
+
+[MS Edge browser with MS Word doc open in Sharepoint: "Spring/Summer Products"]
+
+[Want a social media post based on this text]
+
+[(b) on upper RHS]
+
+[More Creative]
+
+"Create a social media post about this"
+
+[copy-and-paste anywhere]
+
+"Write one suitable for LinkedIn"
+
+[Result is more formal, without emojis]
+
+[Change from "Chat" to "Compose" tab at top of panel]
+
+- Write about:
+    + "a professional bio about me as a LinkedIn Learning instructor, a guest speaker, and my passion about helping others learn new technology"
+
+- Tone: Professional
+
+- Format: Paragraph
+
+- Length: Medium 
+
+[Generate draft - can copy, edit, and paste]
+
+[Refresh button at top of panel to reset]
+
+- Write about:
+    + "a letter to a customer about a late payment"
+
+- Tone: Professional
+
+- Format: Email
+
+- Length: Short 
+
+[Generate draft - can copy, edit, and paste]
+
+[Refresh button at top of panel to reset]
+
+- Write about:
+    + "an invitation to an office ice cream party"
+
+- Tone: Enthusastic
+
+- Format: Email
+
+- Length: Medium 
+
+[Generate draft - can copy, edit, and paste]
+
+[Refresh button at top of panel to reset]
+
+- Write about:
+    + "Podcast titles about exploring hotels"
+
+- Tone: Funny
+
+- Format: Ideas
+
+- Length: Medium 
+
+[Generate draft - can copy, edit, and paste]
+
+### Solve a variety of problems with chat AI
+
+#### [Demo: variety]
+
+https://wwww.bing.com
+
+[Mode: Creative]
+
+"Create a workday with answer emails and returning phone calls and add time for a walk"
+
+[Reset]
+
+"What size box should I purchase from the USPS to ship 1000 Post-It Notes?"
+
+[Reset]
+
+"How many gallons of ice cream should I buy for a party with 25 people?"
+
+"What types of pizza and how many should I order for 25 people?"
+
+"How can I talk to a coworker who is taking my lunch out of the fridge?"
+
+"What are some risks when partnering with another company to manufacture our products?"
+
+### Use Bing Chat to create and analyze images
+
+#### [Demo: images]
+
+https://www.bing.com 
+
+[bottom LHS: "Add an image" prompt below "Ask me anything..."]
+
+"Where is this?"
+
+#### [Demo: create an image with DALL-E]
+
+[PPTX File with slide with text on LHS and image placeholder on RHS]
+
+[continue from previous chat]
+
+"Create an image of a laser printer with an hourglass above it"
+
+[Copy image and paste in PPTX and pick "Designer" suggestion on RHS (looked very professional!)]
+
+
+
+
+### Chapter Quiz
+
+1. Which three sources of data can Bing Chat summarize for you?
+
+A. the contents of the current website you are on - Yes
+
+B. an email you have open in the desktop version of Outlook
+
+C. a Microsoft Word document you have open in the browser - Yes
+
+D. text you have pasted into the Bing chat sidebar - Yes
+
+B, C, D
+
+A, C, D - Yes 
+    + Bing Chat doesn't have access to the data in desktop apps, just browser/online apps.
+
+A, B, D
+
+A, B, C
+
+2. Taraji asks Bing Chat several questions related to architecture for buildings. Now she wants to ask a brand-new question. What should she do?
+
+Select the Stop Responding button.
+
+Select the Broom icon. - Yes 
+    + Taraji can select either the Broom icon or the New Topic button to start a new topic.
+
+Type "New Question".
+
+3. Which guideline will the Bing Chat Dall-E AI image generator follow when an image is created?
+
+It will create images of public figures.
+
+It will allow slightly negative or violent images after review.
+
+It will not create images infringing on conditions. - Yes 
+    + Overall, no images are created that disrupt terms of service and community guidelines.
+
+4. Clarence wants to use the entire screen in Bing Chat. How will he do this?
+
+Go to Bing.com and select Chat. - Yes
+    + This takes Clarence to the root site of Bing, the search engine where he can begin using Chat.
+
+Use the Zoom in feature.
+
+Select the Broom icon.
+
+5. Which option is prohibited under the Add an Image prompt?
+
+Paste a link.
+
+Design an image. - Yes 
+    + Creating an image is accomplished by entering the requirements in the prompt.
+
+Upload a photo.
+
+Take a photo.
+
+6. The boss wants an article she received summarized before a meeting that starts in a half hour. How can Bing Chat help with this task?
+
+by selecting the Broom icon
+
+by using a precise style to present a summary with bullet points - Yes
+    + This will give a more straightforward and organized summary of the article in plenty of time prior to the meeting.
+
+by going to bing.com/chat for a summary
+
+7. How are images created in Bing Chat?
+
+Dall-E 3 - Yes
+    + This is the image generator feature that allows you to create an image from scratch or just refine one.
+	
+C2PA
+
+AddAI
+
+8. What would Bing Chat be least likely to provide?
+
+the number of widgets to buy
+
+an increase in pay - Yes 
+    + Bing Chat may help improve a person's performance, but management will ultimately determine whether they deserve a raise.
+
+career advice
+
+a workday schedule
+
+9. Alex is asked to speak at a conference and has the information in a Word document open on his system. He needs to create a short summary of who he is. How can Alex do this with Bing Chat?
+
+by using the Compose tab - Yes 
+    + This is the best location for Alex to begin developing his bio, and the document currently open will be ignored.
+
+by uploading a resume to Bing Chat - Yes -> No
+    + This is not a process that Alex will use when composing a profile or bio.
+
+by selecting the Insights tab
+
+10. Olaf is asked to compose text for a post on LinkedIn. He decides to use Bing Chat to help. Which of the following would Bing Chat intentionally leave out?
+
+Format
+
+Length
+
+Tone
+
+Graphics - Yes 
+    + Bing Chat would more than likely leave out any emojis in the post since LinkedIn is a professional site.
+
+## 3. Considerations with Chat AI
+
+### Know where chat AI data is coming from 
+
+#### [Demo: Checking Bing's answers for high risk decisions]
+
+[Response with citations in answers,e.g., [1], [2], [3]]
+
+- Hover mouse over citation 
+
+- Click on citation link 
+
+- Can "Like" (Thumbs Up) or "Dislike" (Thumbs Down)
+
+### Discolose when you're using generative AI
+
+#### [Demo: ]
+
+[Google docs word document open: "Employee Device Usage Policy"]
+
+- [Might be required to put in a footnote stating that MS Bing Chat or another AI tool was used]
+
+- [Check with local agencies on any requirements]
+
+
+### Chapter Quiz
+
+1. Which item should include a disclosure that it was created using Bing chat?
+
+a poem created to cheer up a sad coworker
+
+a housing contract between a landlord and tenant - Yes 
+
+a past-due letter sent to a customer with an overdue bill
+
+an invitation to an office party
+
+2. Tomas uses Bing Chat for a safety scenario. How should he address the results provided?
+
+Trust the results.
+
+Double-check the answers. - Yes 
+    + It is recommended that for risky scenarios, such as those involving legal or safety issues, you should always verify the results cited.
+
+Run the scenario a few times to validate the data.
+
+3. Beth needs to create a contract and decides to use Bing Chat to help her. What should she do before using any content from AI?
+
+Create a subtitle that content was used from Bing Chat.
+
+Add a watermark to the document.
+
+Review current legislation on using AI-generated text. - Yes
+    + As AI is used more, laws will need to address guidelines on how to earmark contracts, legal documents, or any text needing a copyright.
+
+## 4. Bing Chat Enterprise
+
+### Protect your data with Bing Chat Enterprise
+
+#### [Demo: Bing Chat Enterprise]
+
+[same as regular Bing Chat but protects internal data]
+
+- [Protected] icon (green)
+    + Can click and get more info on "Privacy and protections"
+
+- "Ask me anything..." has a reminder above the box 
+    + Chat and prompts will not be saved 
+	+ MS does not have access to your prompt data or responses and data is not used to train LLMs
+
+#### [Demo: Excel file]
+
+[in Edge browser, open XLSX file on Sharepoint]
+
+[Open up Bing side bar]
+
+- [Protected] icon (green)
+
+- Available for MS 365 users (or purchase for $5/mo)
+
+- [Everything else is the same]
+
+### Verify a subscription to Bing Chat Enterprise
+
+[click on email address on upper RHS and select "Manage account"]
+
+[In any MS (web?) product, click on Avatar icon on top RHS, and select "View account"]
+
+[on LHS, click "Subcriptions", might have to log in again (!), click "Subscriptions" (again!), and "View subscriptions" provides list of everything available to you]
+
+["Microsoft 365 Business Standard" section: "Bing Chat Enterprise"]
+
+### Chapter Quiz
+
+1. What is the main difference between Bing Chat and Bing Chat Enterprise?
+
+With Bing Chat Enterprise, the history of all employees is displayed.
+
+With Bing Chat Enterprise, Microsoft uses only personal prompt results to develop AI ongoing.
+
+With Bing Chat Enterprise, business data is protected. - Yes
+    + The data from a company is their own; it is protected and never shared for any purpose with outside entities.
+
+## Conclusion
+
+### Stay up-to-date with what AI can do for you 
+
+#### [Closing comments]
+
+- Course "Introduction to Conversational AI"
+
+- Course "Generative AI for Business Leaders" 
+
+- Twitter: "@NerdGirlJess"
+
+- LinkedIn: https://wwww.linkedin.com/in/nerdgirljess 

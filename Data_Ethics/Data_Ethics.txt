@@ -1,0 +1,823 @@
+Data Ethics: Making Data-Driven Decisions
+
+https://www.linkedin.com/learning/data-ethics-making-data-driven-decisions-2022/
+
+## Course details
+1h 5m * Beginner * Released: 2/15/2022
+
+Most companies have complex computer algorithms deciding who gets a bank loan, job interview, or health insurance. Do you have an ethical obligation to explain the decision-making back to your customer? How do you design systems that are free of gender or racial bias? These systems will define your organization. Yet many of these decisions aren’t happening in the boardroom. Instead they’re made in much smaller meetings with people just like you—project managers, business analysts, directors, and software developers. This course gives you the skills you need to make the best decisions. Instructor Doug Rose helps you consider the duties you have to your customer, think about the consequences of your algorithms’ decisions, and acting virtuously when wrestling with key data ethics challenges.
+
+This course was created by Doug Rose. We are pleased to offer this training in our library.
+
+## Skills covered
+
+- Data-driven Decision Making
+
+- Data Ethics
+
+## Introduction
+
+### Ethical decisionmaking
+
+- Decision Traceability
+
+- Right of Explanation
+
+- Data Objectivity and Fairness
+
+## 1. Thinking about ethics
+
+### Being a moral company
+
+#### Glaucon's Argument [Plato]
+
+- Unlimited power leads to immorality
+
+- Everyone can be corrupted
+
+#### Morality vs. Self Interest
+
+- Morality
+
+- Self Interest
+
+#### Self Interest Approach
+
+- Gather as much data as possible
+
+- Leverage customer weaknesses
+
+- Sell data to others
+
+#### Morality Approach
+
+- Choose not to gather data
+
+- Sacrifice profits or customers
+
+### How to approach ethics
+
+#### Morality
+
+- Principles of good and bad behavior
+
+- What are moral ways for your company to operate?
+
+#### Ethics
+
+- Philosophical study of morality
+
+#### Ethics = Moral philosophy
+
+- Understanding each other's moral beliefs
+
+#### Ethics [branches]
+
+- Business
+
+- Religion
+
+- Government [and citizens' role]
+
+#### Data Ethics Challenges
+
+- Defining moral guidelines
+
+- Determining right from wrong
+
+### Start with ethical objectivism
+
+#### Ethical Relativism
+
+- No universal right or wrong answers
+
+#### Ethical Relativism vs. Ethical Objectivism
+
+- Ethical Relativism
+
+- Ethical Objectivism
+
+#### Ethical Objectivism
+
+- Theories that provide a right or wrong ethical answer
+
+#### Ethical Objectivism [Theories]
+
+- Deontology [Kant]
+
+- Utilitarianism
+
+- Virtue Ethics
+
+#### Deontology 
+
+- Focuses on a universal right and wrong
+
+#### Dutifulness
+
+- Following moral rules regardless of the consequences
+
+#### Greatest Happiness Principle [Utilitarianism]
+
+- Weight the harm vs. benefits of an action
+
+#### Utilitarianism
+
+- Focuses on the consequences of an action
+
+#### Virtue Ethics
+
+- Making the decions a virtuous person would make
+
+#### Virtue Ethics [components]
+
+- Deontology
+
+- Utilitarianism
+
+### Think about your categorical imperatives
+
+#### Categorical Imperative
+
+- You must do, or not do something, to act morally
+
+#### Four Formulations of the Categorical Imperative
+
+1. Universalizability Principle
+
+2. Rule of Humanity
+
+3. Formula of Autonomy
+
+4. [skipped???]
+
+#### Universalizability Principle
+
+- Would it create a problem if everyone was doing it?
+
+#### Rule of Humanity
+
+- Don't use other people as a means to an end
+
+#### Formula of Autonomy
+
+- Encourage others to use their own free will
+
+### What would a virtuous person do?
+
+#### Virtue Ethics [Aristotle]
+
+#### Virtues
+
+- Intellectual virtues
+
+- Moral virtues
+
+#### Intellectual Virtues
+ 
+- The ability to reason and seek out knowledge
+
+#### Moral Virtues
+
+- Character Traits
+    + Honesty
+	+ Justice
+    + Empathy
+
+#### Deontological Approach
+
+- No clear duty to remove the video
+
+#### Universalizability Approach
+
+- Not a problem if everyone posted reviews
+
+#### Utilitarian Approach
+
+- Maximize everyone's happiness
+
+#### Virtue Ethics
+
+- Act as a virtuous person would act
+
+### The seven major data ethics challenges
+
+#### POTOMAC
+
+- Privacy
+
+- Ownership
+
+- **Traceability**
+
+- **Objectivity**
+
+- Misuse [not covered]
+
+- Accuracy [not covered]
+
+- Consent [not covered]
+
+#### Privacy
+
+- How much data can be shared with those outside the company?
+
+#### Ownership
+
+- Who owns your data?
+
+#### Traceability
+
+- Do you need to be able to trace back your decisions?
+
+#### Objectivity
+
+- Should your company try to correct biased data?
+
+### Chapter Quiz
+
+1. What should you use as the starting point in developing data ethics standards for your organization?
+- Identify a set of values both you and your employees agree on - Yes
+    + These values represent the moral ways your company will operate, and they work best when employees agree to them
+- Decide on a set of values and communicate them to your employees
+- Develop a set of values you believe your customers will appreciate
+
+2. How can a company's use of data present a moral problem?
+- Companies are unable to show customers that they respect their private data
+- Companies are tempted to use data for their own self-interest - Yes
+    + This is especially true when companies use customer data without their knowledge to take advantage of them
+- Companies are at a disadvantage if they do not have data available
+
+3. How would you explain Immanuel Kant's Formula of Autonomy?
+- You should always act in a way that encourages others to use their own free will - Yes
+    + Part of this involves a duty to tell the truth because you take away someone else's autonomy when you lie
+- Ask whether a problem would be created if everyone behaved in a particular way
+- No one should use other people as a means to an end
+
+4. In what philosophical theory is the focus primarily on consequences?
+- utilitarianism - Yes
+    + Utilitarianism determines which outcome will create the greatest amount of good for the most people
+- deontology
+- virtue ethics
+
+5. In the POTOMAC mnemonic for the seven major data ethics challenges, which letter applies to algorithm?
+- the first O, for data ownership
+- the T, for traceability - Yes
+    + If algorithms are used, such as to deny a loan, a moral company should trace back its decision and explain it to the customer
+- the A, for accuracy
+
+6. You are in a meeting to establish a set of data ethics guidelines. Each member has their own preferred moral philosophy. How should you handle the differing opinions?
+- Listen and try to understand each argument - Yes 
+    + By listening and understanding arguments, your team can come to a consensus in which everyone feels valued
+- Listen and respond critically to each argument
+- Listen to the most reasoned argument while acknowledging other arguments - Yes -> No
+    + This can result in making attendees feel their arguments are not as valued
+
+## 2. Decision Traceability
+
+### The right to algorithmic traceability
+
+#### Computer Algorithms
+
+- Set of instructions that solve specific problems
+
+- The better the algorithm, the easier it is to follow
+
+#### Challenge of Algorithmic Decision Traceability
+
+#### POTOMAC
+
+- Privacy
+
+- Ownership
+
+- **Traceability**
+
+- **Objectivity**
+
+- Misuse [not covered]
+
+- Accuracy [not covered]
+
+- Consent [not covered]
+
+#### Decision Traceability = Right of explanation
+
+#### Affinity Groups
+
+- Helps companies target their products
+
+- Groups people based on common interests
+
+#### Ethical Challenge
+
+- Decision Traceability
+    + How are these decisions made?
+	
+- What right of explanation do you owe your customers?
+
+### Data accessibility and comprehensibility
+
+#### Accessibility
+
+- Who can have access to the decision-making?
+
+#### Comprehensibility
+
+- Can people **understand** the decision-making?
+
+#### Problem of the Black Box
+
+[diagram of a black cube]
+
+#### Customers [for credit score]
+
+- Banks
+
+- Credit card companies
+
+#### Are you prepared to explain your company's decision making?
+
+#### Decision Traceability
+
+- Who gets access?
+
+#### Product vs. Customer
+
+- Product
+    + People being scored
+
+- Customer
+    + Banks
+	+ Credit Card Companies
+
+#### Rule of Humanity [Kant]
+
+- Don't use other people as a means to an end
+
+#### Utilitarian Approach
+
+- Maximize everyone's happiness
+
+#### Decision Traceability
+
+- Who gets access?
+
+- Is the data compreshensible?
+
+#### Virtue Ethics
+
+- Act as a virtuous person would act
+
+### Can anyone access their data?
+
+#### Decision Accessibility
+
+- Who can have **access** to the decision-making?
+
+#### Product vs. Customer
+
+- Product
+    + ???
+
+- Customer
+    + ???
+
+[story of applicate score algorithm and Moorehouse college complaint that students receive lower scores - explain why?]
+
+#### Deontological Approach
+
+- Duty to tell the college
+
+- Allow for other's autonomy
+
+#### Utilitarian Approach
+
+- No right of explanation
+
+- Consider the consequences
+
+#### Virtue Ethics
+
+- Eliminate inequality
+
+- Promote diversity
+
+### Trace your black box decisions
+
+#### (Traceability: Accepability + Comprehensibility)
+
+- Who may have access?
+
+- Do you need to help them understand?
+
+#### Machine Learning
+
+- When machines use data patterns to make decisions
+
+- Machine learning alogrithms don't need **explicity** programming
+
+#### Problem of the Black Box
+
+- Machines identify patterns that are beyond human understanding
+
+- Customers often have no way of knowing how complex decisions are made
+
+- Can you build in traceability?
+
+### Open the box with Explainable AI (XAI)
+
+#### Problem of the Black Box
+
+- Machines identify patterns that are beyond human understanding
+
+#### Explainable Artificial Intelligence (XAI)
+
+- Help humans understand machine learning algorithms
+
+#### FAT Systems
+
+- Fairness
+
+- Accountability
+
+- Transparanecy
+
+[story of SAS Institute software scoring teachers and teachers suing school district]
+
+#### Court's Decision
+
+- No decision traceability
+
+- No way for teachers to improve
+
+- Violated teachers rights
+
+[loan application example: accept or reject - and no feedback] 
+
+#### XAI Systems
+
+- Explainable by humans
+
+- Provides helpful information
+
+### Self-driving cars' trolley problem
+
+#### The Trolley Problem
+
+[animation to explain: path with 1 worker vs. path with 5 workers]
+
+[Kant: can't kill people, so don't do anything, regardless of consequences]
+
+#### Utilitarian Approach
+
+- Moral obligation to pull the lever [avoid killing 5, kill 1]
+
+- Weigh the consequences
+
+- Increae overall happiness
+
+#### Virtue Ethics Approach
+
+- Considers how a virtuous person acts
+
+- Act with courage and compassion
+
+[Self-driving car => Trolly Problem and Data Ethics Problem]
+
+
+[Animation - Self-driving care on path to hit building or biker]
+
+[Goolge: hit smaller object - biker]
+
+#### Which approach would you choose?
+
+{Is hit truck in front of you an option, while autobraking to decrease force?}
+
+### Decide how to crash a self-driving car
+
+#### Deontological Approach
+
+- The car must avoid killing people
+
+- Killing is always morally wrong
+
+- Disregard the consequences
+
+#### First Categorical Imperative
+
+- Rules must be universalizable
+    + [killing is not universalizable, because if everyone did it, we would all be dead]
+
+#### Utilitarian Approach
+
+- Do the greatest amount of good
+
+- Increase overall happiness
+
+#### Virtue Ethics Approach
+
+- Considers how a virtuous person acts
+
+- Protect others at all costs
+    + [sacrifice car - and driver - to save others]
+
+#### Decision Traceability
+
+- Do your customers have a right of explanation?
+
+### Chapter Quiz
+
+1. How do credit reporting services approach data comprehensibility when making credit decisions?
+- They ensure the credit information used to make the decisions is as comprehensive as possible
+- They simplify confusing data decisions to make them understandable to individuals impacted by the decisions - Yes
+    + This can be difficult, but it is something the company wants to do as a matter of moral conduct
+- They share the machine learning methods with individuals impacted by the decisions
+
+2. Your bank uses algorithms to make credit card decisions. How is the challenge of algorithmic decision traceability involved?
+- Customers have a moral right for humans to make credit decisions, not algorithms
+- The more complex an algorithm is, the more difficult it is to explain how the decision was made - Yes
+    + This can make it very difficult for a bank to explain the decision to its customer who has a right to explanation
+- Because an algorithmic versus human decision is made, it is impossible to explain the decision
+
+3. A health insurance company bases premiums partly on health patterns depending on where people live in a large industrial city. How does this relate to the "problem of the black box"?
+- Machine learning uses patterns of health data stored in "black boxes" when making decisions
+- Machine learning analyzes patterns in health data and makes decisions in a "black box," into which no one can see - Yes
+    + The problem stems from neither users nor customers fully understanding what happens in the "black box"
+- Machine learning, which is based on human programming in a "black box" into which no one can see, analyzes patterns in data
+
+4. Your business news magazine rates local businesses by diversity scores. Under what philosophical theory would you most feel an obligation to provide your data to the businesses?
+- virtue ethics - Yes
+    + Diversity is a social good under this approach, so you would share the data to help promote diversity
+- deontology
+- utilitarianism
+
+5. A bank uses algorithms to approve or disapprove mortgage loans. How would using Explainable AI (XAI) expand on a customer's right to explanation?
+- The bank can give customers details on exactly why they were disapproved, such as too much outstanding credit - Yes
+    + This additional, helpful information provides more meaningful explanation
+- The bank can give customers the algorithm it used so customers can test the algorithm's decision-making accuracy
+- The bank can give customers the complete data set it uses in making the loan decision
+
+6. Which moral philosophy concept might be most difficult to incorporate into the programmed evasive action of a self-driving car?
+- virtue ethics - Yes
+    + There are so many decisions for what a virtuous person would do that it is impossible to incorporate them all
+- deontology
+- utilitarianism - Yes -> No
+    + This requires just one decision: if the car takes evasive action, the action harms as few people as possible
+
+7. You are buying a self-driving delivery van. If you follow the utilitarian approach, why do you want access to the van's programming to take an action if it cannot stop in time?
+- You want assurance that however the van reacts, it will not hurt anyone - Yes -> No
+    + This is something you would want in the deontological approach
+- You want to understand how the van is programmed to react in an emergency - Yes -> No
+    + More is involved in moral decision-making than just having knowledge
+- You want the ability to change the programming so the fewest number of people are hurt - Yes
+    + Part of the utilitarian approach is being able to make moral decisions like this
+
+## 3. Objectivity
+
+### What does data objectivity mean?
+
+[Riddle of father and son both in car accident, go to different hospitals, and then surgeon called in to operate and say's, "I can't operate. This is my son."]
+
+#### How could this be possible?
+
+[Surgeon is the son's mother]
+
+#### Most of us expereince unconscious bias
+
+#### Objectivity
+
+- Presenting the raw data
+
+#### POTOMAC
+
+- Privacy
+
+- Ownership
+
+- **Traceability**
+
+- **Objectivity**
+
+- Misuse [not covered]
+
+- Accuracy [not covered]
+
+- Consent [not covered]
+
+#### Did this doctor meet your expectations?
+
+- Male doctor: 5 stars
+
+- Female doctor: 3 stars
+
+- [=> Male doctors make more $]
+
+#### Should you correct a bias in the data?
+
+### Ways to think about bias
+
+#### [Amazon candidate ratings]
+
+- 5 stars
+
+- [Rank each employee]
+
+- [5 star employees training dataset target variable]
+
+- [Apply to candidates to predict rating]
+
+- 60% male employees
+
+- 40% female employees
+
+- [=> More 5 star male employees]
+
+- [Predicted rating favored men]
+
+#### Deontological Approach
+
+- Always tell the truth
+
+- Disregard the consequences
+
+- Always provide autonomy
+
+- Maintain objectivity by telling the truth
+
+#### Utilitarian Approach
+
+- Do the greatest amount of good
+
+- Promote a diverse workplace
+
+#### Virtue Ethics Approach
+
+- Considers how a virtuous person acts
+
+- Eliminate inequality
+    + [Fix the alogrithm]
+
+### How to fix data bias
+
+[Boston "Street Bump" app where smart phone accelemeter detected pothole and send cooridnates to city - 2011]
+
+[Most were detected in wealthy neighborhoods - more smartphones]
+
+[Potholes were repaired in nice, rich areas more than bad, poor areas]
+
+### Ethical Challenge
+
+- Remain objective?
+
+- Correct the bias?
+
+- Remove the app?
+
+#### Virtue Ethics Approach
+
+- Promote fairness and equality
+
+- Correct the data to be fairness
+
+- Weight the data
+
+#### Ethical Approaches
+
+- Virtue Ethics
+
+- Deontology
+
+- Utilitarianism
+
+#### Utilitarian Approach
+
+- Maximize happiness
+
+- Fix potholes in high traffic areas
+
+### Can data be objective?
+
+#### COMPAS Risk Score
+
+- [Sentencing recommendation]
+
+- Previous court cases + questionnaire
+
+- High Score = High Sentence
+
+#### Data Objectivity
+
+- [African Americans 2X labeled as repeat offenders => longer sentences]
+
+- [Juries are more likely to confict African Americans than otehr Americans for the same crime => biased data]
+
+#### Objectivity vs. Fairness
+
+- Objective?
+
+- Fair?
+
+#### Deontological Approach
+
+- Remain objective
+
+- Show the truth in the data 
+    + [Juries are correct - data is unbaised]
+
+#### Utilitarian Approach
+
+- Change the data to make it fair
+
+- Maximize happiness
+
+#### Virtue Ethics Approach
+
+- Consider how a virtuous person acts
+
+- Eliminate inequality
+
+- Change the data to make it fair
+
+### What is fairness?
+
+[55% of companies use ML to evaluate applications]
+
+#### Alogrithms and rating systems are on the rise
+
+#### What kind of biases exist in your data?
+
+#### Objectivity vs. Fairness
+
+- Objective?
+
+- Fair?
+
+#### How will you define fairness?
+
+- [Amazon application algo]
+
+- [Boston pothole app]
+
+- People and computers think differently
+
+- To achieve fairness you'll have to give preference to one group over another
+
+#### Deontological Approach
+
+- Focus on objectivity
+
+- Always tell the truth
+    + [data is correct]
+
+- Disregard the consequences
+
+### Chapter Quiz
+
+1. There is bias in the data used to determine whether or not a bank provides a mortgage loan. Which moral argument can you make against changing some of the data?
+- a deontological argument that the data is objective rather than the decisions - Yes
+    + This partially presumes that data is objective because data does not have the ability to think in a biased way
+- a utilitarian argument that only a few people are adversely impacted by the decisions
+- a virtue ethics argument that there is no moral imperative to eliminate inequality
+
+2. A city develops an app to report crime. The city realizes residents in wealthy areas are using the app more, so they give less weight to those areas. What moral approach is involved?
+- deontology
+- utilitarianism
+- virtue ethics - Yes
+    + The city chooses to deal with biased data to achieve fairness
+
+3. Where are you most likely to find a conflict between data objectivity and fairness?
+- in human decision-making
+- in small, newer data sets
+- in large, older data sets - Yes
+    + The larger the data set, the more bias can work its way into the data
+
+4. A machine learning algorithm for job application review is biased in favor of male applicants. You want to remove some of the biased data. What does the deontological approach say about this?
+- It is morally proper to stop using the machine learning
+- It is morally appropriate if it serves the greater good of fairness
+- It is morally wrong because you are making the data lie - Yes
+    + There is a categorical imperative to tell the truth, even if you do not like the consequences
+
+5. Your company uses evaluation data for raises. The data indicates male employees get higher raises. You think the data is biased in favor of males. What ethical problem is involved?
+- the balance between the data and giving raises based on the data
+- the balance between the data and the amount of raises given
+- the balance between using data objectively and correcting bias in data - Yes
+    + Part of the problem is that you must avoid introducing your own bias into the data
+
+## Conclusion
+
+### Next steps
+
+#### [apply to your company]
+
+- Right of Explanation
+
+- Decision Traceability
+
+- Data Objectivity and Fairness
+
+- [Find other data ethics courses on LinkedIn library]
+
+- www.linkedin.com/in/dougrose
+
+

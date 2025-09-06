@@ -1,0 +1,553 @@
+Data Visualization: Storytelling
+The art of storytelling
+
+Course details
+1h 34m, Intermediate, Released: 12/4/2020
+
+We are wired for story. We crave it. Storytelling has played an integral role in our ability to make progress as a species. It should come as no surprise, then, that presenting data and information in story form maximizes the effectiveness of our communication. We can create deeper emotional responses in our audience when we present data in story form.
+
+Join data visualization expert Bill Shander as he guides you through the process of turning "facts and figures" into "story" to engage and fulfill our human expectation for information. This course is intended for anyone who works with data and has to communicate it to others, whether a researcher, a data analyst, a consultant, a marketer, or a journalist. Bill shows you how to think about, and craft, stories from data by examining many compelling stories in detail.
+
+* Introduction
+
+- The art of storytelling
++ Four Components of Story
+1. Plot: how the story unfolds
+2. Portagonist: the main character
+3. Problem: a difficult goal for the protogonist to achieve
+4. Transformation - the "so what": how the protagonist changes as a result
++ 4x4 Model for Knowledge Content
+> The Water Cooler
+> Cafe Content
+> Research Library
+> The Lab Experience
++ Fancy
++ Chart Titles
+
+* 1. Why Storytelling
+
+- Humans are wired for story
++ *Useful Fictions: Evolution, Anxiety, and the Origins of Literature (Frontiers of Narrative)* - Michael Austin
++ Storytelling
+> Fictional stories produce and neutralize anxiety
+> Our survival depends on it
++ Successful Narrative
+> Anxiety increases as time increases [then peaks and decreases? not shown]
++ *Wired for Story: The Writer's Guild to Using Brain Science to Hook Readers from the Very First Sentence* - Lisa Cron
+> "...crucial to our evolution - more so than opposable thumbs. Opposable thumbs let us hang on; story told us what to hang on to."
++ Storytelling
+> Fictional
+> Data (Journalistic)
++ "Narrative Style Influences Citation Frequency in Climate Change Science" - Hiller, Kelly, Klinger (PLOS ONE online)
++ Takeaways
+> Stories are a survival mechanism
+> Think like a storyteller
+> Data requires context
+
+- Data storytelling is essential, except when it isn't
++ Your primary job as a human is to be a communicator
++ Did It Happen?
+> If a tree falls in a forest...
+> Pics or it didn't happen
++ "Helping Business Students Acquire the Skills Needed for a Career in Analytics: A Comprehensive Industry Assessment of Entry-Level Requirements" - Stratton and Stratton(Decision Sciences online)
++ There's more to communication than numbers on paper
++ Stories are up to 22 times more memorable than facts alone (reseach summary)
++ Stats vs. Story
+> 21% of children under the age of 18 live in poverty (stat)
+> 21% of kids live below the poverty line (story) [1 in 5 of kids in school]
++ Words like chair (object) & coffee (sense memory) affect brain differently
++ Tips
+> Use Visuals
+> Write engaging copy
+> Include sensory inputs
++ "Narrative Visualization: Telling Stories with Data" - Segel & Heer (Stanford Vis Group online)
+> "A purely author-driven approach has a strict linear path through the visualization, relies heavily on messaging, and includes no interactivity."
+> "A purely reader-driven approach has no prescribed ordering of images, no messaging, and a high degree of interactivity"
++ Gallery / Viz of the Day Tableau webpage -> Dasboards
++ When in doubt, tell stories
++ Stanford paper:
+> "Data stories appear to be most effective when they have constrained interaction at various checkpoints within a narrative, allowing the user to explore the data without veering too far from the intended narrative."
+
+- Using story even when you don't [during analysis]
++ Story Structure
+> bell-shaped curve: beginning (low point), middle (peak), end (low point)
++ Headline
+> body copy body copy...
+> callout text callout text...
+> plot/figure with callout
++ Tips for Headlines, Callouts, and Highlights
+> Capture your story
+> Include key components of your story
+> Be honest, sincere, and purposeful
+
+- Chapter Quiz
+
+1. Why is story such a powerful and necessary component of communications?
+- Story helps keep the listener from getting bored and checking their phone.
+- Story is a an evolutionary imperative that humans have used to adapt and survive. Yes
+- Story triggers emotions which leads to better retention of ideas.
+- Stories occur in a branching-tree structure, which is how the human mind constructs and remembers new ideas.
+
+2. Which of the following is an example of a neutral word?
+- table - Yes
+- orange
+- coffee
+- lullaby
+
+3. Recruiters of data analysts cite communications as the number one skill they're seeking in job candidates. TRUE
+
+* 2. Story Structure
+
+- The KWYs
++ Acronyms
+> May should like what they represent (NASA, YOLO)
+> Easy to pronounce
+> Stick in your head
++ KWY rhymes with "why" and that's what it's all about
++ KWYRWTS = Know What You Really Want To Say
++ KWYDIS = Know What Your Data Is Saying
++ KWYRWTS and KWYDIS (balance)
++ KWYANTH = Know What Your Audience Needs To Hear
++ Telling Your Data Story
+> Know what you want to focus on
+> Don't ignore data that contradictes your data
++ Know what your audience needs to hear - not what they want to hear
+> Sales figures or quaterly profits?
+> Carbon dioxide emissions or temperature change?
++ "7.3 Billion People, One Building" (blog post from "Wait But Why")
+
+- Story components
++ To tell a story, you have to define "story"
++ "A story is how what happens affects someone who is trying to achieve what turns out to be a difficult goal, and how he or she changes as a result." - Lisa Cron
++ Four Components of Story
+1. Plot: how the story unfolds
+2. Portagonist: the main character
+3. Problem: a difficult goal for the protogonist to achieve
+4. Transformation - the "so what": how the protagonist changes as a result 
++ Story Components
+> Beginning, middle, and end
+> Plot
+> Protagonist
+> Problem
+> Transformation
++ Linear Storytelling
+> Beginning -----------> End
+> Beginning -> MIDDLE -> End
+> End ---> Beginning (Momento)
++ What Your Audience Knows
+> What a story consists of
+> How a story unfolds
+> What a story feels like
+
+- Finding the story in your data
++ Goal: Learn to tease out stories from Data
++ XLSX with 16,000 Marvel characters 
+> 538 web page
++ Can we tell which Marvel Comics characters are good and evil just by looking at them?
++ Excel demo
++ Amscombe's Quartet (wiki)
++ Tips for Daa Analysts
+> What questions are you asking?
+> What answers are you finding?
++ Discovering Interesting Data
+> Make note of it
+> Put it asicde if it doesn't fit your flow
+> Keep your focus
+
+- Outlining your story
++ Come up with a story that communicates your data
++ Outline
+1. What comes first?
+2. What's in that piece?
+3. What happens next?
++ [Storyboard]
+> 4x4 panels, each with 1-2 word abbreviation for each story segment -> section
++ Marvel Comics Storyboard
+> Universe - good vs. evil
+> Attributes of good vs. evil
+> Gender and race
++ Purpose of an Outline
+> How long is your story?
+> What are the key topics?
+> Do they flow logically?
++ All of your story components may not be obvious at this stage
++ Does a list of comic book characters have a protagonist or transformation?
++ Protagonist Development
+> Discover trends and patterns
+> Determine biases and behaviors
++ Linear Flow
+
+- Use your words
++ [Storyboard]
+> 4x4 panels, each with 1-2 word abbreviation for each story segment -> section
++ Use your words
++ You have your buckets of content, but what do they really mean?
++ Tell Your Story Out Loud
+1. Confirm it is logical
+2. Prove that it flow
+3. Figure out what goes on each slide
++ Abbreviated Story
+> {e.g. Elevator speech]
++ Marvel Comics Elevator Pitch
++ Story Components
+> Logical
+> Linear flow
+> Figure out next level of details
++ "Universe - good vs. evil" isn't saying much at outline level
++ "The Marvel Universe has about twice as many evil characters as good ones, though they're killed off at a much higher rate and don't appear as frequently as their counterparts"
++ Marvel Comics Count or Ratios
+> Good and bad characters
+> Number of appearances
+> Living or deceased
+
+- Sketching ideas
++ Time to get to it
++ Goals for Sketching
+> Vet and test ideas
+> Confirm that your story structure and data points communicate your story
+> Fail, adjust, and fail again, until something works
++ Sketching is about trail and error
++ Use Your Hands
+> [Analog - pen and paper, white board, or sketch app - not formal program, e.g. Word or PPTX]
++ The Details
+> Which chart will be used?
+> What kind of text is on the page?
+> What type of labeling is needed?
++ Bucket One
+> "The Marvel Universe has about twice as many evil characters as good ones, though they're killed off at a much higher rate and don't appearch as frequently as their counterparts"
++ Takeaways
+> Work in analog
+> Use your hands
+> Organize the story structure
+> Experiment and fail - a lot
+
+
+
+- Chapter Quiz
+
+1. Which of the following is not a real acronym learned in this course?
+- KWYANTH
+- KWYMADWTS - Yes
+- KWYRWTS
+- KWYDIS
+
+2. All stories are _____.
+- fast-paced
+- linear - Yes
+- character-driven
+- mysteries
+
+3. There is one right way to analyze every data set. FALSE
+
+4. Select the tool that is LEAST effective for sketching and storyboarding.
+- simple sketching software
+- full-featured graphics software - Yes
+- whiteboard
+- pencil and paper
+
+* 3. Story Mechanisms
+
+- Change over time
++ Seven Plots in Literature
+1. Overcoming the monster
+2. Rags to riches
+3. The quest
+4. Voyage and return
+5. Comedy
+6. Tragedy
+7. Rebirth
++ Stories serve the purpose of allowing us to understand and experince the world around us
++ [Data changing over time]
+> This
+> Then
+> That
++ Video: scatter plot of change in oil prices by year (1965-2018)
+> www.ducangeere.com
++ The Story
+> Clearly told
+> Easy to follow
+> Linear sequence of events
++ Change over time
++ Story Mechanisms
+> Change over time
+> Linear logic
+> Flow diagrams
+> Compare and contrast
+> Progressive depth
+> Personalization
+> Text
+
+- Linear logic
++ Humans can really only do one thing at a time
+> [Humans can really only perceive one thing at a time]
+> [so provide one experience at a time in a step-by-step linear fashion]
++ Linear Storytelling
+> Beginning -----> End
++ [Process Flow]
+> Step 1
+> Step 2
+> Step 3
++ Different Storyline
+1. High and volatile oil prices correlate with significant global and regional events
+2. Lower prices follow the highs
+3. Price volatility seems normal now
++ [time series plot]
++ Every story is linear
+
+- Flow diagrams
++ [examples]
++ http://vallandinghame.me/census_bump (1890)
++ [Shankey diagram example]
++ You can convert a conversation from being about proportions and turn it into a flow
++ [can avoid pie charts]
++ Flow Diagram
+> process steps
+> flowing process
+> proportionality
++ Petroleum
+1. Ground
+2. Different land sources
+3. Different uses
+
+- Compare and contrast
++ [Character transformation]
++ What If?
++ We may be the key character in our data stories
++ "An Invonvenient Truth" (Al Gore)
++ Comparisons
++ Why do cats & dogs...?
+> https://whydocatsanddogs.com
+> Network diagram examples
++ Compare and contrast is a common data story mechanism
++ Tips
+> Choose your perspective
+> Focus on the story you want to expose
+> Be conscious of other stories you might be telling
++ Why do cats & dogs...?
+> [side-by-side comparison is not important]
+
+- Progressive depth
++ Simple doesn't mean simplistic
++ 4x4 Model for Knowledge Content
+> The Water Cooler
+> The Cafe
+> The Research Library
+> The Lab
++ The Water Cooler
+> Initial attention grabber
+> Like an image or headline
++ Cafe Content
+> Like a blog post or short article
++ The Research Library
+> Research portion
+> Like a PDF document
++ The Lab Experience
+> [Explore on your own, e.g. dashboard]
++ [Storyboard of for all 4]
+> [Progressive depth: high level to low level]
++ Trends in U.S. Occupations
+> https://beehivemedia.com/datviz/occupations
++ Stanford paper [again]
+> [progressive depth]
++ Progressive Depth
+> [Martini Glass Structure]
++ 4x4 Model for Knowledge Content
+> [Martini Glass Structure is 4x4 Model in action]
+
+- Personalization
++ The story is about the listener and their reality, as much as it is about the storyteller
++ Storytelling Reminders
+> Create stories consciously
+> Connect them to the audience
+> Understand the audience's need to understand themselves
++ Feltron [personal dashboard]
+> http://feltron.com/FAR14.html
++ Make your data story their data story
++ Visualizing MBTA Data
+> http://mbtaviz.github.io
+> [looks Tufte-inspired]
++ Personalization is a powerful tool
+
+- Text
++ You have to visualize data to maximize your influence on almost any audience
++ Sources
+> Newpapers
+> NGO reports
+> Non-profits, think tanks
++ Nine Charts about Wealth Inequality in America (Updated)
+> https://lnkd.in/gZpt5ay
++ Examples of Data Storytelling
+> The New York Times
+> Wall Street Journal
+> The Washington Post
+> FiveThirtyEight
+> Many more
++ Think like a journalist
+
+
+- Chapter Quiz
+
+1. Data is often about comparing things, which need to be comparable. Which of these is NOT a way to make sure you’re comparing apples to apples?
+- indexing data values
+- using percentiles
+- rounding data values - Yes
+- creating a ratio with the data values
+
+2. Another term for progressive depth stories is _____.
+- kardashian/kant structure
+- martini glass structure - Yes
+- sedimentary layering
+- pan and zoom
+
+3. What is the primary reason that interactivity works as a storytelling mechanism?
+- people love computers
+- beautiful user interfaces
+- mobile-friendly design
+- narcissism - Yes
+
+4. Great data stories can be delivered as text-only stories. TRUE
+
+5. Which of the following is not a critical component of a linear story?
+- flow
+- interactivity - Yes
+- end
+- logic
+
+6. Stories about change over time must always include time as a component in the story. TRUE -> FALSE
+
+7. You might use a flow diagram to visualize your data when you have a _____ to explain or want to show _____.
+- method; progress
+- variable; representation
+- data set; linearity
+- process; hierarchy - Yes
+
+* 4 Final Touches
+
+- Labeling
++ Label appropriately
++ Labels Point the Way to Understanding
+> People
+> Time
+> Process
+> Location
++ Labels provide context and clarity
++ y-axis, x-axis, legend
+> [only label what has to be labeled, not every point]
++ Learning Data Visualization with Bill Shader (LinkedIn Learning)
++ Visualizing MBTA Data (again)
++ Good Labeling
+> Explains your data
+> Highlights what's important
+> Tells your story
+
+- Eye candy
++ Eye candy = Interesting and informative
++ Fancy
+> [bad, if not accurate, understandable, and clear]
++ Purposes of Eye Candy
+> Keep visually fresh
+> Notice important stuff
+> Alert to functionality
++ Eye candy has to be functional
++ Dear Data
+> http://www.deardata.com/theproject
++ 2020 FM Global Resilience Index
+> https://linked.in/dKsGnAF
++ Eye candy is important
++ How to Create Eye Candy
+> Always add value to communication
+> Never compromise quality [and accuracy]
+> Never be satisfied with stale
+
+- Repetition and redundancy
++ Repetition (4X) vs. Redundancy (4X - linked)
++ Types of Redundancy
+> Message
+> Data
+> Visual cue
++ Chart Titles (Message)
+> Meaningful Title (memorable)
+> No Title
+> Useless Title (bad)
++ Bar Chart (Data)
+> Bar height with actual value on top of bar
++ Can You Read This?
+> [gibberish but can still read based on cues]
+> [Car dashboard] (Visual cue)
++ Visual story reading is not intuitive
++ Tips for Visual Storytelling
+> Strive for intuitive visuals
+> Teach your audience how to read your data
+> Be thoughtful with your labeling
+> Use repeated visual metaphors
++ How to Present Anything
+> Tell them what you're going to tell them
+> Then tell them
+> Then tell them what you just told them
++ [Have to see an add 7 times to have an effect]
++ Repeat your message, repeat your data, repeat your visuals
+
+- Relatability
++ Make data relatable
+> Numbers are understandable
+> Numbers are relatable
+> Communicate the impact of the numbers
++ If the Moon Were Only 1 Pixel
+> https://likd.in/dfeMB4a
++ xkcd: Money [infographic]
+> https://xkcd.com/980
++ Spend time making yuor data understandable, relatable, and impactful
+
+- Don't be afraid of complexity
++ Less is always better
++ When Facee with Complexity
+> Reduce
+> Simplify
+> Limit
+> Don't run
++ Visualizing MBTA Data (again)
++ complexity has to serve a purpose
++ Remember
+> Have empathy for your audience
+> Foucs your message, visuals, and graphics
+> Make the elements as simple as possible
++ Convey complex stories with simple elements
+
+- Chapter Quiz
+
+1. What is not a recommended type of redundancy in a visualization?
+- message redundancy
+- visual redundancy
+- headline redundancy - Yes
+- data redundancy
+
+2. When trying to make data relatable to an audience, one option is to explain how it impacts them. TRUE
+
+3. Complexity is never a good idea for a data storytelling project. FALSE
+
+4. In a visualization, you should label _____.
+- every data point
+- the vast majority of data points
+- only what must be labeled to make the story clear - Yes
+- nothing
+
+5. Which of the following is not a valid reason to use eye candy in a visualization?
+- because the chart is hot right now - Yes
+- to draw the eye to important information
+- to keep things visually fresh
+- to draw the eye to "active" functionality
+
+* Conclusion
+
+- Next steps
++ [verbal comments]
++ "Storytelling for Designers" on LinkedIn Learning
+
+
+Forgot about kitchen sink To Do list - on Mac?
+
+Find R approach to selecting alpha for multiple points and apply to Python [max of table cell = 2, alpha = 1/n or 1/sqrt(n)?]
+
+Also, find R code for XY density plots and convert to Python 
++ XY plots used for yield (for Colin)
+

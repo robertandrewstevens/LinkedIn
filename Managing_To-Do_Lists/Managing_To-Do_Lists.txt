@@ -1,0 +1,112 @@
+Managing To-Do Lists
+
+Course details
+42m * Beginner * Updated: 10/16/2017
+
+Discover top techniques for tracking to-dos on paper as well as apps for effectively managing your digital to-do lists. Organization expert Suzanna Kaye explains how to approach to-do lists and prioritize items using various proven techniques. She then explores the top five apps for digital to-do list management, exploring their strengths, weaknesses, and functionality.
+
+* Introduction
+
+- Welcome
+
+- What you need to know
++ Determining Priorities
+> Know your goals
+> Will it move your closer to a primary goal?
+> What are the benefits of completing this task?
+> Does it have to be done today?
+> Can it wait?
+> Is it required?
+> Can it be delegated?
+> What's the worst that will happen (if not completed today)?
++ The Top 3 Method
+> List the top three priorities of the day
++ The Top 3 Method - Example
+> Schedule meeting with John *
+> Go to the gym *
+> Create dinner menu for birthday party *
+> Clean out white cabinet
+> Pick up dry cleaning
++ The 1-3-5 Method
+> 1 large tasks
+> 3 medium tasks
+> 5 small tasks
++ The "If Only One Thing" Method
+> Goal: Create dinner menu for birthday party
++ Batching
+> Doing similar tasks in the same block of time
++ Fire Time
+> Reserving time in the day to address emergencies
++ Subtasks
+> Dissecting larger tasks into smaller parts
++ Subtasks Example
+> Plan a birthday part
+... Order cake
+... Send invitations
+
+* 1. Using the Top-Five Paper List Types
+
+- Using a multicolumn list for batching
++ Graph paper or spreadsheet
++ Rows: tasks
++ Columns: task types
++ Work on tasks in same task type (column)
+
+- Creating an index-card list system
++ Task name on top row
++ Subtasks in list
++ Indicate dependencies
++ Focus on top 3 cards
+
+- Using multiple notbooks to manage project-based lists
++ 1 notebook per project
++ Overview on page 1
++ Tasks on page 2
++ Start new page when needed
++ Continue until notebook is full
+
+- Scheduling your to-do items on a calendar
++ batching vs. individual tasks
++ batching: add time blocks by task type
++ individual: add time blocks by task
++ Add "fire time" (unexpected) and breaks 
+
+- Creating a paper list that's both fun and functional with PocketMod
++ www.pocketmod.com
++ Create pocket mod (top RHS)
++ Select categories (LHS)
++ Click and drag to 1 of 8 pages on RHS
++ Click Print PocketMod button (bottom RHS)
++ Fold and cut
+
+* 2. Using the Top-Five List Apps
+
+- Keeping it simple with the "Clear" app
++ Smart phone app (Realmac Software for iOS; Koalcat for Android)
++ Sync: Settings, select iCloud (Apple) or backup (?) (Android)
+
+- Organizing and filtering with the "Todoist" app
++ More complex smart phone app with projects and subprojects
+
+- Collaborating with the "Any.do" app
++ share with 1 or more people
++ 1st create account
+
+- Priortizing with the "2Do" app
++ [more date and time driven]
+
+- Adding some fun with the "CARROT" to-to app
++ AI that taunts you with insults and gaming
++ 1 list => Top 3 approach
+
+* Conclusion
+
+- Review of concepts
+
+
+TODO
+* Outlook calendar
+- Add iDrive/FoW weekly
+- Add Dev Plan monthy
+
+* Create "Kitchen" (+) slide in PowerPoint (see notepads)

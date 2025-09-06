@@ -1,0 +1,281 @@
+---
+title: "AutoML: Build Production-Ready Models Quickly"
+author: "Robert A. Stevens"
+date: "`r Sys.Date()`"
+output: github_document
+---
+
+https://www.linkedin.com/learning/automl-build-production-ready-models-quickly/
+
+## Course details
+
+1h 44m * Intermediate * Released: 11/2/2022
+
+All across the world, businesses are turning to machine learning to solve highly complex problems. As a result, knowing how to build ML models has become a sought-after technical skill. In this course, instructor Akintunde Oluwatobiloba Oladipo shows you how to build production-ready machine learning models quickly and easily, without making errors, using automation to optimize your workflows.
+
+Learn the essentials of how and why machine learning has become such an indispensable tool for leaders and teams. Find out more about how to use AutoML tools to meet business-critical objectives and boost your productivity. Akintunde pulls examples for working with tabular, image, and text data sets. Test out your new skills along the way with hands-on practice challenges at the end of each section. By the end of this course, you’ll be prepared to set bigger and bolder business objectives, using AutoML modeling tools as your analytic guide.
+
+## Skills covered
+
+- Automated Machine Learning (AutoML)
+
+## Introduction
+
+### Apply machine learning to problems
+
+[verbal and images introduction]
+
+### What you should know before you start
+
+#### What you should know 
+
+1. Basic knowledge of Python including syntax and control statements
+
+2. Working in any notebook editor, for Visual Studio Code
+
+3. Basic knowledge of data science and maching learning, especially with libraries like Pandas and scikit-learn
+
+#### Recommendations
+
+1. *Python Essential Training*
+
+2. *Python for Data Science Essential Training*
+
+3. *Python Essential Libraries*
+    + [`requests` library]
+
+## 1. Building Machine Learning Models
+
+### Collecting, understanding, and preparing data
+
+#### `01_01b.ipynb`
+
+- Exercise Files > 01-machine-learning-recap > 01_01b.ipynb
+    + [insurance dataset]
+
+### Choosing the right model for your data
+
+- Exercise Files > 01-machine-learning-recap > 01_02b.ipynb
+
+### Optimizing parameters and evaluating trained models
+
+- Exercise Files > 01-machine-learning-recap > 01_03b.ipynb
+
+[insurance company: recall is more important than precision]
+
+### Making predictions about new data
+
+- Exercise Files > 01-machine-learning-recap > 01_04b1.ipynb
+
+- Exercise Files > 01-machine-learning-recap > 01_04b2.ipynb
+
+### AutoML tools: Why use them?
+
+[hand-written flow chart diagram]
+
+#### AutoML tools: Why use them?
+
+- Automate the repetitive steps of machine learning
+
+- Automatic feature engineering
+
+- Experiment faster: The more things you try, the more you know!
+
+- Hyperparameter tuning for models out of the box
+
+- Develop multiple baselines to improve upon
+
+### Chapter Quiz
+
+1. Which of these steps come first in a machine learning process?
+- featurization
+- hyperparameter search
+- collecting and preparing data - Yes
+    + The first step is usually collecting data that is related to the problem to be solved and preparing it for use by data scientists.
+- model evaluation
+
+2. Which model do you begin with when you start model training?
+- a supervised learning model
+- a simple model - Yes
+    + It is always best to start with a baseline model you can use to benchmark performance on the problem
+- an unsupervised learning model
+- a complex model
+
+3. Which of these steps cannot be handled by AutoML?
+- model selection
+- hyperparameter search
+- data collection - Yes
+    + "AutoML" can perform feature selection, hyperparameter search and model selection
+    + However, data scientists still need to curate data related to the problem they want to solve
+- feature selection
+
+## 2. AutoML for Tabular Data
+
+### Introducing AutoGluon
+
+https://auto.gluon.ai/stable/index.html
+
+[web page changed since course was created?]
+
+- Exercise Files > 02-automl-for-tabular-data > 02_01b.ipynb
+
+### Training your first AutoGluon model
+
+- Exercise Files > 02-automl-for-tabular-data > 02_02b.ipynb
+
+### Improving your AutoGluon model
+
+- Exercise Files > 02-automl-for-tabular-data > 02_03b.ipynb
+
+### Challenge: Flight delay prediction
+
+- Exercise Files > 02-automl-for-tabular-data > 02_04.ipynb
+
+### Solution: Flight delay prediction 
+
+- Exercise Files > 02-automl-for-tabular-data > 02_05.ipynb
+
+### Chapter Quiz
+
+1. AutoGluon can only handle tabular data.
+- TRUE
+- FALSE - Yes
+    + `AutoGluon` can also be used for text and image data
+
+2. Which of the methods returns a dataframe containing metrics for all the models trained by the TabularPredictor?
+- fit_summary
+- extra_info
+- leaderboard - Yes
+    + "TabularPredictor.leaderboard()" returns a dataframe containing metrics and other information about all the trained models
+- predict_proba
+
+3. What does the `refit_full` parameter do in the line of code below?
+
+```
+predictor = predictor.fit(train, presets=['best_quality'], refit_full='all')
+```
+
+- Trains only interpretable rule-based models
+- Trains models with the best predictive accuracy possible
+- Retrain model on all of the data (training + validation) - Yes
+    + s parameter ensures that the model is retrained after validation on the full data (training + validation)
+- Delete unused models and training artifacts
+
+## 3. AutoML for Image Data
+
+### Computer vision: How do you handle image data?
+
+#### AutoML for Image Data
+
+#### Difference from Tabular Data
+
+- Image data is unstructured
+
+- Each image may have multiple channels (RGB)
+
+- Using tools like NumPy, we can read image data as 3D arrays for processing
+
+- For problems involving image data, deep learning models are often used
+
+#### Computer Vision
+
+Computer Vision is a field of artificial intelligence that enables computers to derive information from digital images and other visual inputs [What is computer vision? - IBM]
+
+- Image classification: classifying dogs versus cats
+
+- Facial recognition: unlocking smart devices
+
+- Object detection: detecting banned items in passenger baggage
+
+- Image segmenation: scene understanding and aerial image processing
+
+#### Tools
+
+- Image processsing tools: OpenCV and scikit-image
+
+- Labeling tools: Labelbox and Supervisely
+
+- Deep learning frameworks: PyTorch, TensorFlow, and YOLO
+
+- Ready-made solutions: Azure Custom Vision, Amazon Rekognition, and IBM Watson Visual Recognition
+
+#### Custom Vision
+
+https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/#overview
+
+portal.azure.com
+
+Create new account or sign in with existing account
+
+Start with an Azure free trial ($200)
+
+Resource groups
+
+[stopped at this point - no desire to spend time learning Azure at this time]
+
+### Introducing Azure Custom Vision
+
+
+### Uploading and labeling images
+
+
+### Training and validating your model
+
+### Using your model 
+
+
+### Working with code: Tradeoffs
+
+
+### Challenge: Multi-class classification
+
+### Solution: Multi-class classification
+
+### Cleaning up your resources
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+## 4. AutoML for Text Data
+
+### NLP: How do you handle text data?
+
+
+### Introducing HugginFace AutoTrain
+
+
+### Formatting and uploading your data for your task
+
+
+### Training your AutoNLP model and making predictions
+
+
+### Challenge: Multi-class text classification
+
+
+### Solution: Multi-class text classification
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+## Conclusion
+
+### Other AutoML tools: Retraining AutoML models automatically
+
+
+
+
+
+

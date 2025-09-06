@@ -1,0 +1,31 @@
+Smart Cities: Solving Urban Problems Using Technology
+
+Course details
+14m * General * Released: 6/28/2017
+
+Cities are changing rapidly—growing in size and density, creating more waste, and using more resources. To solve the problems these pressures create, city governments need to think different. Enter smart cities—cities that use 21st century thinking and technology to enable a better quality of life for their citizens. Hosted by Jonathan Reichental (named one of the world's top 100 CIOs in 2017), this short documentary profiles the City of Palo Alto, California. There forward-thinking officials are coming up with creative solutions to problems like traffic and air pollution—and opening up their doors and their data so that community members can get involved. Learn how sensors that bridge the physical and digital worlds and open-data policies are making government more agile and more innovative. Plus, find out how smart cities' technology investments will power a new job market for technical and creative professionals who want to do meaningful work for their communities.
+
+
+* Documentary
+
+- Smart Cities: Solving Urban Problems Using Technology (Video)
++ highway congestion: adding lanes makes it worse, so change car, e.g. on-demand, self-driving, etc.
++ Palo Alto, CA innovative city government, e.g. open data
++ Smart Cities Systems Thinking
++ Smart Cities definition?  All cities are different
++ Traffic Congestion: want to get people out of their cars, often caused by looking for parking spots, so put sensors on parking space and put in the cloud for an app
++ Traffic Lights connected to cars, weather systems, congestion systems, and other systems in real-time
++ Open Data Portal (web page)
++ Problem Solving requires democracy: partnership between govt and communities
++ Reduce greenhouse gases
++ Half of global population lives in a city and that's growing
++ Need technical people to work in gov't - don't have enough people
+
+* Bonus Movies
+
+- Palo Alto Apps Challenge (2014)
++ use Open Data Portal to create apps, 100 teams, 3 winners, and 1 became a business (AdoptMeApp for pets)
++ The Apps Challenge Playbook - free to download from city website
+
+- Palo Alto Civic Technology Center
++ Upgraded IT in City Hall to be like a startup company, equipment and office design, collaboration spaces, digital art...

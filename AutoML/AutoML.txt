@@ -1,0 +1,167 @@
+AutoML: Build Production-Ready Models Quickly
+
+https://www.linkedin.com/learning/automl-build-production-ready-models-quickly/
+
+## Course details
+
+1h 44m * Intermediate * Released: 11/2/2022
+
+All across the world, businesses are turning to machine learning to solve highly complex problems. As a result, knowing how to build ML models has become a sought-after technical skill. In this course, instructor Akintunde Oluwatobiloba Oladipo shows you how to build production-ready machine learning models quickly and easily, without making errors, using automation to optimize your workflows.
+
+Learn the essentials of how and why machine learning has become such an indispensable tool for leaders and teams. Find out more about how to use AutoML tools to meet business-critical objectives and boost your productivity. Akintunde pulls examples for working with tabular, image, and text data sets. Test out your new skills along the way with hands-on practice challenges at the end of each section. By the end of this course, you’ll be prepared to set bigger and bolder business objectives, using AutoML modeling tools as your analytic guide.
+
+## Skills covered
+
+- Automated Machine Learning (AutoML)
+
+## Introduction
+
+### Apply machine learning to problems
+
+[verbal and images introduction]
+
+### What you should know before you start
+
+#### What you should know 
+
+1. Basic knowledge of Python including syntax and control statements
+
+2. Working in any notebook editor, for Visual Studio Code
+
+3. Basic knowledge of data science and maching learning, especially with libraries like Pandas and scikit-learn
+
+#### Recommendations
+
+1. *Python Essential Training*
+
+2. *Python for Data Science Essential Training*
+
+3. *Python Essential Libraries*
+    + [`requests` library]
+
+## 1. Building Machine Learning Models
+
+### Collecting, understanding, and preparing data
+
+#### `01_01b.ipynb`
+
+- Exercise Files > 01-machine-learning-recap > 01_01b.ipynb`
+    + [insurance dataset]
+
+
+
+### Choosling the right model for your data
+
+
+### Optimizing parameters and evaluating trained models
+
+
+### Making predictions about new data
+
+
+
+### AutoML tools: Why use them?
+
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+## 2. AutoML for Tabular Data
+
+### Introducing AutoGluon
+
+
+### Training your first AutoGluon model
+
+### Improving your AutoGluon model
+
+### Challenge: Flight delay prediction
+
+
+### Solution: Flight delay prediction 
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+## 3. AutoML for Image Data
+
+### Computer vision: How do you handle image data?
+
+
+### Introducing Azure Custom Vision
+
+
+### Uploading and labeling images
+
+
+### Training and validating your model
+
+### Using your model 
+
+
+### Working with code: Tradeoffs
+
+
+### Challenge: Multi-class classification
+
+### Solution: Multi-class classification
+
+### Cleaning up your resources
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+## 4. AutoML for Text Data
+
+### NLP: How do you handle text data?
+
+
+### Introducing HugginFace AutoTrain
+
+
+### Formatting and uploading your data for your task
+
+
+### Training your AutoNLP model and making predictions
+
+
+### Challenge: Multi-class text classification
+
+
+### Solution: Multi-class text classification
+
+### Chapter Quiz
+
+1.
+
+2.
+
+3.
+
+
+## Conclusion
+
+### Other AutoML tools: Retraining AutoML models automatically
+
+
+
+
+
+

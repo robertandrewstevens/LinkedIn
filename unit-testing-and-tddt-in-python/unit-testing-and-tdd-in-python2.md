@@ -1,0 +1,94 @@
+Setting Up a Development Environment
+================
+Robert A. Stevens
+2024-04-15
+
+### Python virtual environments
+
+#### What are Python virtual environments?
+
+-   By default all Python packages are installed in a single directly on
+    the system
+
+    -   However, multiple Python projects might have different and
+        conflicting packages dependencies
+
+-   Virtual environments solve this by creating isolated Python
+    environments that can be customized per project
+
+-   Virtual environments are directories containing links to the
+    system’s Python install and providing sub-directories for installing
+    additional Python packages in that particular virtual environment
+
+-   The PATH environment variable is updated to point to the virtual
+    environment when that virtual environment is activated
+
+#### Setting Up a Python Virtual Environment in Python 2.7
+
+-   Install `virtualenv` utility via `pip install virtualenv`
+
+-   Create a new virtual environment with the command
+    `virtualenv <NameOfVirtualEnv>`
+
+-   Activate your virtual environment by sourcing the activate script in
+    the virtual environments `bin` directory
+
+    -   i.e., `source ./<NameOfVirtualEnv>/bin/activate`
+
+-   Deactivate your virtual environment with the `deactivate` command
+
+#### Example
+
+    $ pip install virtualenv
+    $ virtualevn pytest_27_venv
+    $ source ./pytest_27_venv/bin/activate 
+    $ pip install pytest
+    $ pytest
+    $ deactivate
+    $ pytest # "command not found"
+
+#### Setting Up a Python Virtual Environment in Python 3
+
+-   Python 3 comes with a virtual environment module built-in called
+    `venv`
+
+-   `virtualenv` can also be used with Python 3, but `venv` is
+    recommended by the Python community, as it is built into Python 3,
+    creates smaller virtual environments, and is extendable
+
+-   The only difference with creating, activating, deactivating, or
+    deleting virtual environments with `venv` versus `virtualenv` is the
+    creation command
+
+-   To create a virtual environment with `venv`, you run the command:
+
+<!-- -->
+
+    $ python3 -m venv <VirtualEnvironmentName>
+
+#### Example
+
+    $ python3 -m venv pytest_3_venv
+    $ source pytest_3_venv/bin/activate 
+    $ pip3 install pytest
+    $ pytest
+    $ deactivate
+    $ pytest # "command not found"
+
+#### Setting Up a Python Virtual Environment in Windows
+
+-   Use a bash shell in Windows
+    -   e.g., `cygwin.com`
+-   Follow the instructions on the `python.org` website for running
+    virtual environments directly from Windows normal command line
+    window:
+
+<https://docs.python.org/3/tutorial/venv.html>
+
+### Set up `pytest` in PyCharm
+
+\[“live” demo in PyCharm\]
+
+### Set up `pytest` in Eclipse PyDev
+
+\[“live” demo in PyDev\]
